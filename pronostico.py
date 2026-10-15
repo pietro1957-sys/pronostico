@@ -7,7 +7,7 @@ import streamlit as st
 
 # Configurazione della pagina Streamlit
 st.set_page_config(
-    page_title="Pronostici  Calcio & Telegram Schedina di Pietro Marzano",
+    page_title="Pronosticatore Calcio & Telegram Schedina",
     page_icon="⚽",
     layout="centered",
 )
@@ -27,12 +27,19 @@ if "schedina" not in st.session_state:
   st.session_state.schedina = []
 
 # ==================================================
-# SELETTORE COMPETIZIONE NELLA GUI
+# SELETTORE COMPETIZIONE NELLA GUI (TITOLO CENTRATO)
 # ==================================================
-st.title("⚽ Pronosticatore Calcio - Multi-Competizione & Schedina")
 st.markdown(
-    "### Analisi dedicata a **Over/Under 2.5** e **Goal / No Goal** con invio"
-    " Telegram e Ricevuta"
+    "<h1"
+    " style='text-align: center; color: #FFFFFF;'>⚽ Pronostici Calcio &"
+    " Schedina di Pietro Marzano</h1>",
+    unsafe_allow_html=True,
+)
+st.markdown(
+    "<h3 style='text-align: center; color: #A0A0A0;'>Analisi dedicata a"
+    " <b>Over/Under 2.5</b> e <b>Goal / No Goal</b> con invio Telegram e"
+    " Ricevuta</h3>",
+    unsafe_allow_html=True,
 )
 st.markdown("---")
 
