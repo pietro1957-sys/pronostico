@@ -7,7 +7,7 @@ import streamlit as st
 
 # Configurazione della pagina Streamlit
 st.set_page_config(
-    page_title="Pronosticatore Calcio & Telegram Schedina",
+    page_title="Pronostici  Calcio & Telegram Schedina di Pietro Marzano",
     page_icon="⚽",
     layout="centered",
 )
