@@ -280,7 +280,7 @@ with tab1:
     p_goal = round(both_score / SIMULATIONS * 100, 2)
     p_nogoal = round(100 - p_goal, 2)
 
-    # Calcolo Quote Teoriche (Fair Odds = 100 / Probabilità)
+    # Calcolo Quote Teoriche
     q_over = round(100 / p_over, 2) if p_over > 0 else 99.0
     q_under = round(100 / p_under, 2) if p_under > 0 else 99.0
     q_goal = round(100 / p_goal, 2) if p_goal > 0 else 99.0
@@ -442,7 +442,6 @@ with tab1:
             key="sel_quota",
         )
 
-      # Mappatura quota teorica scelta
       map_q = {
           "Over 2.5": p["Q_OVER25"],
           "Under 2.5": p["Q_UNDER25"],
@@ -487,12 +486,8 @@ with tab1:
   if len(st.session_state.schedina) == 0:
     st.info("ℹ️ Il carrello è vuoto.")
   else:
-    quota_totale_multipla = 1.0
-    testo_telegram = "⚽ *LA MIA SCHEDINA MULTIPLA* ⚽\n\n"
-    dettaglio_giocata_list = []
-
+    # Mostra lista elementi
     for idx, bet in enumerate(st.session_state.schedina):
-      quota_totale_multipla *= bet["quota"]
       col_info, col_del = st.columns([5, 1])
       with col_info:
         st.markdown(f"**{idx + 1}. [{bet['competizione']}] {bet['partita']}**")
@@ -503,70 +498,149 @@ with tab1:
         if st.button("❌ Rimuovi", key=f"del_{idx}"):
           st.session_state.schedina.pop(idx)
           st.rerun()
+      st.markdown("---")
 
-      dettaglio_giocata_list.append(
-          f"{bet['partita']} ({bet['pronostico']} @ {bet['quota']})"
-      )
-      testo_telegram += (
-          f"*{idx + 1}. {bet['partita']}*\n   └ Pronostico:"
-          f" `{bet['pronostico']}` (Quota: `{bet['quota']}`)\n"
-      )
+    # SELETTORE MODALITÀ DI GIOCATA: MULTIPLA VS SINGOLE
+    st.markdown("### 💶 Gestione Tipologia di Giocata & Puntata")
 
-    st.markdown("### 💶 Gestione Puntata")
-    importo_totale_giocata = st.number_input(
-        "Importo Totale da Puntare (€):",
+    tipo_giocata = st.radio(
+        "Come vuoi gestire la puntata?",
+        [
+            "Multipla (Puntata unica sul totale)",
+            "Singole (Puntata su ciascuna partita)",
+        ],
+        horizontal=True,
+    )
+
+    importo_input = st.number_input(
+        (
+            "Importo per la Multipla (€):"
+            if "Multipla" in tipo_giocata
+            else "Importo da puntare su CIASCUNA Singola (€):"
+        ),
         min_value=0.50,
         max_value=1000.0,
         value=5.00,
         step=0.50,
         key="global_stake",
     )
-    vincita_totale_multipla = round(
-        importo_totale_giocata * quota_totale_multipla, 2
-    )
 
-    testo_telegram += f"\n📈 *Quota Totale:* `{quota_totale_multipla:.2f}`"
-    testo_telegram += f"\n💶 *Importo:* `€{importo_totale_giocata:.2f}`"
-    testo_telegram += f"\n💰 *Vincita Potenziale:* `€{vincita_totale_multipla:.2f}`"
+    num_partite = len(st.session_state.schedina)
+    testo_telegram = ""
 
-    col_ep1, col_ep2, col_ep3 = st.columns(3)
-    col_ep1.metric(
-        label="Spesa Schedina", value=f"€{importo_totale_giocata:.2f}"
-    )
-    col_ep2.metric(label="Quota Totale", value=f"{quota_totale_multipla:.2f}")
-    col_ep3.metric(
-        label="Vincita Potenziale", value=f"€{vincita_totale_multipla:.2f}"
-    )
+    if "Multipla" in tipo_giocata:
+      # CALCOLO MULTIPLA
+      quota_totale_multipla = 1.0
+      for bet in st.session_state.schedina:
+        quota_totale_multipla *= bet["quota"]
+
+      spesa_totale = importo_input
+      vincita_potenziale_totale = round(spesa_totale * quota_totale_multipla, 2)
+
+      testo_telegram = "⚽ *LA MIA SCHEDINA MULTIPLA* ⚽\n\n"
+      for idx, bet in enumerate(st.session_state.schedina):
+        testo_telegram += (
+            f"*{idx + 1}. {bet['partita']}*\n   └ Pronostico:"
+            f" `{bet['pronostico']}` (Quota: `{bet['quota']}`)\n"
+        )
+      testo_telegram += f"\n📈 *Quota Totale:* `{quota_totale_multipla:.2f}`"
+      testo_telegram += f"\n💶 *Importo Puntato:* `€{spesa_totale:.2f}`"
+      testo_telegram += (
+          f"\n💰 *Vincita Potenziale:* `€{vincita_potenziale_totale:.2f}`"
+      )
+
+      col_ep1, col_ep2, col_ep3 = st.columns(3)
+      col_ep1.metric(label="Spesa Totale", value=f"€{spesa_totale:.2f}")
+      col_ep2.metric(label="Quota Totale Multipla", value=f"{quota_totale_multipla:.2f}")
+      col_ep3.metric(
+          label="Vincita Potenziale", value=f"€{vincita_potenziale_totale:.2f}"
+      )
+
+    else:
+      # CALCOLO SINGOLE
+      spesa_totale = importo_input * num_partite
+      vincita_potenziale_totale = sum(
+          round(importo_input * bet["quota"], 2)
+          for bet in st.session_state.schedina
+      )
+
+      testo_telegram = f"⚽ *LE MIE GIOCATE SINGOLE ({num_partite})* ⚽\n\n"
+      for idx, bet in enumerate(st.session_state.schedina):
+        v_pot = round(importo_input * bet["quota"], 2)
+        testo_telegram += (
+            f"*{idx + 1}. {bet['partita']}*\n   └ Pronostico:"
+            f" `{bet['pronostico']}` | Quota: `{bet['quota']}` | Puntata:"
+            f" `€{importo_input:.2f}` | Vincita: `€{v_pot:.2f}`\n"
+        )
+      testo_telegram += f"\n💶 *Spesa Totale ({num_partite} singole):* `€{spesa_totale:.2f}`"
+      testo_telegram += f"\n💰 *Vincita Potenziale Max:* `€{vincita_potenziale_totale:.2f}`"
+
+      col_ep1, col_ep2, col_ep3 = st.columns(3)
+      col_ep1.metric(
+          label="Spesa Totale",
+          value=f"€{spesa_totale:.2f}",
+          delta=f"{num_partite} x €{importo_input:.2f}",
+          delta_color="off",
+      )
+      col_ep2.metric(label="Numero Singole", value=f"{num_partite}")
+      col_ep3.metric(
+          label="Vincita Potenziale Max",
+          value=f"€{vincita_potenziale_totale:.2f}",
+      )
 
     st.markdown("---")
 
-    # TASTO SALVATAGGIO NELLO STORICO CSV
+    # SALVATAGGIO NELLO STORICO CSV
     if st.button(
         "💾 Salva e Registra Schedina nello Storico CSV",
         type="primary",
         use_container_width=True,
     ):
       df_h = load_history()
-      nuovo_id = len(df_h) + 1
       data_ora = datetime.now().strftime("%Y-%m-%d %H:%M")
-      stringa_dettaglio = " | ".join(dettaglio_giocata_list)
 
-      nuova_riga = pd.DataFrame([{
-          "ID": nuovo_id,
-          "Data": data_ora,
-          "Dettaglio_Giocata": stringa_dettaglio,
-          "Quota_Totale": round(quota_totale_multipla, 2),
-          "Puntata": importo_totale_giocata,
-          "Vincita_Potenziale": vincita_totale_multipla,
-          "Esito": "In corso",
-      }])
+      if "Multipla" in tipo_giocata:
+        # Registra come 1 singola riga di tipo Multipla
+        nuovo_id = len(df_h) + 1
+        dettaglio_multipla = " | ".join(
+            f"{b['partita']} ({b['pronostico']} @ {b['quota']})"
+            for b in st.session_state.schedina
+        )
 
-      df_h = pd.concat([df_h, nuova_riga], ignore_index=True)
+        nuova_riga = pd.DataFrame([{
+            "ID": nuovo_id,
+            "Data": data_ora,
+            "Dettaglio_Giocata": f"[MULTIPLE] {dettaglio_multipla}",
+            "Quota_Totale": round(quota_totale_multipla, 2),
+            "Puntata": spesa_totale,
+            "Vincita_Potenziale": vincita_potenziale_totale,
+            "Esito": "In corso",
+        }])
+        df_h = pd.concat([df_h, nuova_riga], ignore_index=True)
+
+      else:
+        # Registra ciascuna partita come SINGOLA riga distinta
+        nuove_righe = []
+        for bet in st.session_state.schedina:
+          nuovo_id = len(df_h) + len(nuove_righe) + 1
+          vincita_singola = round(importo_input * bet["quota"], 2)
+          nuove_righe.append({
+              "ID": nuovo_id,
+              "Data": data_ora,
+              "Dettaglio_Giocata": (
+                  f"[{bet['competizione']}] {bet['partita']} -"
+                  f" {bet['pronostico']}"
+              ),
+              "Quota_Totale": bet["quota"],
+              "Puntata": importo_input,
+              "Vincita_Potenziale": vincita_singola,
+              "Esito": "In corso",
+          })
+        df_h = pd.concat([df_h, pd.DataFrame(nuove_righe)], ignore_index=True)
+
       save_history(df_h)
       st.session_state.schedina = []
-      st.success(
-          "✅ Schedina salvata nello storico con successo! Carrello svuotato."
-      )
+      st.success("✅ Giocate registrate nello storico CSV! Carrello svuotato.")
       st.rerun()
 
     with st.expander("🤖 Configurazione Bot Telegram"):
