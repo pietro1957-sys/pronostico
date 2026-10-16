@@ -54,7 +54,7 @@ def save_history(df_hist):
 # ==================================================
 # CONFIGURAZIONE COMPETIZIONI
 # ==================================================
-COMPETIZIONI = {"Serie A": "serieA.csv", "europa League": "europaleague.csv","SerieB":"serieB.csv",}
+COMPETIZIONI = {"Serie A": "serieA.csv", "europa League": "europaleague.csv","SerieB":"serieB.csv","premierleague":"premierleague.csv"}
 
 ELO_START = 1500
 K = 20
