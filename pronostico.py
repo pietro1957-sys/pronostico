@@ -66,7 +66,7 @@ if "schedina" not in st.session_state:
   st.session_state.schedina = []
 
 # ==================================================
-# SELETTORE COMPETIZIONE NELLA GUI (TITOLO CENTRATO)
+# TITOLO PRINCIPALE
 # ==================================================
 st.markdown(
     "<h1"
@@ -81,7 +81,7 @@ st.markdown(
 )
 st.markdown("---")
 
-# Menu principale a schede (Tabs)
+# Menu principale a schede (Tabs principali)
 tab1, tab2 = st.tabs(
     ["⚽ Pronosticatore & Schedina", "📊 Cassa & Storico Giocate"]
 )
@@ -267,7 +267,6 @@ with tab1:
     ht_ft_counts = Counter()
 
     for _ in range(SIMULATIONS):
-      # Partita intera
       hg = np.random.poisson(lambda_home)
       ag = np.random.poisson(lambda_away)
       exact_scores[f"{hg}-{ag}"] += 1
@@ -276,33 +275,11 @@ with tab1:
       if hg > 0 and ag > 0:
         both_score += 1
 
-      # Simulazione Primo Tempo (~44% dei gol)
-      hg_ht = np.random.poisson(lambda_home * 0.44)
-      ag_ht = np.random.poisson(lambda_away * 0.44)
+      hg_ht = min(np.random.poisson(lambda_home * 0.44), hg)
+      ag_ht = min(np.random.poisson(lambda_away * 0.44), ag)
 
-      # Assicuriamoci che i gol del 1T non superino quelli totali
-      hg_ht = min(hg_ht, hg)
-      ag_ht = min(ag_ht, ag)
-
-      # Gol Secondo Tempo
-      hg_st = hg - hg_ht
-      ag_st = ag - ag_ht
-
-      # Esito 1° Tempo (1, X, 2)
-      if hg_ht > ag_ht:
-        ht_res = "1"
-      elif hg_ht < ag_ht:
-        ht_res = "2"
-      else:
-        ht_res = "X"
-
-      # Esito Finale (1, X, 2)
-      if hg > ag:
-        ft_res = "1"
-      elif hg < ag:
-        ft_res = "2"
-      else:
-        ft_res = "X"
+      ht_res = "1" if hg_ht > ag_ht else ("2" if hg_ht < ag_ht else "X")
+      ft_res = "1" if hg > ag else ("2" if hg < ag else "X")
 
       ht_ft_counts[f"{ht_res}/{ft_res}"] += 1
 
@@ -316,7 +293,6 @@ with tab1:
     q_goal = round(100 / p_goal, 2) if p_goal > 0 else 99.0
     q_nogoal = round(100 / p_nogoal, 2) if p_nogoal > 0 else 99.0
 
-    # Calcolo percentuali e quote parziale/finale
     ht_ft_results = {}
     combo_keys = [
         "1/1",
@@ -418,111 +394,120 @@ with tab1:
     ):
       p = st.session_state.current_analysis["p"]
 
-      # xG
-      xg1, xg2, xg3 = st.columns(3)
-      xg1.metric(label=f"xG {home_team}", value=p["xG_home"])
-      xg2.metric(label=f"xG {away_team}", value=p["xG_away"])
-      xg3.metric(label="Totale xG stimati", value=p["total_xG"])
+      # SUB-TABS PER ORGANIZZARE I MERCATI IN SCHEDE PULITE
+      subtab1, subtab2, subtab3, subtab4 = st.tabs([
+          "📊 Panoramica & xG",
+          "⚽ Over / Under 2.5",
+          "🥅 Goal / No Goal",
+          "🔄 Parziale / Finale",
+      ])
 
-      st.markdown("---")
+      # SUBTAB 1: PANORAMICA & xG
+      with subtab1:
+        st.markdown("#### ⚽ Gol Attesi (Expected Goals)")
+        xg1, xg2, xg3 = st.columns(3)
+        xg1.metric(label=f"xG {home_team}", value=p["xG_home"])
+        xg2.metric(label=f"xG {away_team}", value=p["xG_away"])
+        xg3.metric(label="Totale xG", value=p["total_xG"])
 
-      # Over / Under
-      st.markdown("#### ⚽ Mercato Over / Under 2.5")
-      ou1, ou2 = st.columns(2)
-      ou1.metric(
-          label="Over 2.5",
-          value=f"{p['OVER25']}%",
-          delta=f"Quota Minima: {p['Q_OVER25']}",
-          delta_color="off",
-      )
-      ou2.metric(
-          label="Under 2.5",
-          value=f"{p['UNDER25']}%",
-          delta=f"Quota Minima: {p['Q_UNDER25']}",
-          delta_color="off",
-      )
+        st.markdown("---")
+        st.markdown("#### 🎯 Top 5 Risultati Esatti Più Probabili")
+        for score, count in p["top_results"]:
+          perc = round(count / SIMULATIONS * 100, 2)
+          q_exact = round(100 / perc, 2) if perc > 0 else 99.0
+          st.write(
+              f"• **Risultato {score}** → `{perc}%` | Quota teorica:"
+              f" `{q_exact}`"
+          )
 
-      st.markdown("---")
-
-      # Goal / No Goal
-      st.markdown("#### 🥅 Mercato Goal / No Goal")
-      gg1, gg2 = st.columns(2)
-      gg1.metric(
-          label="Goal",
-          value=f"{p['GOAL']}%",
-          delta=f"Quota Minima: {p['Q_GOAL']}",
-          delta_color="off",
-      )
-      gg2.metric(
-          label="No Goal",
-          value=f"{p['NOGOAL']}%",
-          delta=f"Quota Minima: {p['Q_NOGOAL']}",
-          delta_color="off",
-      )
-
-      st.markdown("---")
-
-      # Parziale / Finale (1/X, 2/X, 1/2, 2/1, ecc.)
-      st.markdown("#### 🔄 Mercato Parziale / Finale (1T / Finale)")
-      ht_ft = p["HT_FT"]
-
-      col_hf1, col_hf2, col_hf3 = st.columns(3)
-      with col_hf1:
-        st.write(
-            f"• **1/X** (Casa/Pareggi): `{ht_ft['1/X']['perc']}%` | Quota min:"
-            f" `{ht_ft['1/X']['quota']}`"
+      # SUBTAB 2: OVER / UNDER
+      with subtab2:
+        st.markdown("#### ⚽ Mercato Over / Under 2.5")
+        ou1, ou2 = st.columns(2)
+        ou1.metric(
+            label="Over 2.5",
+            value=f"{p['OVER25']}%",
+            delta=f"Quota Minima: {p['Q_OVER25']}",
+            delta_color="off",
         )
-        st.write(
-            f"• **1/1** (Casa/Casa): `{ht_ft['1/1']['perc']}%` | Quota min:"
-            f" `{ht_ft['1/1']['quota']}`"
-        )
-        st.write(
-            f"• **1/2** (Casa/Ospiti): `{ht_ft['1/2']['perc']}%` | Quota min:"
-            f" `{ht_ft['1/2']['quota']}`"
-        )
-      with col_hf2:
-        st.write(
-            f"• **2/X** (Ospiti/Pareggio): `{ht_ft['2/X']['perc']}%` | Quota"
-            f" min: `{ht_ft['2/X']['quota']}`"
-        )
-        st.write(
-            f"• **2/2** (Ospiti/Ospiti): `{ht_ft['2/2']['perc']}%` | Quota"
-            f" min: `{ht_ft['2/2']['quota']}`"
-        )
-        st.write(
-            f"• **2/1** (Ospiti/Casa): `{ht_ft['2/1']['perc']}%` | Quota min:"
-            f" `{ht_ft['2/1']['quota']}`"
-        )
-      with col_hf3:
-        st.write(
-            f"• **X/X** (Pareggio/Pareggio): `{ht_ft['X/X']['perc']}%` | Quota"
-            f" min: `{ht_ft['X/X']['quota']}`"
-        )
-        st.write(
-            f"• **X/1** (Pareggio/Casa): `{ht_ft['X/1']['perc']}%` | Quota min:"
-            f" `{ht_ft['X/1']['quota']}`"
-        )
-        st.write(
-            f"• **X/2** (Pareggio/Ospiti): `{ht_ft['X/2']['perc']}%` | Quota"
-            f" min: `{ht_ft['X/2']['quota']}`"
+        ou2.metric(
+            label="Under 2.5",
+            value=f"{p['UNDER25']}%",
+            delta=f"Quota Minima: {p['Q_UNDER25']}",
+            delta_color="off",
         )
 
-      st.markdown("---")
-
-      # Risultati Esatti
-      st.markdown("#### 🎯 Top 5 Risultati Esatti Più Probabili")
-      for score, count in p["top_results"]:
-        perc = round(count / SIMULATIONS * 100, 2)
-        q_exact = round(100 / perc, 2) if perc > 0 else 99.0
-        st.write(
-            f"• **Risultato {score}** → `{perc}%` | Quota teorica:"
-            f" `{q_exact}`"
+      # SUBTAB 3: GOAL / NO GOAL
+      with subtab3:
+        st.markdown("#### 🥅 Mercato Goal / No Goal")
+        gg1, gg2 = st.columns(2)
+        gg1.metric(
+            label="Goal",
+            value=f"{p['GOAL']}%",
+            delta=f"Quota Minima: {p['Q_GOAL']}",
+            delta_color="off",
         )
+        gg2.metric(
+            label="No Goal",
+            value=f"{p['NOGOAL']}%",
+            delta=f"Quota Minima: {p['Q_NOGOAL']}",
+            delta_color="off",
+        )
+
+      # SUBTAB 4: PARZIALE / FINALE
+      with subtab4:
+        st.markdown("#### 🔄 Mercato Parziale / Finale (1T / Finale)")
+        ht_ft = p["HT_FT"]
+
+        col_hf1, col_hf2, col_hf3 = st.columns(3)
+        with col_hf1:
+          st.markdown("**Ribaltamenti Casa**")
+          st.write(
+              f"• **1/X**: `{ht_ft['1/X']['perc']}%` | Quota:"
+              f" `{ht_ft['1/X']['quota']}`"
+          )
+          st.write(
+              f"• **1/1**: `{ht_ft['1/1']['perc']}%` | Quota:"
+              f" `{ht_ft['1/1']['quota']}`"
+          )
+          st.write(
+              f"• **1/2**: `{ht_ft['1/2']['perc']}%` | Quota:"
+              f" `{ht_ft['1/2']['quota']}`"
+          )
+
+        with col_hf2:
+          st.markdown("**Ribaltamenti Trasferta**")
+          st.write(
+              f"• **2/X**: `{ht_ft['2/X']['perc']}%` | Quota:"
+              f" `{ht_ft['2/X']['quota']}`"
+          )
+          st.write(
+              f"• **2/2**: `{ht_ft['2/2']['perc']}%` | Quota:"
+              f" `{ht_ft['2/2']['quota']}`"
+          )
+          st.write(
+              f"• **2/1**: `{ht_ft['2/1']['perc']}%` | Quota:"
+              f" `{ht_ft['2/1']['quota']}`"
+          )
+
+        with col_hf3:
+          st.markdown("**Pareggio 1° Tempo**")
+          st.write(
+              f"• **X/X**: `{ht_ft['X/X']['perc']}%` | Quota:"
+              f" `{ht_ft['X/X']['quota']}`"
+          )
+          st.write(
+              f"• **X/1**: `{ht_ft['X/1']['perc']}%` | Quota:"
+              f" `{ht_ft['X/1']['quota']}`"
+          )
+          st.write(
+              f"• **X/2**: `{ht_ft['X/2']['perc']}%` | Quota:"
+              f" `{ht_ft['X/2']['quota']}`"
+          )
 
       st.markdown("---")
       st.markdown("### 🛒 Aggiungi alla Schedina & Verifica Valore")
 
-      # Elenco mercati disponibili tra cui scegliere
       mercati_disponibili = [
           "Over 2.5",
           "Under 2.5",
@@ -554,7 +539,6 @@ with tab1:
             key="sel_quota",
         )
 
-      # Mappatura quota teorica scelta
       map_q = {
           "Over 2.5": p["Q_OVER25"],
           "Under 2.5": p["Q_UNDER25"],
