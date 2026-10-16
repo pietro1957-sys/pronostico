@@ -1,0 +1,2329 @@
+Date,Squadra-A,Squadra-B,risultati
+2020-09-25,Monza,Spal,0-0
+2020-09-26,Frosinone,Empoli,0-2
+2020-09-26,Salernitana,Reggina,1-1
+2020-09-26,Brescia,Ascoli,1-1
+2020-09-26,Pescara,Chievo,0-0
+2020-09-26,Lecce,Pordenone,0-0
+2020-09-26,Cosenza,Virtus Entella,0-0
+2020-09-26,Venezia,Vicenza Virtus,1-0
+2020-09-27,Cremonese,Cittadella,0-2
+2020-09-27,Reggiana,Pisa,2-2
+2020-10-03,Chievo,Salernitana,1-2
+2020-10-03,Spal,Cosenza,1-1
+2020-10-03,Ascoli,Lecce,0-2
+2020-10-03,Empoli,Monza,0-0
+2020-10-03,Venezia,Frosinone,0-2
+2020-10-03,Virtus Entella,Reggiana,0-2
+2020-10-03,Reggina,Pescara,3-1
+2020-10-03,Vicenza Virtus,Pordenone,1-1
+2020-10-04,Pisa,Cremonese,1-1
+2020-10-04,Cittadella,Brescia,3-0
+2020-10-16,Brescia,Lecce,3-0
+2020-10-17,Salernitana,Pisa,4-1
+2020-10-17,Cremonese,Venezia,0-0
+2020-10-17,Pordenone,Spal,3-3
+2020-10-17,Reggiana,Chievo,0-1
+2020-10-17,Cosenza,Cittadella,1-1
+2020-10-17,Virtus Entella,Reggina,1-1
+2020-10-17,Pescara,Empoli,1-2
+2020-10-17,Frosinone,Ascoli,1-0
+2020-10-20,Chievo,Brescia,1-0
+2020-10-20,Ascoli,Reggiana,2-1
+2020-10-20,Cittadella,Pordenone,2-0
+2020-10-20,Empoli,Spal,2-1
+2020-10-20,Frosinone,Virtus Entella,0-0
+2020-10-20,Venezia,Pescara,4-0
+2020-10-20,Pisa,Monza,1-1
+2020-10-20,Vicenza Virtus,Salernitana,1-1
+2020-10-20,Reggina,Cosenza,0-0
+2020-10-21,Lecce,Cremonese,2-2
+2020-10-23,Empoli,Pisa,3-1
+2020-10-24,Spal,Vicenza Virtus,3-2
+2020-10-24,Salernitana,Ascoli,1-0
+2020-10-24,Pordenone,Reggina,2-2
+2020-10-24,Monza,Chievo,1-2
+2020-10-24,Pescara,Frosinone,0-2
+2020-10-25,Cosenza,Lecce,1-1
+2020-10-31,Cittadella,Monza,1-2
+2020-10-31,Chievo,Cosenza,2-0
+2020-10-31,Ascoli,Pordenone,0-1
+2020-10-31,Salernitana,Reggiana,3-0
+2020-10-31,Brescia,Virtus Entella,2-2
+2020-10-31,Vicenza Virtus,Pisa,4-4
+2020-11-01,Venezia,Empoli,2-0
+2020-11-01,Reggina,Spal,0-1
+2020-11-01,Frosinone,Cremonese,1-0
+2020-11-02,Lecce,Pescara,3-1
+2020-11-06,Spal,Salernitana,2-0
+2020-11-07,Pordenone,Chievo,1-1
+2020-11-07,Monza,Frosinone,2-0
+2020-11-07,Cosenza,Brescia,1-2
+2020-11-07,Empoli,Reggina,3-0
+2020-11-07,Cremonese,Vicenza Virtus,0-1
+2020-11-08,Pescara,Cittadella,3-1
+2020-11-08,Reggiana,Venezia,2-1
+2020-11-08,Virtus Entella,Lecce,1-5
+2020-11-14,Virtus Entella,Venezia,0-2
+2020-11-20,Frosinone,Cosenza,0-2
+2020-11-21,Spal,Pescara,2-0
+2020-11-21,Cittadella,Empoli,2-2
+2020-11-21,Brescia,Venezia,2-2
+2020-11-21,Pordenone,Monza,1-1
+2020-11-21,Lecce,Reggiana,7-1
+2020-11-22,Ascoli,Virtus Entella,1-1
+2020-11-22,Reggina,Pisa,1-2
+2020-11-23,Salernitana,Cremonese,2-1
+2020-11-27,Chievo,Lecce,1-2
+2020-11-28,Empoli,Vicenza Virtus,2-2
+2020-11-28,Venezia,Ascoli,2-1
+2020-11-28,Brescia,Frosinone,1-2
+2020-11-28,Pescara,Pordenone,0-2
+2020-11-28,Pisa,Cittadella,1-4
+2020-11-28,Monza,Reggina,1-0
+2020-11-29,Reggiana,Cremonese,1-1
+2020-11-29,Cosenza,Salernitana,0-1
+2020-11-30,Virtus Entella,Spal,0-1
+2020-12-02,Monza,Vicenza Virtus,1-1
+2020-12-04,Ascoli,Pescara,0-2
+2020-12-05,Spal,Pisa,4-0
+2020-12-05,Frosinone,Chievo,3-2
+2020-12-05,Salernitana,Cittadella,1-0
+2020-12-05,Cremonese,Virtus Entella,2-1
+2020-12-05,Lecce,Venezia,2-2
+2020-12-05,Reggina,Brescia,2-1
+2020-12-06,Reggiana,Monza,3-0
+2020-12-06,Vicenza Virtus,Cosenza,1-1
+2020-12-07,Pordenone,Empoli,0-0
+2020-12-08,Cremonese,Brescia,2-2
+2020-12-08,Pisa,Ascoli,2-1
+2020-12-11,Venezia,Monza,0-2
+2020-12-11,Chievo,Reggina,3-0
+2020-12-12,Brescia,Salernitana,3-1
+2020-12-12,Cremonese,Ascoli,3-3
+2020-12-12,Virtus Entella,Empoli,2-5
+2020-12-12,Pisa,Pordenone,1-0
+2020-12-12,Lecce,Frosinone,2-2
+2020-12-12,Cosenza,Reggiana,0-1
+2020-12-12,Pescara,Vicenza Virtus,2-3
+2020-12-12,Cittadella,Spal,2-0
+2020-12-14,Reggina,Venezia,1-2
+2020-12-15,Reggiana,Frosinone,1-2
+2020-12-15,Spal,Chievo,0-0
+2020-12-15,Ascoli,Cosenza,0-3
+2020-12-15,Cittadella,Vicenza Virtus,3-0
+2020-12-15,Empoli,Cremonese,1-0
+2020-12-15,Salernitana,Lecce,1-1
+2020-12-15,Pisa,Pescara,0-0
+2020-12-15,Pordenone,Brescia,1-1
+2020-12-15,Monza,Virtus Entella,5-0
+2020-12-18,Virtus Entella,Pordenone,0-1
+2020-12-18,Frosinone,Salernitana,0-0
+2020-12-19,Chievo,Empoli,1-1
+2020-12-19,Brescia,Reggiana,3-1
+2020-12-19,Cremonese,Cosenza,1-0
+2020-12-19,Lecce,Pisa,0-3
+2020-12-19,Vicenza Virtus,Ascoli,2-1
+2020-12-19,Pescara,Monza,3-2
+2020-12-19,Venezia,Spal,0-0
+2020-12-19,Reggina,Cittadella,1-3
+2020-12-21,Salernitana,Virtus Entella,2-1
+2020-12-22,Spal,Lecce,1-0
+2020-12-22,Cittadella,Frosinone,1-0
+2020-12-22,Pescara,Brescia,1-1
+2020-12-22,Pisa,Chievo,2-2
+2020-12-22,Pordenone,Cremonese,1-2
+2020-12-22,Monza,Ascoli,2-0
+2020-12-22,Vicenza Virtus,Reggina,1-1
+2020-12-22,Cosenza,Venezia,0-0
+2020-12-22,Empoli,Reggiana,0-0
+2020-12-27,Reggiana,Reggina,0-1
+2020-12-27,Ascoli,Spal,2-0
+2020-12-27,Frosinone,Pordenone,1-1
+2020-12-27,Venezia,Salernitana,1-2
+2020-12-27,Virtus Entella,Pescara,3-0
+2020-12-27,Lecce,Vicenza Virtus,2-1
+2020-12-27,Cosenza,Pisa,1-1
+2020-12-27,Brescia,Empoli,1-3
+2020-12-27,Cremonese,Monza,0-2
+2020-12-30,Cittadella,Lecce,2-2
+2020-12-30,Pescara,Cosenza,0-0
+2020-12-30,Pordenone,Reggiana,3-0
+2020-12-30,Reggina,Cremonese,1-0
+2020-12-30,Monza,Salernitana,3-0
+2020-12-30,Spal,Brescia,2-3
+2020-12-30,Empoli,Ascoli,1-1
+2020-12-30,Vicenza Virtus,Virtus Entella,0-1
+2020-12-30,Chievo,Venezia,1-1
+2021-01-04,Venezia,Pisa,1-1
+2021-01-04,Cosenza,Empoli,0-2
+2021-01-04,Lecce,Monza,0-0
+2021-01-04,Ascoli,Reggina,2-1
+2021-01-04,Frosinone,Spal,1-2
+2021-01-04,Salernitana,Pordenone,0-2
+2021-01-04,Cremonese,Chievo,0-2
+2021-01-04,Virtus Entella,Cittadella,1-0
+2021-01-04,Reggiana,Pescara,0-1
+2021-01-04,Brescia,Vicenza Virtus,0-3
+2021-01-09,Reggiana,Cittadella,0-2
+2021-01-15,Chievo,Virtus Entella,2-1
+2021-01-15,Vicenza Virtus,Frosinone,0-0
+2021-01-16,Cittadella,Ascoli,1-0
+2021-01-16,Pisa,Brescia,1-0
+2021-01-16,Pordenone,Venezia,2-0
+2021-01-16,Monza,Cosenza,2-2
+2021-01-16,Reggina,Lecce,0-1
+2021-01-17,Pescara,Cremonese,0-2
+2021-01-17,Empoli,Salernitana,5-0
+2021-01-18,Spal,Reggiana,2-0
+2021-01-19,Vicenza Virtus,Chievo,1-1
+2021-01-22,Virtus Entella,Pisa,2-1
+2021-01-23,Ascoli,Chievo,0-0
+2021-01-23,Frosinone,Reggina,1-1
+2021-01-23,Venezia,Cittadella,1-0
+2021-01-23,Reggiana,Vicenza Virtus,2-1
+2021-01-23,Cosenza,Pordenone,0-0
+2021-01-23,Salernitana,Pescara,2-0
+2021-01-24,Lecce,Empoli,2-2
+2021-01-24,Cremonese,Spal,1-1
+2021-01-25,Brescia,Monza,0-1
+2021-01-27,Chievo,Cittadella,2-1
+2021-01-29,Vicenza Virtus,Venezia,0-0
+2021-01-30,Ascoli,Brescia,2-1
+2021-01-30,Empoli,Frosinone,3-1
+2021-01-30,Virtus Entella,Cosenza,1-2
+2021-01-30,Pordenone,Lecce,1-1
+2021-01-30,Pisa,Reggiana,1-0
+2021-01-31,Chievo,Pescara,3-1
+2021-01-31,Spal,Monza,1-1
+2021-01-31,Cittadella,Cremonese,1-1
+2021-02-01,Reggina,Salernitana,0-0
+2021-02-02,Pisa,Frosinone,0-0
+2021-02-05,Lecce,Ascoli,1-2
+2021-02-06,Frosinone,Venezia,1-2
+2021-02-06,Salernitana,Chievo,1-1
+2021-02-06,Brescia,Cittadella,3-3
+2021-02-06,Cremonese,Pisa,2-1
+2021-02-06,Pescara,Reggina,0-2
+2021-02-06,Cosenza,Spal,1-1
+2021-02-06,Monza,Empoli,1-1
+2021-02-06,Pordenone,Vicenza Virtus,1-2
+2021-02-07,Reggiana,Virtus Entella,2-1
+2021-02-09,Spal,Pordenone,1-3
+2021-02-09,Cittadella,Cosenza,1-1
+2021-02-09,Empoli,Pescara,2-2
+2021-02-09,Venezia,Cremonese,3-1
+2021-02-09,Pisa,Salernitana,2-2
+2021-02-09,Lecce,Brescia,2-2
+2021-02-09,Vicenza Virtus,Monza,1-2
+2021-02-09,Ascoli,Frosinone,1-1
+2021-02-10,Reggina,Virtus Entella,1-0
+2021-02-10,Chievo,Reggiana,1-0
+2021-02-12,Monza,Pisa,0-2
+2021-02-13,Salernitana,Vicenza Virtus,1-1
+2021-02-13,Cremonese,Lecce,1-2
+2021-02-13,Pescara,Venezia,0-2
+2021-02-13,Pordenone,Cittadella,0-1
+2021-02-13,Spal,Empoli,1-1
+2021-02-14,Virtus Entella,Frosinone,2-3
+2021-02-14,Reggiana,Ascoli,1-0
+2021-02-14,Brescia,Chievo,1-0
+2021-02-15,Cosenza,Reggina,2-2
+2021-02-19,Frosinone,Pescara,0-0
+2021-02-20,Ascoli,Salernitana,0-2
+2021-02-20,Cittadella,Reggiana,0-3
+2021-02-20,Venezia,Virtus Entella,3-2
+2021-02-20,Brescia,Cremonese,1-2
+2021-02-20,Vicenza Virtus,Spal,2-2
+2021-02-20,Chievo,Monza,0-1
+2021-02-20,Pisa,Empoli,1-1
+2021-02-21,Reggina,Pordenone,1-0
+2021-02-21,Lecce,Cosenza,3-1
+2021-02-26,Reggiana,Salernitana,0-0
+2021-02-26,Empoli,Venezia,1-1
+2021-02-27,Spal,Reggina,1-4
+2021-02-27,Cremonese,Frosinone,4-0
+2021-02-27,Pescara,Lecce,1-1
+2021-02-27,Pisa,Vicenza Virtus,2-2
+2021-02-27,Pordenone,Ascoli,1-1
+2021-02-27,Cosenza,Chievo,1-0
+2021-02-27,Monza,Cittadella,0-0
+2021-02-27,Virtus Entella,Brescia,1-1
+2021-03-01,Venezia,Reggiana,2-1
+2021-03-02,Frosinone,Monza,2-2
+2021-03-02,Chievo,Pordenone,3-0
+2021-03-02,Ascoli,Pisa,0-2
+2021-03-02,Cittadella,Pescara,0-1
+2021-03-02,Salernitana,Spal,0-0
+2021-03-02,Brescia,Cosenza,2-0
+2021-03-02,Lecce,Virtus Entella,0-0
+2021-03-02,Reggina,Empoli,0-3
+2021-03-02,Vicenza Virtus,Cremonese,3-1
+2021-03-06,Cremonese,Salernitana,0-1
+2021-03-06,Pescara,Spal,0-1
+2021-03-06,Virtus Entella,Ascoli,0-0
+2021-03-06,Pisa,Reggina,0-0
+2021-03-06,Cosenza,Frosinone,1-2
+2021-03-06,Venezia,Brescia,0-1
+2021-03-06,Monza,Pordenone,2-0
+2021-03-07,Empoli,Cittadella,1-1
+2021-03-07,Reggiana,Lecce,0-4
+2021-03-08,Chievo,Vicenza Virtus,1-2
+2021-03-12,Cittadella,Pisa,2-0
+2021-03-12,Spal,Virtus Entella,0-0
+2021-03-13,Ascoli,Venezia,1-1
+2021-03-13,Frosinone,Brescia,0-1
+2021-03-13,Cremonese,Reggiana,3-0
+2021-03-13,Pordenone,Pescara,0-0
+2021-03-13,Lecce,Chievo,4-2
+2021-03-13,Reggina,Monza,1-0
+2021-03-13,Salernitana,Cosenza,0-0
+2021-03-13,Vicenza Virtus,Empoli,0-2
+2021-03-15,Pisa,Spal,3-0
+2021-03-16,Virtus Entella,Cremonese,0-2
+2021-03-16,Venezia,Lecce,2-3
+2021-03-16,Cosenza,Vicenza Virtus,1-1
+2021-03-16,Chievo,Frosinone,0-0
+2021-03-16,Cittadella,Salernitana,0-0
+2021-03-16,Empoli,Pordenone,1-0
+2021-03-16,Brescia,Reggina,1-0
+2021-03-16,Monza,Reggiana,2-0
+2021-03-16,Pescara,Ascoli,2-3
+2021-03-19,Ascoli,Cremonese,0-0
+2021-03-20,Empoli,Virtus Entella,1-0
+2021-03-20,Frosinone,Lecce,0-3
+2021-03-20,Reggiana,Cosenza,1-1
+2021-03-20,Vicenza Virtus,Pescara,1-0
+2021-03-20,Monza,Venezia,1-4
+2021-03-20,Spal,Cittadella,1-0
+2021-03-21,Reggina,Chievo,1-1
+2021-03-21,Salernitana,Brescia,1-0
+2021-04-02,Cosenza,Ascoli,2-1
+2021-04-02,Frosinone,Reggiana,0-0
+2021-04-02,Pescara,Pisa,3-1
+2021-04-02,Chievo,Spal,1-1
+2021-04-02,Venezia,Reggina,0-2
+2021-04-02,Brescia,Pordenone,4-1
+2021-04-02,Virtus Entella,Monza,1-1
+2021-04-02,Lecce,Salernitana,2-0
+2021-04-02,Vicenza Virtus,Cittadella,1-0
+2021-04-05,Pordenone,Virtus Entella,3-0
+2021-04-05,Ascoli,Vicenza Virtus,2-1
+2021-04-05,Cittadella,Reggina,1-1
+2021-04-05,Pisa,Lecce,0-1
+2021-04-05,Monza,Pescara,1-1
+2021-04-05,Cosenza,Cremonese,0-1
+2021-04-05,Reggiana,Brescia,2-2
+2021-04-05,Spal,Venezia,1-1
+2021-04-05,Salernitana,Frosinone,1-0
+2021-04-09,Reggiana,Empoli,0-1
+2021-04-10,Ascoli,Monza,1-0
+2021-04-10,Brescia,Pescara,1-1
+2021-04-10,Cremonese,Pordenone,2-1
+2021-04-10,Virtus Entella,Salernitana,0-3
+2021-04-10,Lecce,Spal,1-2
+2021-04-10,Frosinone,Cittadella,1-1
+2021-04-11,Reggina,Vicenza Virtus,3-0
+2021-04-11,Venezia,Cosenza,3-0
+2021-04-12,Chievo,Pisa,2-0
+2021-04-13,Cremonese,Empoli,2-2
+2021-04-16,Spal,Ascoli,1-2
+2021-04-17,Empoli,Brescia,4-2
+2021-04-17,Salernitana,Venezia,2-1
+2021-04-17,Pisa,Cosenza,3-0
+2021-04-17,Monza,Cremonese,2-1
+2021-04-17,Vicenza Virtus,Lecce,1-2
+2021-04-17,Reggina,Reggiana,2-1
+2021-04-17,Cittadella,Chievo,1-0
+2021-04-17,Pordenone,Frosinone,2-0
+2021-04-24,Pordenone,Pisa,2-2
+2021-04-27,Pescara,Virtus Entella,1-1
+2021-04-27,Empoli,Chievo,2-2
+2021-05-01,Ascoli,Empoli,2-0
+2021-05-01,Frosinone,Pisa,3-1
+2021-05-01,Salernitana,Monza,1-3
+2021-05-01,Venezia,Chievo,3-1
+2021-05-01,Brescia,Spal,3-1
+2021-05-01,Cremonese,Reggina,1-1
+2021-05-01,Virtus Entella,Vicenza Virtus,1-2
+2021-05-01,Lecce,Cittadella,1-3
+2021-05-01,Reggiana,Pordenone,1-0
+2021-05-01,Cosenza,Pescara,3-0
+2021-05-04,Chievo,Cremonese,1-1
+2021-05-04,Spal,Frosinone,0-1
+2021-05-04,Cittadella,Virtus Entella,1-0
+2021-05-04,Empoli,Cosenza,4-0
+2021-05-04,Pescara,Reggiana,1-0
+2021-05-04,Pisa,Venezia,2-2
+2021-05-04,Pordenone,Salernitana,1-2
+2021-05-04,Monza,Lecce,1-0
+2021-05-04,Vicenza Virtus,Brescia,0-3
+2021-05-04,Reggina,Ascoli,2-2
+2021-05-07,Ascoli,Cittadella,2-0
+2021-05-07,Frosinone,Vicenza Virtus,1-1
+2021-05-07,Salernitana,Empoli,2-0
+2021-05-07,Venezia,Pordenone,0-0
+2021-05-07,Brescia,Pisa,4-3
+2021-05-07,Cremonese,Pescara,3-0
+2021-05-07,Virtus Entella,Chievo,1-3
+2021-05-07,Lecce,Reggina,2-2
+2021-05-07,Reggiana,Spal,1-2
+2021-05-07,Cosenza,Monza,0-3
+2021-05-10,Chievo,Ascoli,3-0
+2021-05-10,Spal,Cremonese,1-0
+2021-05-10,Cittadella,Venezia,1-1
+2021-05-10,Empoli,Lecce,2-1
+2021-05-10,Pescara,Salernitana,0-3
+2021-05-10,Pisa,Virtus Entella,3-2
+2021-05-10,Pordenone,Cosenza,2-0
+2021-05-10,Monza,Brescia,0-2
+2021-05-10,Vicenza Virtus,Reggiana,2-1
+2021-05-10,Reggina,Frosinone,0-4
+2021-05-13,Cittadella,Brescia,1-0
+2021-05-13,Venezia,Chievo,3-2
+2021-05-17,Cittadella,Monza,3-0
+2021-05-17,Venezia,Lecce,1-0
+2021-05-20,Lecce,Venezia,1-1
+2021-05-20,Monza,Cittadella,2-0
+2021-05-23,Cittadella,Venezia,0-1
+2021-05-27,Venezia,Cittadella,1-1
+2022-08-12,Parma,Bari,2-2
+2022-08-13,Cittadella,Pisa,4-3
+2022-08-13,Palermo,Perugia,2-0
+2022-08-13,como,Cagliari,1-1
+2022-08-14,Spal,Reggina,1-3
+2022-08-14,Benevento,Cosenza,0-1
+2022-08-14,Ascoli,Ternana,2-1
+2022-08-14,Venezia,Genoa,1-2
+2022-08-14,Brescia,Sudtirol,2-0
+2022-08-14,Modena,Frosinone,0-1
+2022-08-19,Bari,Palermo,1-1
+2022-08-20,Genoa,Benevento,0-0
+2022-08-20,Ascoli,Spal,1-1
+2022-08-20,Perugia,Parma,0-0
+2022-08-21,Cagliari,Cittadella,2-1
+2022-08-21,Frosinone,Brescia,3-0
+2022-08-21,Ternana,Reggina,1-0
+2022-08-21,Pisa,como,2-2
+2022-08-21,Sudtirol,Venezia,1-2
+2022-08-21,Cosenza,Modena,2-1
+2022-08-27,Spal,Cagliari,1-0
+2022-08-27,Palermo,Ascoli,2-3
+2022-08-27,Modena,Ternana,4-1
+2022-08-28,Benevento,Frosinone,2-1
+2022-08-28,Cittadella,Venezia,1-1
+2022-08-28,Parma,Cosenza,1-0
+2022-08-28,Perugia,Bari,1-3
+2022-08-28,Pisa,Genoa,0-1
+2022-08-28,Reggina,Sudtirol,4-0
+2022-08-29,como,Brescia,0-1
+2022-09-02,Cagliari,Modena,1-0
+2022-09-03,Ascoli,Cittadella,0-0
+2022-09-03,Bari,Spal,2-2
+2022-09-03,Frosinone,como,2-0
+2022-09-03,Ternana,Cosenza,1-1
+2022-09-03,Venezia,Benevento,0-2
+2022-09-03,Brescia,Perugia,2-1
+2022-09-03,Reggina,Palermo,3-0
+2022-09-03,Genoa,Parma,3-3
+2022-09-04,Sudtirol,Pisa,2-1
+2022-09-09,Palermo,Genoa,1-0
+2022-09-10,Benevento,Cagliari,0-2
+2022-09-10,Cittadella,Frosinone,1-0
+2022-09-10,Parma,Ternana,2-3
+2022-09-10,Pisa,Reggina,0-1
+2022-09-10,como,Sudtirol,0-2
+2022-09-10,Modena,Brescia,1-3
+2022-09-10,Cosenza,Bari,0-1
+2022-09-10,Perugia,Ascoli,1-0
+2022-09-11,Spal,Venezia,2-0
+2022-09-16,Brescia,Benevento,1-0
+2022-09-17,Cagliari,Bari,0-1
+2022-09-17,Ascoli,Parma,1-3
+2022-09-17,Frosinone,Palermo,1-0
+2022-09-17,Venezia,Pisa,1-1
+2022-09-17,como,Spal,3-3
+2022-09-17,Sudtirol,Cosenza,1-1
+2022-09-17,Reggina,Cittadella,3-0
+2022-09-17,Genoa,Modena,1-0
+2022-09-18,Ternana,Perugia,1-0
+2022-09-30,Cosenza,como,3-1
+2022-10-01,Cagliari,Venezia,1-4
+2022-10-01,Spal,Genoa,0-2
+2022-10-01,Bari,Brescia,6-2
+2022-10-01,Cittadella,Ternana,0-2
+2022-10-01,Palermo,Sudtirol,0-1
+2022-10-01,Parma,Frosinone,2-1
+2022-10-01,Modena,Reggina,1-0
+2022-10-01,Perugia,Pisa,1-3
+2022-10-02,Benevento,Ascoli,1-1
+2022-10-07,Genoa,Cagliari,0-0
+2022-10-08,Ascoli,Modena,1-2
+2022-10-08,Ternana,Palermo,3-0
+2022-10-08,Venezia,Bari,1-2
+2022-10-08,Brescia,Cittadella,1-1
+2022-10-08,Pisa,Parma,0-0
+2022-10-08,Frosinone,Spal,2-0
+2022-10-08,Reggina,Cosenza,3-0
+2022-10-09,como,Perugia,1-0
+2022-10-09,Sudtirol,Benevento,1-1
+2022-10-14,Venezia,Frosinone,1-3
+2022-10-15,Cagliari,Brescia,2-1
+2022-10-15,Benevento,Ternana,2-3
+2022-10-15,Cittadella,Spal,0-0
+2022-10-15,Palermo,Pisa,3-3
+2022-10-15,Parma,Reggina,2-0
+2022-10-15,Modena,como,5-1
+2022-10-15,Cosenza,Genoa,1-2
+2022-10-15,Bari,Ascoli,0-2
+2022-10-16,Perugia,Sudtirol,1-2
+2022-10-22,Spal,Cosenza,5-0
+2022-10-22,Frosinone,Bari,1-0
+2022-10-22,Brescia,Venezia,1-1
+2022-10-22,como,Benevento,2-1
+2022-10-22,Sudtirol,Parma,1-0
+2022-10-22,Reggina,Perugia,2-3
+2022-10-22,Ternana,Genoa,1-2
+2022-10-23,Palermo,Cittadella,0-0
+2022-10-23,Pisa,Modena,4-2
+2022-10-24,Ascoli,Cagliari,2-1
+2022-10-28,Bari,Ternana,0-0
+2022-10-29,Cagliari,Reggina,1-1
+2022-10-29,Spal,Sudtirol,1-1
+2022-10-29,Benevento,Pisa,0-0
+2022-10-29,Venezia,Ascoli,0-2
+2022-10-29,Parma,como,1-0
+2022-10-29,Modena,Palermo,0-2
+2022-10-29,Cosenza,Frosinone,1-2
+2022-10-29,Genoa,Brescia,1-1
+2022-10-30,Perugia,Cittadella,0-2
+2022-11-05,Benevento,Bari,1-1
+2022-11-05,Cittadella,Modena,0-0
+2022-11-05,Ternana,Spal,0-0
+2022-11-05,Brescia,Ascoli,1-1
+2022-11-05,Pisa,Cosenza,3-1
+2022-11-05,Sudtirol,Cagliari,2-2
+2022-11-05,Frosinone,Perugia,1-0
+2022-11-05,Palermo,Parma,1-0
+2022-11-06,como,Venezia,1-0
+2022-11-07,Reggina,Genoa,2-1
+2022-11-11,Ascoli,Frosinone,0-1
+2022-11-12,Cagliari,Pisa,1-1
+2022-11-12,Spal,Benevento,1-2
+2022-11-12,Bari,Sudtirol,2-2
+2022-11-12,Venezia,Reggina,1-2
+2022-11-12,Parma,Cittadella,3-1
+2022-11-12,Modena,Perugia,1-1
+2022-11-12,Cosenza,Palermo,3-2
+2022-11-12,Ternana,Brescia,0-0
+2022-11-13,Genoa,como,1-1
+2022-11-26,Parma,Modena,1-2
+2022-11-26,Pisa,Ternana,3-1
+2022-11-27,Reggina,Benevento,2-2
+2022-11-27,Cittadella,Cosenza,1-1
+2022-11-27,Frosinone,Cagliari,2-2
+2022-11-27,Brescia,Spal,2-0
+2022-11-27,Perugia,Genoa,1-0
+2022-11-27,como,Bari,1-1
+2022-11-27,Sudtirol,Ascoli,2-2
+2022-11-27,Palermo,Venezia,0-1
+2022-12-03,Venezia,Ternana,2-1
+2022-12-03,Cagliari,Parma,1-1
+2022-12-04,Spal,Modena,2-3
+2022-12-04,Genoa,Cittadella,0-1
+2022-12-04,Ascoli,como,3-3
+2022-12-04,Bari,Pisa,0-0
+2022-12-04,Brescia,Reggina,0-2
+2022-12-04,Sudtirol,Frosinone,1-1
+2022-12-04,Cosenza,Perugia,0-0
+2022-12-04,Benevento,Palermo,0-1
+2022-12-07,Ternana,Cagliari,1-0
+2022-12-08,Parma,Benevento,0-1
+2022-12-08,Genoa,Sudtirol,2-0
+2022-12-08,Cittadella,Bari,0-3
+2022-12-08,Perugia,Spal,0-0
+2022-12-08,Modena,Venezia,2-2
+2022-12-08,Reggina,Frosinone,0-3
+2022-12-08,Cosenza,Brescia,1-1
+2022-12-08,Pisa,Ascoli,2-0
+2022-12-08,Palermo,como,0-0
+2022-12-11,Cagliari,Perugia,3-2
+2022-12-11,Spal,Palermo,1-1
+2022-12-11,Benevento,Cittadella,1-0
+2022-12-11,Ascoli,Genoa,0-0
+2022-12-11,Venezia,Cosenza,2-0
+2022-12-11,como,Reggina,0-1
+2022-12-11,Sudtirol,Ternana,0-0
+2022-12-11,Bari,Modena,4-1
+2022-12-11,Frosinone,Pisa,0-0
+2022-12-12,Brescia,Parma,0-2
+2022-12-17,Pisa,Brescia,3-0
+2022-12-17,Reggina,Bari,0-0
+2022-12-18,Cittadella,Sudtirol,0-2
+2022-12-18,Ternana,como,0-3
+2022-12-18,Parma,Spal,0-1
+2022-12-18,Modena,Benevento,1-1
+2022-12-18,Cosenza,Ascoli,1-3
+2022-12-18,Palermo,Cagliari,2-1
+2022-12-18,Genoa,Frosinone,1-0
+2022-12-19,Perugia,Venezia,2-1
+2022-12-26,Brescia,Palermo,1-1
+2022-12-26,Cagliari,Cosenza,2-0
+2022-12-26,Spal,Pisa,0-1
+2022-12-26,Benevento,Perugia,0-2
+2022-12-26,Ascoli,Reggina,0-1
+2022-12-26,Venezia,Parma,2-2
+2022-12-26,como,Cittadella,2-0
+2022-12-26,Sudtirol,Modena,0-2
+2022-12-26,Frosinone,Ternana,3-0
+2022-12-26,Bari,Genoa,1-2
+2023-01-14,Cagliari,como,2-0
+2023-01-14,Bari,Parma,4-0
+2023-01-14,Perugia,Palermo,3-3
+2023-01-14,Pisa,Cittadella,1-2
+2023-01-14,Reggina,Spal,0-1
+2023-01-14,Frosinone,Modena,2-1
+2023-01-15,Sudtirol,Brescia,1-0
+2023-01-15,Ternana,Ascoli,1-0
+2023-01-15,Cosenza,Benevento,1-1
+2023-01-16,Genoa,Venezia,1-0
+2023-01-20,Palermo,Bari,1-0
+2023-01-21,Spal,Ascoli,1-1
+2023-01-21,Benevento,Genoa,1-2
+2023-01-21,Venezia,Sudtirol,0-1
+2023-01-21,Parma,Perugia,2-0
+2023-01-21,como,Pisa,2-2
+2023-01-21,Modena,Cosenza,2-0
+2023-01-21,Reggina,Ternana,2-1
+2023-01-21,Cittadella,Cagliari,0-0
+2023-01-22,Brescia,Frosinone,1-3
+2023-01-27,Cagliari,Spal,2-1
+2023-01-28,Bari,Perugia,0-2
+2023-01-28,Ternana,Modena,2-1
+2023-01-28,Venezia,Cittadella,1-1
+2023-01-28,Brescia,como,0-1
+2023-01-28,Sudtirol,Reggina,2-1
+2023-01-28,Cosenza,Parma,1-0
+2023-01-28,Genoa,Pisa,0-0
+2023-01-29,Ascoli,Palermo,1-2
+2023-01-29,Frosinone,Benevento,1-0
+2023-02-03,Modena,Cagliari,2-0
+2023-02-04,Spal,Bari,3-4
+2023-02-04,Benevento,Venezia,1-2
+2023-02-04,Cittadella,Ascoli,3-0
+2023-02-04,Perugia,Brescia,4-0
+2023-02-04,Pisa,Sudtirol,0-1
+2023-02-04,Cosenza,Ternana,0-0
+2023-02-04,como,Frosinone,0-2
+2023-02-05,Palermo,Reggina,2-1
+2023-02-05,Parma,Genoa,2-0
+2023-02-10,Genoa,Palermo,2-0
+2023-02-11,Cagliari,Benevento,1-0
+2023-02-11,Frosinone,Cittadella,3-0
+2023-02-11,Venezia,Spal,2-1
+2023-02-11,Brescia,Modena,0-1
+2023-02-11,Sudtirol,como,1-1
+2023-02-11,Reggina,Pisa,0-2
+2023-02-11,Ascoli,Perugia,1-0
+2023-02-11,Ternana,Parma,1-1
+2023-02-12,Bari,Cosenza,2-1
+2023-02-17,Pisa,Venezia,1-1
+2023-02-18,Spal,como,1-1
+2023-02-18,Benevento,Brescia,1-0
+2023-02-18,Cittadella,Reggina,3-2
+2023-02-18,Palermo,Frosinone,1-1
+2023-02-18,Parma,Ascoli,0-1
+2023-02-18,Cosenza,Sudtirol,0-0
+2023-02-18,Bari,Cagliari,1-1
+2023-02-18,Perugia,Ternana,3-0
+2023-02-19,Modena,Genoa,2-2
+2023-02-24,Frosinone,Parma,3-4
+2023-02-24,Pisa,Perugia,2-1
+2023-02-25,Ternana,Cittadella,1-2
+2023-02-25,Venezia,Cagliari,0-0
+2023-02-25,Brescia,Bari,0-2
+2023-02-25,como,Cosenza,5-1
+2023-02-25,Sudtirol,Palermo,1-1
+2023-02-25,Reggina,Modena,2-1
+2023-02-25,Genoa,Spal,3-0
+2023-02-26,Ascoli,Benevento,0-0
+2023-02-28,Palermo,Ternana,0-0
+2023-02-28,Parma,Pisa,0-1
+2023-02-28,Cosenza,Reggina,2-1
+2023-03-01,Cagliari,Genoa,0-0
+2023-03-01,Spal,Frosinone,0-2
+2023-03-01,Benevento,Sudtirol,0-2
+2023-03-01,Bari,Venezia,1-0
+2023-03-01,Cittadella,Brescia,0-0
+2023-03-01,Perugia,como,0-0
+2023-03-01,Modena,Ascoli,0-1
+2023-03-04,Pisa,Palermo,1-1
+2023-03-04,Reggina,Parma,0-1
+2023-03-05,Spal,Cittadella,2-1
+2023-03-05,Ascoli,Bari,0-1
+2023-03-05,Frosinone,Venezia,3-0
+2023-03-05,Ternana,Benevento,2-2
+2023-03-05,Brescia,Cagliari,1-1
+2023-03-05,como,Modena,1-0
+2023-03-05,Sudtirol,Perugia,2-1
+2023-03-06,Genoa,Cosenza,4-0
+2023-03-10,Cagliari,Ascoli,4-1
+2023-03-11,Benevento,como,0-0
+2023-03-11,Cittadella,Palermo,3-3
+2023-03-11,Venezia,Brescia,1-1
+2023-03-11,Parma,Sudtirol,0-0
+2023-03-11,Modena,Pisa,1-0
+2023-03-11,Bari,Frosinone,0-0
+2023-03-12,Genoa,Ternana,1-0
+2023-03-12,Cosenza,Spal,1-0
+2023-03-17,Palermo,Modena,5-2
+2023-03-18,Ascoli,Venezia,0-1
+2023-03-18,Cittadella,Perugia,0-2
+2023-03-18,Frosinone,Cosenza,0-1
+2023-03-18,Brescia,Genoa,0-3
+2023-03-18,Pisa,Benevento,2-0
+2023-03-18,como,Parma,2-0
+2023-03-18,Sudtirol,Spal,2-0
+2023-03-18,Reggina,Cagliari,0-4
+2023-03-19,Ternana,Bari,1-0
+2023-03-31,Genoa,Reggina,1-0
+2023-04-01,Cagliari,Sudtirol,1-1
+2023-04-01,Spal,Ternana,1-1
+2023-04-01,Ascoli,Brescia,4-3
+2023-04-01,Venezia,como,3-2
+2023-04-01,Parma,Palermo,2-1
+2023-04-01,Cosenza,Pisa,1-0
+2023-04-01,Bari,Benevento,2-0
+2023-04-01,Perugia,Frosinone,1-1
+2023-04-02,Modena,Cittadella,0-0
+2023-04-05,Perugia,Reggina,1-3
+2023-04-10,Benevento,Spal,1-3
+2023-04-10,Cittadella,Parma,0-1
+2023-04-10,Frosinone,Ascoli,2-0
+2023-04-10,Brescia,Ternana,1-0
+2023-04-10,Perugia,Modena,0-1
+2023-04-10,como,Genoa,2-2
+2023-04-10,Sudtirol,Bari,0-1
+2023-04-10,Reggina,Venezia,1-0
+2023-04-10,Pisa,Cagliari,0-0
+2023-04-10,Palermo,Cosenza,0-0
+2023-04-14,Modena,Parma,1-1
+2023-04-15,Spal,Brescia,2-2
+2023-04-15,Genoa,Perugia,2-0
+2023-04-15,Benevento,Reggina,1-1
+2023-04-15,Ascoli,Sudtirol,1-0
+2023-04-15,Bari,como,2-2
+2023-04-15,Venezia,Palermo,3-2
+2023-04-15,Cosenza,Cittadella,1-1
+2023-04-15,Cagliari,Frosinone,0-0
+2023-04-16,Ternana,Pisa,2-1
+2023-04-21,Reggina,Brescia,1-2
+2023-04-22,Cittadella,Genoa,0-1
+2023-04-22,Frosinone,Sudtirol,0-0
+2023-04-22,Parma,Cagliari,2-1
+2023-04-22,Perugia,Cosenza,0-0
+2023-04-22,como,Ascoli,1-1
+2023-04-22,Modena,Spal,0-0
+2023-04-22,Palermo,Benevento,1-1
+2023-04-23,Ternana,Venezia,1-4
+2023-04-23,Pisa,Bari,1-2
+2023-04-30,Cagliari,Ternana,2-1
+2023-04-30,Spal,Perugia,1-1
+2023-05-01,como,Palermo,1-1
+2023-05-01,Benevento,Parma,2-2
+2023-05-01,Ascoli,Pisa,2-1
+2023-05-01,Bari,Cittadella,1-1
+2023-05-01,Brescia,Cosenza,2-1
+2023-05-01,Sudtirol,Genoa,0-0
+2023-05-01,Venezia,Modena,5-0
+2023-05-01,Frosinone,Reggina,3-1
+2023-05-05,Perugia,Cagliari,0-5
+2023-05-06,Genoa,Ascoli,2-1
+2023-05-06,Cittadella,Benevento,3-1
+2023-05-06,Ternana,Sudtirol,0-1
+2023-05-06,Pisa,Frosinone,1-3
+2023-05-06,Modena,Bari,1-1
+2023-05-06,Reggina,como,2-1
+2023-05-06,Cosenza,Venezia,1-1
+2023-05-06,Palermo,Spal,2-1
+2023-05-07,Parma,Brescia,2-0
+2023-05-13,Cagliari,Palermo,2-1
+2023-05-13,Spal,Parma,0-1
+2023-05-13,Benevento,Modena,2-1
+2023-05-13,Ascoli,Cosenza,1-1
+2023-05-13,Bari,Reggina,1-0
+2023-05-13,Venezia,Perugia,3-2
+2023-05-13,Brescia,Pisa,1-1
+2023-05-13,como,Ternana,3-1
+2023-05-13,Sudtirol,Cittadella,1-1
+2023-05-13,Frosinone,Genoa,3-2
+2023-05-19,Genoa,Bari,4-3
+2023-05-19,Cittadella,como,0-0
+2023-05-19,Ternana,Frosinone,2-3
+2023-05-19,Palermo,Brescia,2-2
+2023-05-19,Parma,Venezia,2-1
+2023-05-19,Perugia,Benevento,3-2
+2023-05-19,Pisa,Spal,1-2
+2023-05-19,Modena,Sudtirol,2-1
+2023-05-19,Reggina,Ascoli,1-0
+2023-05-19,Cosenza,Cagliari,0-1
+2023-05-25,Cosenza,Brescia,1-0
+2023-05-26,Sudtirol,Reggina,1-0
+2023-05-27,Cagliari,Venezia,2-1
+2023-05-29,Sudtirol,Bari,1-0
+2023-05-30,Cagliari,Parma,3-2
+2023-06-01,Brescia,Cosenza,1-1
+2023-06-02,Bari,Sudtirol,1-0
+2023-06-03,Parma,Cagliari,0-0
+2023-06-08,Cagliari,Bari,1-1
+2023-06-11,Bari,Cagliari,0-1
+2023-08-18,Bari,Palermo,0-0
+2023-08-19,Ternana,Sampdoria,1-2
+2023-08-19,Cremonese,Catanzaro,0-0
+2023-08-19,Cosenza,Ascoli,3-0
+2023-08-20,Sudtirol,Spezia,3-3
+2023-08-20,Cittadella,Reggiana,1-0
+2023-08-20,Venezia,como,3-0
+2023-08-20,Parma,Feralpisalo,2-0
+2023-08-25,Sampdoria,Pisa,0-2
+2023-08-26,Venezia,Cosenza,1-1
+2023-08-26,Cremonese,Bari,0-1
+2023-08-26,Parma,Cittadella,2-0
+2023-08-26,Feralpisalo,Sudtirol,0-2
+2023-08-26,como,Reggiana,2-2
+2023-08-26,Modena,Ascoli,1-0
+2023-08-27,Catanzaro,Ternana,2-1
+2023-08-29,Ascoli,Feralpisalo,3-0
+2023-08-29,Pisa,Parma,1-2
+2023-08-29,Reggiana,Palermo,1-3
+2023-08-29,Cosenza,Modena,1-2
+2023-08-30,Sampdoria,Venezia,1-2
+2023-08-30,Bari,Cittadella,1-1
+2023-08-30,Ternana,Cremonese,0-1
+2023-08-30,Catanzaro,Spezia,3-0
+2023-09-02,Palermo,Feralpisalo,3-0
+2023-09-02,Parma,Reggiana,0-0
+2023-09-02,Modena,Pisa,2-0
+2023-09-02,Sudtirol,Ascoli,3-1
+2023-09-03,Brescia,Cosenza,1-0
+2023-09-03,Spezia,como,0-1
+2023-09-03,Ternana,Bari,0-0
+2023-09-03,Cremonese,Sampdoria,1-1
+2023-09-03,Lecco,Catanzaro,3-4
+2023-09-03,Cittadella,Venezia,0-0
+2023-09-15,Venezia,Spezia,1-0
+2023-09-16,Ascoli,Palermo,0-1
+2023-09-16,Pisa,Bari,1-1
+2023-09-16,Feralpisalo,Modena,1-1
+2023-09-16,Lecco,Brescia,0-2
+2023-09-16,Cosenza,Sudtirol,2-2
+2023-09-16,Reggiana,Cremonese,2-2
+2023-09-17,como,Ternana,2-1
+2023-09-17,Catanzaro,Parma,0-5
+2023-09-18,Sampdoria,Cittadella,1-2
+2023-09-22,Palermo,Cosenza,0-1
+2023-09-23,Ternana,Sudtirol,1-1
+2023-09-23,Brescia,Venezia,0-0
+2023-09-23,Cremonese,Ascoli,2-2
+2023-09-23,Feralpisalo,Pisa,0-1
+2023-09-23,Modena,Lecco,0-0
+2023-09-23,Spezia,Reggiana,1-2
+2023-09-24,Bari,Catanzaro,2-2
+2023-09-24,Cittadella,como,0-3
+2023-09-24,Parma,Sampdoria,1-1
+2023-09-26,Lecco,Feralpisalo,1-2
+2023-09-26,Cosenza,Cremonese,1-2
+2023-09-26,Ascoli,Ternana,2-0
+2023-09-26,Spezia,Brescia,0-0
+2023-09-26,Venezia,Palermo,1-3
+2023-09-26,Reggiana,Pisa,0-0
+2023-09-26,Sudtirol,Modena,0-0
+2023-09-27,Parma,Bari,2-1
+2023-09-27,como,Sampdoria,1-0
+2023-09-27,Catanzaro,Cittadella,1-1
+2023-09-30,Brescia,Ascoli,1-1
+2023-09-30,Pisa,Cosenza,1-2
+2023-09-30,Feralpisalo,Spezia,1-2
+2023-09-30,Modena,Venezia,1-3
+2023-09-30,Ternana,Reggiana,3-0
+2023-10-01,Sampdoria,Catanzaro,1-2
+2023-10-01,Bari,como,1-1
+2023-10-01,Cittadella,Lecco,2-1
+2023-10-01,Palermo,Sudtirol,2-1
+2023-10-01,Cremonese,Parma,1-2
+2023-10-06,Brescia,Feralpisalo,1-1
+2023-10-07,Reggiana,Bari,1-1
+2023-10-07,Modena,Palermo,0-2
+2023-10-07,Sudtirol,Catanzaro,0-1
+2023-10-07,Cosenza,Lecco,3-0
+2023-10-07,Ascoli,Sampdoria,1-1
+2023-10-07,Cittadella,Ternana,2-2
+2023-10-07,Venezia,Parma,3-2
+2023-10-08,Spezia,Pisa,0-0
+2023-10-08,como,Cremonese,1-3
+2023-10-20,Parma,como,2-1
+2023-10-21,Bari,Modena,1-1
+2023-10-21,Ternana,Brescia,0-1
+2023-10-21,Cremonese,Sudtirol,0-1
+2023-10-21,Pisa,Cittadella,2-1
+2023-10-21,Lecco,Ascoli,0-2
+2023-10-21,Catanzaro,Feralpisalo,3-0
+2023-10-22,Sampdoria,Cosenza,2-0
+2023-10-22,Reggiana,Venezia,1-0
+2023-10-23,Palermo,Spezia,2-2
+2023-10-24,Brescia,Modena,0-1
+2023-10-24,Pisa,Lecco,1-2
+2023-10-27,Cittadella,Cremonese,1-2
+2023-10-28,Spezia,Cosenza,0-0
+2023-10-28,Feralpisalo,Reggiana,0-3
+2023-10-28,como,Catanzaro,1-0
+2023-10-28,Sudtirol,Sampdoria,3-1
+2023-10-28,Ascoli,Parma,1-3
+2023-10-29,Venezia,Pisa,2-1
+2023-10-29,Brescia,Bari,1-2
+2023-10-29,Palermo,Lecco,1-2
+2023-10-29,Modena,Ternana,2-1
+2023-11-04,Bari,Ascoli,1-0
+2023-11-04,Cittadella,Brescia,3-2
+2023-11-04,Ternana,Venezia,0-1
+2023-11-04,Pisa,como,1-1
+2023-11-04,Catanzaro,Modena,1-2
+2023-11-04,Cosenza,Feralpisalo,1-1
+2023-11-04,Sampdoria,Palermo,1-0
+2023-11-05,Cremonese,Spezia,3-0
+2023-11-05,Parma,Sudtirol,2-0
+2023-11-05,Reggiana,Lecco,1-1
+2023-11-08,Palermo,Brescia,1-0
+2023-11-08,Lecco,Spezia,0-0
+2023-11-10,Venezia,Catanzaro,2-1
+2023-11-11,Ascoli,como,0-1
+2023-11-11,Feralpisalo,Bari,3-3
+2023-11-11,Sudtirol,Pisa,1-2
+2023-11-11,Cosenza,Reggiana,2-0
+2023-11-11,Modena,Sampdoria,0-2
+2023-11-12,Spezia,Ternana,2-2
+2023-11-12,Brescia,Cremonese,0-3
+2023-11-12,Palermo,Cittadella,0-1
+2023-11-12,Lecco,Parma,3-2
+2023-11-24,Sampdoria,Spezia,2-1
+2023-11-25,Bari,Venezia,0-3
+2023-11-25,Cittadella,Sudtirol,2-1
+2023-11-25,Cremonese,Lecco,1-0
+2023-11-25,Parma,Modena,1-1
+2023-11-25,Reggiana,Ascoli,1-1
+2023-11-25,como,Feralpisalo,2-1
+2023-11-25,Pisa,Brescia,1-1
+2023-11-26,Ternana,Palermo,1-1
+2023-11-26,Catanzaro,Cosenza,2-0
+2023-11-28,como,Lecco,0-0
+2023-11-28,Sudtirol,Brescia,1-1
+2023-12-01,Palermo,Catanzaro,1-2
+2023-12-02,Venezia,Ascoli,3-1
+2023-12-02,Pisa,Cremonese,0-0
+2023-12-02,Feralpisalo,Cittadella,0-1
+2023-12-02,Modena,Reggiana,2-1
+2023-12-02,Cosenza,Ternana,1-3
+2023-12-02,Spezia,Parma,0-1
+2023-12-03,Brescia,Sampdoria,3-1
+2023-12-03,Sudtirol,como,0-1
+2023-12-03,Lecco,Bari,1-0
+2023-12-09,Sampdoria,Lecco,2-0
+2023-12-09,Ascoli,Spezia,1-2
+2023-12-09,Bari,Sudtirol,2-1
+2023-12-09,Cittadella,Cosenza,2-0
+2023-12-09,Ternana,Feralpisalo,2-1
+2023-12-09,Cremonese,Venezia,1-0
+2023-12-09,Catanzaro,Pisa,2-0
+2023-12-10,Parma,Palermo,3-3
+2023-12-10,Reggiana,Brescia,1-1
+2023-12-10,como,Modena,2-1
+2023-12-15,Spezia,Bari,1-0
+2023-12-16,Venezia,Sudtirol,2-3
+2023-12-16,Brescia,como,2-0
+2023-12-16,Reggiana,Sampdoria,1-2
+2023-12-16,Feralpisalo,Cremonese,1-0
+2023-12-16,Modena,Cittadella,1-1
+2023-12-16,Ascoli,Catanzaro,1-0
+2023-12-16,Palermo,Pisa,3-2
+2023-12-16,Cosenza,Parma,0-0
+2023-12-17,Lecco,Ternana,2-3
+2023-12-23,Cittadella,Spezia,4-1
+2023-12-23,Venezia,Lecco,2-2
+2023-12-23,Cremonese,Modena,4-0
+2023-12-23,Parma,Ternana,3-1
+2023-12-23,como,Palermo,3-3
+2023-12-23,Catanzaro,Brescia,2-3
+2023-12-23,Sampdoria,Feralpisalo,2-3
+2023-12-23,Bari,Cosenza,0-0
+2023-12-23,Pisa,Ascoli,1-0
+2023-12-23,Sudtirol,Reggiana,2-3
+2023-12-26,Reggiana,Catanzaro,1-0
+2023-12-26,Ascoli,Cittadella,0-0
+2023-12-26,Spezia,Modena,1-1
+2023-12-26,Ternana,Pisa,1-1
+2023-12-26,Brescia,Parma,0-2
+2023-12-26,Feralpisalo,Venezia,2-2
+2023-12-26,Lecco,Sudtirol,2-1
+2023-12-26,Cosenza,como,1-2
+2023-12-26,Palermo,Cremonese,3-2
+2023-12-26,Sampdoria,Bari,1-1
+2024-01-12,Catanzaro,Lecco,5-3
+2024-01-13,Bari,Ternana,3-1
+2024-01-13,Cittadella,Palermo,2-0
+2024-01-13,como,Spezia,4-0
+2024-01-13,Modena,Brescia,1-2
+2024-01-13,Sudtirol,Feralpisalo,1-0
+2024-01-13,Pisa,Reggiana,2-2
+2024-01-14,Venezia,Sampdoria,5-3
+2024-01-14,Cremonese,Cosenza,1-0
+2024-01-14,Parma,Ascoli,1-1
+2024-01-19,Sampdoria,Parma,0-3
+2024-01-20,Spezia,Cremonese,0-1
+2024-01-20,Ternana,Cittadella,3-1
+2024-01-20,Brescia,Sudtirol,1-1
+2024-01-20,Reggiana,como,2-2
+2024-01-20,Feralpisalo,Catanzaro,3-0
+2024-01-20,Palermo,Modena,4-2
+2024-01-20,Lecco,Pisa,1-3
+2024-01-20,Cosenza,Venezia,4-2
+2024-01-21,Ascoli,Bari,2-2
+2024-01-26,Catanzaro,Palermo,1-1
+2024-01-27,Venezia,Ternana,1-0
+2024-01-27,Cremonese,Brescia,1-0
+2024-01-27,como,Ascoli,0-2
+2024-01-27,Modena,Parma,3-0
+2024-01-27,Sudtirol,Cosenza,0-1
+2024-01-27,Bari,Reggiana,0-2
+2024-01-27,Pisa,Spezia,2-3
+2024-01-27,Feralpisalo,Lecco,5-1
+2024-01-28,Cittadella,Sampdoria,1-2
+2024-02-02,Palermo,Bari,3-0
+2024-02-03,Spezia,Catanzaro,1-1
+2024-02-03,Brescia,Cittadella,2-0
+2024-02-03,Parma,Venezia,2-1
+2024-02-03,Reggiana,Feralpisalo,1-1
+2024-02-03,Cosenza,Pisa,1-1
+2024-02-03,Sampdoria,Modena,2-2
+2024-02-03,Ternana,como,0-1
+2024-02-03,Lecco,Cremonese,0-1
+2024-02-04,Ascoli,Sudtirol,1-2
+2024-02-09,como,Brescia,1-0
+2024-02-10,Cittadella,Parma,1-2
+2024-02-10,Cremonese,Reggiana,1-1
+2024-02-10,Feralpisalo,Palermo,1-2
+2024-02-10,Modena,Cosenza,1-1
+2024-02-10,Sudtirol,Venezia,0-3
+2024-02-10,Bari,Lecco,3-1
+2024-02-10,Pisa,Sampdoria,2-0
+2024-02-10,Catanzaro,Ascoli,3-2
+2024-02-11,Ternana,Spezia,1-1
+2024-02-16,Ascoli,Cremonese,0-0
+2024-02-17,Bari,Feralpisalo,1-0
+2024-02-17,Spezia,Cittadella,4-2
+2024-02-17,Parma,Pisa,3-2
+2024-02-17,Reggiana,Ternana,0-2
+2024-02-17,Lecco,Cosenza,1-3
+2024-02-17,Sampdoria,Brescia,1-1
+2024-02-17,Palermo,como,3-0
+2024-02-17,Catanzaro,Sudtirol,2-2
+2024-02-18,Venezia,Modena,2-2
+2024-02-23,Cosenza,Sampdoria,1-2
+2024-02-24,Cittadella,Catanzaro,1-2
+2024-02-24,Brescia,Reggiana,0-0
+2024-02-24,Cremonese,Palermo,2-2
+2024-02-24,Feralpisalo,Ascoli,0-1
+2024-02-24,Sudtirol,Bari,1-0
+2024-02-24,Ternana,Lecco,0-0
+2024-02-24,Pisa,Venezia,1-2
+2024-02-24,como,Parma,1-1
+2024-02-25,Modena,Spezia,0-0
+2024-02-27,Ascoli,Brescia,1-1
+2024-02-27,Reggiana,Sudtirol,1-1
+2024-02-27,Sampdoria,Cremonese,1-2
+2024-02-27,Palermo,Ternana,2-3
+2024-02-27,Parma,Cosenza,1-1
+2024-02-27,Catanzaro,Bari,2-0
+2024-02-27,Lecco,como,0-3
+2024-02-28,Spezia,Feralpisalo,0-2
+2024-02-28,Venezia,Cittadella,2-0
+2024-02-28,Pisa,Modena,2-2
+2024-03-02,Ternana,Parma,1-3
+2024-03-02,Brescia,Palermo,4-2
+2024-03-02,Sudtirol,Lecco,1-0
+2024-03-03,Ascoli,Reggiana,0-0
+2024-03-03,Bari,Spezia,1-1
+2024-03-03,Cittadella,Pisa,0-1
+2024-03-03,Feralpisalo,Sampdoria,1-3
+2024-03-03,como,Venezia,2-1
+2024-03-03,Cosenza,Catanzaro,0-2
+2024-03-03,Modena,Cremonese,0-1
+2024-03-08,Parma,Brescia,2-1
+2024-03-09,Spezia,Sudtirol,2-1
+2024-03-09,Modena,Feralpisalo,2-3
+2024-03-09,Cosenza,Cittadella,0-0
+2024-03-09,Cremonese,como,2-1
+2024-03-09,Pisa,Ternana,1-0
+2024-03-09,Catanzaro,Reggiana,0-1
+2024-03-10,Venezia,Bari,3-1
+2024-03-10,Lecco,Palermo,0-1
+2024-03-11,Sampdoria,Ascoli,2-1
+2024-03-15,Palermo,Venezia,0-3
+2024-03-16,Ternana,Cosenza,1-0
+2024-03-16,Brescia,Catanzaro,1-1
+2024-03-16,Feralpisalo,Parma,1-2
+2024-03-16,como,Pisa,3-1
+2024-03-16,Sudtirol,Cremonese,3-0
+2024-03-16,Bari,Sampdoria,0-1
+2024-03-16,Cittadella,Modena,1-1
+2024-03-16,Reggiana,Spezia,0-0
+2024-03-17,Ascoli,Lecco,4-1
+2024-04-01,Modena,Bari,1-1
+2024-04-01,Spezia,Ascoli,2-1
+2024-04-01,Venezia,Reggiana,2-3
+2024-04-01,Parma,Catanzaro,0-2
+2024-04-01,Pisa,Palermo,4-3
+2024-04-01,como,Sudtirol,2-0
+2024-04-01,Lecco,Cittadella,1-1
+2024-04-01,Cosenza,Brescia,1-2
+2024-04-01,Cremonese,Feralpisalo,0-1
+2024-04-01,Sampdoria,Ternana,4-1
+2024-04-05,Bari,Cremonese,1-2
+2024-04-06,Spezia,Lecco,1-1
+2024-04-06,Ternana,Modena,0-0
+2024-04-06,Brescia,Pisa,3-1
+2024-04-06,Feralpisalo,Cosenza,2-2
+2024-04-06,Sudtirol,Parma,0-0
+2024-04-06,Palermo,Sampdoria,2-2
+2024-04-06,Reggiana,Cittadella,0-2
+2024-04-06,Catanzaro,como,1-2
+2024-04-07,Ascoli,Venezia,0-0
+2024-04-12,Modena,Catanzaro,1-3
+2024-04-13,Sampdoria,Sudtirol,0-1
+2024-04-13,Cittadella,Ascoli,0-0
+2024-04-13,Cremonese,Ternana,1-2
+2024-04-13,Pisa,Feralpisalo,3-1
+2024-04-13,como,Bari,2-1
+2024-04-13,Parma,Spezia,2-0
+2024-04-13,Lecco,Reggiana,1-0
+2024-04-13,Cosenza,Palermo,1-1
+2024-04-14,Venezia,Brescia,2-0
+2024-04-19,Palermo,Parma,0-0
+2024-04-19,Reggiana,Cosenza,0-4
+2024-04-20,Ascoli,Modena,0-0
+2024-04-20,Bari,Pisa,1-1
+2024-04-20,Brescia,Ternana,0-0
+2024-04-20,Feralpisalo,como,2-5
+2024-04-20,Spezia,Sampdoria,0-0
+2024-04-20,Sudtirol,Cittadella,0-0
+2024-04-20,Catanzaro,Cremonese,0-0
+2024-04-20,Lecco,Venezia,1-2
+2024-04-26,Venezia,Cremonese,2-1
+2024-04-26,Pisa,Catanzaro,2-2
+2024-04-27,Ternana,Ascoli,0-1
+2024-04-27,Brescia,Spezia,0-0
+2024-04-27,Parma,Lecco,4-0
+2024-04-27,Modena,Sudtirol,1-0
+2024-04-27,Sampdoria,como,1-1
+2024-04-27,Cittadella,Feralpisalo,1-1
+2024-04-27,Palermo,Reggiana,1-2
+2024-04-27,Cosenza,Bari,4-1
+2024-05-01,Cremonese,Pisa,2-1
+2024-05-01,Ascoli,Cosenza,0-1
+2024-05-01,Spezia,Palermo,1-0
+2024-05-01,como,Cittadella,2-1
+2024-05-01,Sudtirol,Ternana,4-3
+2024-05-01,Catanzaro,Venezia,3-2
+2024-05-01,Bari,Parma,1-1
+2024-05-01,Reggiana,Modena,1-0
+2024-05-01,Feralpisalo,Brescia,2-2
+2024-05-01,Lecco,Sampdoria,0-1
+2024-05-05,Sampdoria,Reggiana,1-0
+2024-05-05,Cittadella,Bari,1-1
+2024-05-05,Ternana,Catanzaro,1-0
+2024-05-05,Venezia,Feralpisalo,2-1
+2024-05-05,Brescia,Lecco,4-1
+2024-05-05,Palermo,Ascoli,2-2
+2024-05-05,Parma,Cremonese,1-1
+2024-05-05,Pisa,Sudtirol,2-2
+2024-05-05,Modena,como,0-0
+2024-05-05,Cosenza,Spezia,2-2
+2024-05-10,Ascoli,Pisa,2-1
+2024-05-10,Bari,Brescia,2-0
+2024-05-10,Spezia,Venezia,2-1
+2024-05-10,Cremonese,Cittadella,3-0
+2024-05-10,Reggiana,Parma,1-1
+2024-05-10,Feralpisalo,Ternana,0-1
+2024-05-10,como,Cosenza,1-1
+2024-05-10,Sudtirol,Palermo,0-1
+2024-05-10,Catanzaro,Sampdoria,1-3
+2024-05-10,Lecco,Modena,2-3
+2024-05-16,Bari,Ternana,1-1
+2024-05-17,Palermo,Sampdoria,2-0
+2024-05-18,Catanzaro,Brescia,4-2
+2024-05-20,Palermo,Venezia,0-1
+2024-05-21,Catanzaro,Cremonese,2-2
+2024-05-23,Ternana,Bari,0-3
+2024-05-24,Venezia,Palermo,2-1
+2024-05-25,Cremonese,Catanzaro,4-1
+2024-05-30,Cremonese,Venezia,0-0
+2024-06-02,Venezia,Cremonese,1-0
+2024-08-16,Brescia,Palermo,1-0
+2024-08-17,Bari,Juve Stabia,1-3
+2024-08-17,Salernitana,Cittadella,2-1
+2024-08-17,Pisa,Spezia,2-2
+2024-08-17,Sudtirol,Modena,2-1
+2024-08-18,Cesena,Carrarese,2-1
+2024-08-18,Frosinone,Sampdoria,2-2
+2024-08-18,Reggiana,Mantova,2-2
+2024-08-18,Catanzaro,Sassuolo,1-1
+2024-08-18,Cosenza,Cremonese,1-0
+2024-08-23,Modena,Bari,2-1
+2024-08-24,Sudtirol,Salernitana,3-2
+2024-08-24,Sassuolo,Cesena,2-1
+2024-08-24,Sampdoria,Reggiana,0-1
+2024-08-24,Spezia,Frosinone,2-1
+2024-08-24,Brescia,Cittadella,0-1
+2024-08-24,Cremonese,Carrarese,1-0
+2024-08-24,Pisa,Palermo,2-0
+2024-08-25,Catanzaro,Juve Stabia,0-0
+2024-08-25,Mantova,Cosenza,3-2
+2024-08-27,Bari,Sassuolo,1-1
+2024-08-27,Cittadella,Pisa,1-1
+2024-08-27,Frosinone,Modena,1-1
+2024-08-27,Salernitana,Sampdoria,3-2
+2024-08-27,Cremonese,Palermo,0-1
+2024-08-27,Reggiana,Brescia,2-0
+2024-08-27,Carrarese,Sudtirol,2-0
+2024-08-28,Cesena,Catanzaro,2-0
+2024-08-28,Juve Stabia,Mantova,1-0
+2024-08-28,Cosenza,Spezia,0-0
+2024-08-31,Sampdoria,Bari,0-0
+2024-08-31,Sassuolo,Cremonese,1-4
+2024-08-31,Pisa,Reggiana,2-1
+2024-08-31,Modena,Cittadella,0-1
+2024-08-31,Sudtirol,Brescia,1-2
+2024-09-01,Frosinone,Juve Stabia,0-0
+2024-09-01,Spezia,Cesena,2-1
+2024-09-01,Palermo,Cosenza,1-1
+2024-09-01,Catanzaro,Carrarese,3-1
+2024-09-01,Mantova,Salernitana,1-0
+2024-09-13,Cesena,Modena,2-2
+2024-09-14,Bari,Mantova,2-0
+2024-09-14,Cittadella,Catanzaro,0-0
+2024-09-14,Brescia,Frosinone,4-0
+2024-09-14,Cremonese,Spezia,1-1
+2024-09-14,Juve Stabia,Palermo,1-3
+2024-09-15,Salernitana,Pisa,2-3
+2024-09-15,Reggiana,Sudtirol,1-3
+2024-09-15,Carrarese,Sassuolo,0-2
+2024-09-15,Cosenza,Sampdoria,2-1
+2024-09-20,Catanzaro,Cremonese,1-2
+2024-09-21,Sampdoria,Sudtirol,1-0
+2024-09-21,Palermo,Cesena,0-0
+2024-09-21,Pisa,Brescia,2-1
+2024-09-21,Reggiana,Salernitana,0-0
+2024-09-21,Cosenza,Sassuolo,0-1
+2024-09-21,Modena,Juve Stabia,3-0
+2024-09-22,Frosinone,Bari,0-3
+2024-09-22,Spezia,Carrarese,4-2
+2024-09-22,Mantova,Cittadella,1-0
+2024-09-27,Cittadella,Frosinone,1-2
+2024-09-28,Sassuolo,Spezia,0-0
+2024-09-28,Bari,Cosenza,1-1
+2024-09-28,Carrarese,Reggiana,0-0
+2024-09-29,Cesena,Mantova,4-2
+2024-09-29,Salernitana,Catanzaro,0-0
+2024-09-29,Juve Stabia,Pisa,2-0
+2024-09-29,Modena,Sampdoria,1-3
+2024-09-30,Sudtirol,Palermo,1-3
+2024-09-30,Brescia,Cremonese,3-2
+2024-10-04,Sampdoria,Juve Stabia,1-2
+2024-10-05,Sassuolo,Cittadella,6-1
+2024-10-05,Frosinone,Carrarese,0-1
+2024-10-05,Spezia,Reggiana,1-0
+2024-10-05,Pisa,Cesena,3-1
+2024-10-06,Cremonese,Bari,1-1
+2024-10-06,Palermo,Salernitana,0-1
+2024-10-06,Catanzaro,Modena,2-2
+2024-10-06,Mantova,Brescia,1-1
+2024-10-06,Cosenza,Sudtirol,0-2
+2024-10-18,Bari,Catanzaro,1-1
+2024-10-19,Cittadella,Cosenza,0-0
+2024-10-19,Salernitana,Spezia,0-2
+2024-10-19,Modena,Palermo,2-2
+2024-10-19,Sudtirol,Pisa,1-2
+2024-10-19,Brescia,Sassuolo,2-5
+2024-10-20,Juve Stabia,Cremonese,1-2
+2024-10-20,Reggiana,Frosinone,2-0
+2024-10-20,Carrarese,Mantova,1-1
+2024-10-20,Cesena,Sampdoria,3-5
+2024-10-25,Spezia,Bari,0-0
+2024-10-26,Cesena,Brescia,2-0
+2024-10-26,Cremonese,Salernitana,2-1
+2024-10-26,Palermo,Reggiana,2-0
+2024-10-26,Cosenza,Juve Stabia,1-1
+2024-10-26,Sassuolo,Modena,2-0
+2024-10-26,Carrarese,Cittadella,3-0
+2024-10-27,Sampdoria,Mantova,1-0
+2024-10-27,Frosinone,Pisa,0-0
+2024-10-27,Catanzaro,Sudtirol,3-0
+2024-10-29,Bari,Carrarese,0-0
+2024-10-29,Salernitana,Cesena,1-1
+2024-10-29,Brescia,Spezia,1-1
+2024-10-29,Juve Stabia,Sassuolo,2-2
+2024-10-29,Reggiana,Cosenza,0-1
+2024-10-29,Modena,Cremonese,2-2
+2024-10-30,Sudtirol,Frosinone,1-1
+2024-10-30,Cittadella,Sampdoria,0-0
+2024-10-30,Pisa,Catanzaro,0-0
+2024-10-30,Mantova,Palermo,0-0
+2024-11-02,Bari,Reggiana,2-2
+2024-11-02,Spezia,Modena,1-0
+2024-11-02,Carrarese,Juve Stabia,0-0
+2024-11-03,Cesena,Sudtirol,1-0
+2024-11-03,Cremonese,Pisa,1-3
+2024-11-03,Palermo,Cittadella,0-1
+2024-11-03,Catanzaro,Frosinone,0-0
+2024-11-03,Cosenza,Salernitana,1-1
+2024-11-03,Sassuolo,Mantova,1-0
+2024-11-03,Sampdoria,Brescia,0-1
+2024-11-08,Frosinone,Palermo,1-1
+2024-11-09,Brescia,Cosenza,2-3
+2024-11-09,Pisa,Sampdoria,3-0
+2024-11-09,Modena,Carrarese,2-0
+2024-11-09,Sudtirol,Sassuolo,0-1
+2024-11-09,Mantova,Cremonese,1-0
+2024-11-10,Cittadella,Cesena,0-2
+2024-11-10,Juve Stabia,Spezia,0-3
+2024-11-10,Reggiana,Catanzaro,2-2
+2024-11-10,Salernitana,Bari,0-2
+2024-11-22,Cosenza,Modena,1-1
+2024-11-23,Sassuolo,Salernitana,4-0
+2024-11-23,Juve Stabia,Brescia,0-0
+2024-11-23,Carrarese,Pisa,1-0
+2024-11-23,Catanzaro,Mantova,2-2
+2024-11-23,Cesena,Reggiana,1-1
+2024-11-24,Bari,Cittadella,3-2
+2024-11-24,Spezia,Sudtirol,3-0
+2024-11-24,Cremonese,Frosinone,1-0
+2024-11-24,Palermo,Sampdoria,1-1
+2024-11-29,Reggiana,Sassuolo,0-2
+2024-11-30,Sampdoria,Catanzaro,3-3
+2024-11-30,Cittadella,Juve Stabia,2-2
+2024-11-30,Brescia,Bari,1-1
+2024-11-30,Sudtirol,Cremonese,0-4
+2024-11-30,Mantova,Modena,0-0
+2024-12-01,Frosinone,Cesena,3-2
+2024-12-01,Palermo,Spezia,2-0
+2024-12-01,Pisa,Cosenza,2-2
+2024-12-01,Salernitana,Carrarese,4-1
+2024-12-06,Juve Stabia,Sudtirol,2-1
+2024-12-07,Bari,Cesena,1-0
+2024-12-07,Modena,Salernitana,1-1
+2024-12-07,Carrarese,Palermo,1-0
+2024-12-07,Mantova,Pisa,2-3
+2024-12-07,Cosenza,Frosinone,0-1
+2024-12-08,Spezia,Cittadella,5-0
+2024-12-08,Cremonese,Reggiana,0-2
+2024-12-08,Catanzaro,Brescia,2-1
+2024-12-08,Sassuolo,Sampdoria,5-1
+2024-12-13,Pisa,Bari,2-0
+2024-12-14,Cesena,Cosenza,2-1
+2024-12-14,Frosinone,Sassuolo,1-2
+2024-12-14,Reggiana,Modena,0-1
+2024-12-14,Sudtirol,Mantova,2-2
+2024-12-14,Sampdoria,Spezia,0-0
+2024-12-15,Cittadella,Cremonese,0-0
+2024-12-15,Brescia,Carrarese,0-0
+2024-12-15,Palermo,Catanzaro,1-2
+2024-12-15,Salernitana,Juve Stabia,1-2
+2024-12-20,Salernitana,Brescia,0-0
+2024-12-21,Sassuolo,Palermo,2-1
+2024-12-21,Bari,Sudtirol,0-1
+2024-12-21,Carrarese,Cosenza,1-0
+2024-12-21,Mantova,Frosinone,3-1
+2024-12-21,Cittadella,Reggiana,3-1
+2024-12-21,Modena,Pisa,1-0
+2024-12-21,Catanzaro,Spezia,0-1
+2024-12-22,Juve Stabia,Cesena,1-0
+2024-12-22,Cremonese,Sampdoria,1-1
+2024-12-26,Pisa,Sassuolo,3-1
+2024-12-26,Cesena,Cremonese,0-1
+2024-12-26,Frosinone,Salernitana,2-0
+2024-12-26,Spezia,Mantova,1-1
+2024-12-26,Brescia,Modena,3-3
+2024-12-26,Reggiana,Juve Stabia,2-1
+2024-12-26,Sudtirol,Cittadella,1-2
+2024-12-26,Cosenza,Catanzaro,1-1
+2024-12-26,Palermo,Bari,1-0
+2024-12-26,Sampdoria,Carrarese,1-1
+2024-12-29,Cremonese,Brescia,1-1
+2024-12-29,Sassuolo,Cosenza,2-1
+2024-12-29,Bari,Spezia,2-0
+2024-12-29,Modena,Sudtirol,0-0
+2024-12-29,Carrarese,Cesena,2-0
+2024-12-29,Mantova,Reggiana,0-2
+2024-12-29,Cittadella,Palermo,2-1
+2024-12-29,Juve Stabia,Frosinone,1-1
+2024-12-29,Catanzaro,Salernitana,1-0
+2024-12-29,Sampdoria,Pisa,0-1
+2025-01-12,Salernitana,Sassuolo,1-2
+2025-01-12,Frosinone,Cremonese,0-3
+2025-01-12,Spezia,Juve Stabia,1-1
+2025-01-12,Palermo,Modena,2-0
+2025-01-12,Reggiana,Bari,0-0
+2025-01-12,Sudtirol,Catanzaro,1-1
+2025-01-12,Cosenza,Mantova,2-2
+2025-01-12,Cesena,Cittadella,0-0
+2025-01-12,Brescia,Sampdoria,1-1
+2025-01-13,Pisa,Carrarese,2-1
+2025-01-17,Sampdoria,Cesena,1-2
+2025-01-18,Cittadella,Mantova,1-2
+2025-01-18,Salernitana,Reggiana,2-1
+2025-01-18,Cremonese,Cosenza,3-1
+2025-01-18,Modena,Frosinone,1-1
+2025-01-18,Bari,Brescia,2-2
+2025-01-19,Sassuolo,Sudtirol,5-3
+2025-01-19,Palermo,Juve Stabia,1-0
+2025-01-19,Catanzaro,Pisa,0-0
+2025-01-19,Carrarese,Spezia,0-4
+2025-01-24,Spezia,Sassuolo,2-1
+2025-01-25,Cesena,Bari,1-1
+2025-01-25,Frosinone,Sudtirol,0-3
+2025-01-25,Juve Stabia,Carrarese,2-1
+2025-01-25,Cosenza,Cittadella,0-1
+2025-01-25,Mantova,Sampdoria,2-2
+2025-01-26,Brescia,Catanzaro,2-3
+2025-01-26,Pisa,Salernitana,1-0
+2025-01-26,Reggiana,Palermo,2-1
+2025-01-26,Cremonese,Modena,2-2
+2025-01-31,Palermo,Pisa,1-2
+2025-02-01,Sassuolo,Juve Stabia,2-0
+2025-02-01,Sampdoria,Cosenza,1-0
+2025-02-01,Cittadella,Spezia,0-2
+2025-02-01,Catanzaro,Cesena,4-2
+2025-02-01,Modena,Mantova,3-1
+2025-02-02,Salernitana,Cremonese,1-0
+2025-02-02,Sudtirol,Reggiana,2-0
+2025-02-02,Carrarese,Brescia,1-2
+2025-02-02,Bari,Frosinone,2-1
+2025-02-07,Brescia,Salernitana,0-0
+2025-02-08,Frosinone,Catanzaro,1-1
+2025-02-08,Pisa,Cittadella,0-1
+2025-02-08,Mantova,Sassuolo,0-3
+2025-02-08,Cosenza,Carrarese,1-0
+2025-02-08,Sampdoria,Modena,1-0
+2025-02-09,Spezia,Palermo,2-2
+2025-02-09,Cremonese,Sudtirol,3-1
+2025-02-09,Reggiana,Cesena,0-1
+2025-02-09,Juve Stabia,Bari,3-1
+2025-02-14,Catanzaro,Cittadella,1-0
+2025-02-15,Sassuolo,Brescia,2-0
+2025-02-15,Modena,Spezia,1-1
+2025-02-15,Sudtirol,Sampdoria,2-1
+2025-02-15,Carrarese,Salernitana,3-2
+2025-02-15,Bari,Cremonese,1-1
+2025-02-16,Frosinone,Reggiana,1-1
+2025-02-16,Palermo,Mantova,2-2
+2025-02-16,Juve Stabia,Cosenza,3-0
+2025-02-16,Cesena,Pisa,1-1
+2025-02-21,Sampdoria,Sassuolo,0-0
+2025-02-22,Cittadella,Modena,0-2
+2025-02-22,Pisa,Juve Stabia,3-1
+2025-02-22,Reggiana,Carrarese,2-2
+2025-02-22,Mantova,Bari,0-1
+2025-02-22,Cremonese,Cesena,1-2
+2025-02-23,Spezia,Catanzaro,0-1
+2025-02-23,Brescia,Sudtirol,0-0
+2025-02-23,Cosenza,Palermo,0-3
+2025-02-23,Salernitana,Frosinone,1-1
+2025-02-28,Sudtirol,Spezia,1-1
+2025-03-01,Cesena,Salernitana,2-0
+2025-03-01,Frosinone,Mantova,2-1
+2025-03-01,Juve Stabia,Cittadella,0-1
+2025-03-01,Carrarese,Cremonese,2-2
+2025-03-01,Sassuolo,Pisa,1-0
+2025-03-02,Palermo,Brescia,1-0
+2025-03-02,Modena,Cosenza,1-1
+2025-03-02,Catanzaro,Reggiana,1-1
+2025-03-02,Bari,Sampdoria,1-1
+2025-03-07,Cosenza,Reggiana,1-0
+2025-03-08,Salernitana,Modena,1-0
+2025-03-08,Cremonese,Catanzaro,4-0
+2025-03-08,Carrarese,Frosinone,0-1
+2025-03-08,Mantova,Juve Stabia,1-1
+2025-03-08,Sampdoria,Palermo,1-1
+2025-03-08,Brescia,Cesena,1-1
+2025-03-09,Sassuolo,Bari,1-1
+2025-03-09,Spezia,Pisa,3-2
+2025-03-09,Cittadella,Sudtirol,1-5
+2025-03-14,Palermo,Cremonese,2-3
+2025-03-15,Cesena,Spezia,0-0
+2025-03-15,Cittadella,Sassuolo,1-2
+2025-03-15,Frosinone,Brescia,2-1
+2025-03-15,Juve Stabia,Modena,2-1
+2025-03-15,Bari,Salernitana,0-0
+2025-03-16,Pisa,Mantova,3-1
+2025-03-16,Reggiana,Sampdoria,2-2
+2025-03-16,Sudtirol,Carrarese,2-2
+2025-03-16,Catanzaro,Cosenza,4-0
+2025-03-28,Spezia,Brescia,0-1
+2025-03-29,Sampdoria,Frosinone,0-3
+2025-03-29,Modena,Catanzaro,2-1
+2025-03-29,Mantova,Sudtirol,2-0
+2025-03-29,Cosenza,Pisa,0-3
+2025-03-29,Cremonese,Cittadella,2-2
+2025-03-29,Sassuolo,Reggiana,5-1
+2025-03-30,Cesena,Juve Stabia,1-2
+2025-03-30,Carrarese,Bari,2-1
+2025-03-30,Salernitana,Palermo,1-2
+2025-04-04,Reggiana,Cremonese,1-2
+2025-04-05,Cittadella,Carrarese,0-0
+2025-04-05,Frosinone,Cosenza,2-2
+2025-04-05,Brescia,Mantova,1-2
+2025-04-05,Sudtirol,Cesena,1-1
+2025-04-05,Pisa,Modena,1-2
+2025-04-05,Juve Stabia,Salernitana,1-0
+2025-04-06,Palermo,Sassuolo,5-3
+2025-04-06,Catanzaro,Bari,3-3
+2025-04-06,Spezia,Sampdoria,2-0
+2025-04-11,Bari,Palermo,2-1
+2025-04-12,Salernitana,Sudtirol,2-1
+2025-04-12,Reggiana,Pisa,0-2
+2025-04-12,Carrarese,Catanzaro,2-2
+2025-04-12,Cosenza,Brescia,1-1
+2025-04-12,Sampdoria,Cittadella,1-0
+2025-04-12,Modena,Sassuolo,1-3
+2025-04-13,Cesena,Frosinone,1-1
+2025-04-13,Cremonese,Juve Stabia,1-1
+2025-04-13,Mantova,Spezia,2-2
+2025-04-25,Frosinone,Spezia,2-2
+2025-04-25,Bari,Modena,1-2
+2025-04-25,Salernitana,Cosenza,3-1
+2025-04-25,Brescia,Pisa,1-2
+2025-04-25,Reggiana,Cittadella,2-1
+2025-04-25,Carrarese,Sampdoria,1-0
+2025-04-25,Cremonese,Mantova,4-2
+2025-04-25,Cesena,Sassuolo,0-2
+2025-04-27,Sudtirol,Juve Stabia,2-0
+2025-04-27,Catanzaro,Palermo,1-3
+2025-05-01,Juve Stabia,Catanzaro,2-0
+2025-05-01,Sampdoria,Cremonese,0-0
+2025-05-01,Spezia,Salernitana,2-0
+2025-05-01,Palermo,Sudtirol,1-2
+2025-05-01,Pisa,Frosinone,1-0
+2025-05-01,Modena,Reggiana,2-3
+2025-05-01,Mantova,Cesena,3-0
+2025-05-01,Cosenza,Bari,1-0
+2025-05-01,Cittadella,Brescia,0-1
+2025-05-01,Sassuolo,Carrarese,2-0
+2025-05-04,Bari,Pisa,1-0
+2025-05-04,Cesena,Palermo,2-1
+2025-05-04,Frosinone,Cittadella,1-1
+2025-05-04,Salernitana,Mantova,2-0
+2025-05-04,Brescia,Juve Stabia,0-0
+2025-05-04,Reggiana,Spezia,2-1
+2025-05-04,Sudtirol,Cosenza,2-1
+2025-05-04,Carrarese,Modena,2-1
+2025-05-04,Catanzaro,Sampdoria,2-2
+2025-05-04,Cremonese,Sassuolo,1-1
+2025-05-09,Sassuolo,Catanzaro,0-2
+2025-05-09,Sampdoria,Salernitana,1-0
+2025-05-09,Cittadella,Bari,3-1
+2025-05-09,Spezia,Cremonese,2-3
+2025-05-09,Palermo,Frosinone,2-0
+2025-05-09,Pisa,Sudtirol,3-3
+2025-05-09,Juve Stabia,Reggiana,1-2
+2025-05-09,Modena,Brescia,2-2
+2025-05-09,Mantova,Carrarese,2-1
+2025-05-09,Cosenza,Cesena,0-1
+2025-05-13,Sassuolo,Frosinone,0-1
+2025-05-13,Cittadella,Salernitana,0-2
+2025-05-13,Spezia,Cosenza,3-1
+2025-05-13,Brescia,Reggiana,2-1
+2025-05-13,Palermo,Carrarese,1-1
+2025-05-13,Pisa,Cremonese,2-1
+2025-05-13,Juve Stabia,Sampdoria,0-0
+2025-05-13,Modena,Cesena,0-1
+2025-05-13,Sudtirol,Bari,0-0
+2025-05-13,Mantova,Catanzaro,0-0
+2025-05-17,Catanzaro,Cesena,1-0
+2025-05-17,Juve Stabia,Palermo,1-0
+2025-05-21,Juve Stabia,Cremonese,2-1
+2025-05-21,Catanzaro,Spezia,0-2
+2025-05-25,Cremonese,Juve Stabia,3-0
+2025-05-25,Spezia,Catanzaro,2-1
+2025-05-29,Cremonese,Spezia,0-0
+2025-06-01,Spezia,Cremonese,2-3
+2025-06-15,Sampdoria,Salernitana,2-0
+2025-06-22,Salernitana,Sampdoria,0-3
+2025-08-22,Pescara,Cesena,1-3
+2025-08-23,Empoli,Padova,3-1
+2025-08-23,Virtus Entella,Juve Stabia,1-1
+2025-08-23,Palermo,Reggiana,2-1
+2025-08-23,Monza,Mantova,1-0
+2025-08-24,Spezia,Carrarese,0-2
+2025-08-24,Venezia,Bari,2-1
+2025-08-24,Frosinone,Avellino,2-0
+2025-08-24,Catanzaro,Sudtirol,1-1
+2025-08-25,Sampdoria,Modena,0-2
+2025-08-29,Reggiana,Empoli,3-1
+2025-08-30,Juve Stabia,Venezia,0-0
+2025-08-30,Mantova,Pescara,2-1
+2025-08-30,Cesena,Virtus Entella,1-1
+2025-08-30,Spezia,Catanzaro,0-0
+2025-08-30,Palermo,Frosinone,0-0
+2025-08-31,Sudtirol,Sampdoria,3-1
+2025-08-31,Carrarese,Padova,0-0
+2025-08-31,Bari,Monza,1-1
+2025-08-31,Modena,Avellino,1-1
+2025-09-12,Avellino,Monza,2-1
+2025-09-13,Pescara,Venezia,2-2
+2025-09-13,Juve Stabia,Reggiana,0-0
+2025-09-13,Padova,Frosinone,0-1
+2025-09-13,Modena,Bari,3-0
+2025-09-13,Catanzaro,Carrarese,1-1
+2025-09-13,Sampdoria,Cesena,1-2
+2025-09-14,Virtus Entella,Mantova,1-0
+2025-09-14,Sudtirol,Palermo,0-2
+2025-09-14,Empoli,Spezia,1-1
+2025-09-19,Frosinone,Sudtirol,2-2
+2025-09-19,Palermo,Bari,2-0
+2025-09-20,Spezia,Juve Stabia,1-3
+2025-09-20,Venezia,Cesena,1-2
+2025-09-20,Reggiana,Catanzaro,2-2
+2025-09-20,Monza,Sampdoria,1-0
+2025-09-20,Mantova,Modena,1-3
+2025-09-21,Carrarese,Avellino,3-4
+2025-09-21,Pescara,Empoli,4-0
+2025-09-21,Padova,Virtus Entella,2-1
+2025-09-26,Catanzaro,Juve Stabia,2-2
+2025-09-27,Cesena,Palermo,1-1
+2025-09-27,Venezia,Spezia,2-0
+2025-09-27,Avellino,Virtus Entella,2-0
+2025-09-27,Sudtirol,Reggiana,3-1
+2025-09-27,Mantova,Frosinone,1-5
+2025-09-27,Monza,Padova,0-1
+2025-09-27,Bari,Sampdoria,1-1
+2025-09-28,Modena,Pescara,2-1
+2025-09-28,Empoli,Carrarese,2-2
+2025-09-30,Frosinone,Cesena,3-1
+2025-09-30,Palermo,Venezia,0-0
+2025-09-30,Virtus Entella,Bari,2-2
+2025-09-30,Juve Stabia,Mantova,2-1
+2025-09-30,Padova,Avellino,2-2
+2025-09-30,Reggiana,Spezia,1-1
+2025-10-01,Sampdoria,Catanzaro,0-0
+2025-10-01,Empoli,Monza,1-1
+2025-10-01,Pescara,Sudtirol,1-1
+2025-10-01,Carrarese,Modena,0-0
+2025-10-04,Bari,Padova,2-1
+2025-10-04,Venezia,Frosinone,3-0
+2025-10-04,Avellino,Mantova,0-0
+2025-10-04,Monza,Catanzaro,2-1
+2025-10-04,Spezia,Palermo,1-2
+2025-10-04,Cesena,Reggiana,1-2
+2025-10-05,Sudtirol,Empoli,1-2
+2025-10-05,Carrarese,Juve Stabia,3-0
+2025-10-05,Sampdoria,Pescara,4-1
+2025-10-05,Modena,Virtus Entella,2-0
+2025-10-17,Virtus Entella,Sampdoria,3-1
+2025-10-18,Frosinone,Monza,0-1
+2025-10-18,Pescara,Carrarese,2-2
+2025-10-18,Reggiana,Bari,3-1
+2025-10-18,Mantova,Sudtirol,1-1
+2025-10-18,Juve Stabia,Avellino,2-0
+2025-10-18,Spezia,Cesena,1-2
+2025-10-19,Palermo,Modena,1-1
+2025-10-19,Empoli,Venezia,1-1
+2025-10-19,Catanzaro,Padova,0-1
+2025-10-24,Modena,Empoli,2-1
+2025-10-25,Sampdoria,Frosinone,1-1
+2025-10-25,Virtus Entella,Pescara,1-1
+2025-10-25,Avellino,Spezia,0-4
+2025-10-25,Sudtirol,Cesena,0-1
+2025-10-25,Monza,Reggiana,3-1
+2025-10-25,Carrarese,Venezia,3-2
+2025-10-25,Catanzaro,Palermo,1-0
+2025-10-26,Padova,Juve Stabia,2-2
+2025-10-26,Bari,Mantova,1-0
+2025-10-28,Cesena,Carrarese,2-1
+2025-10-28,Empoli,Sampdoria,1-1
+2025-10-28,Frosinone,Virtus Entella,4-0
+2025-10-28,Palermo,Monza,0-3
+2025-10-28,Pescara,Avellino,1-1
+2025-10-28,Reggiana,Modena,1-0
+2025-10-29,Spezia,Padova,1-1
+2025-10-29,Venezia,Sudtirol,3-0
+2025-10-29,Mantova,Catanzaro,1-3
+2025-11-01,Avellino,Reggiana,4-3
+2025-11-01,Padova,Sudtirol,1-1
+2025-11-01,Carrarese,Frosinone,0-2
+2025-11-01,Virtus Entella,Empoli,1-0
+2025-11-01,Palermo,Pescara,5-0
+2025-11-02,Bari,Cesena,1-0
+2025-11-02,Modena,Juve Stabia,3-0
+2025-11-02,Catanzaro,Venezia,2-1
+2025-11-02,Monza,Spezia,1-0
+2025-11-02,Sampdoria,Mantova,0-1
+2025-11-07,Spezia,Bari,1-1
+2025-11-08,Empoli,Catanzaro,1-0
+2025-11-08,Frosinone,Modena,2-2
+2025-11-08,Reggiana,Virtus Entella,0-0
+2025-11-08,Sudtirol,Carrarese,1-1
+2025-11-08,Mantova,Padova,1-0
+2025-11-08,Juve Stabia,Palermo,1-0
+2025-11-08,Venezia,Sampdoria,3-1
+2025-11-09,Cesena,Avellino,3-0
+2025-11-09,Pescara,Monza,0-2
+2025-11-21,Catanzaro,Pescara,3-3
+2025-11-22,Virtus Entella,Palermo,1-1
+2025-11-22,Avellino,Empoli,0-3
+2025-11-22,Carrarese,Reggiana,0-0
+2025-11-22,Padova,Venezia,0-2
+2025-11-22,Bari,Frosinone,2-3
+2025-11-23,Modena,Sudtirol,0-0
+2025-11-23,Mantova,Spezia,4-1
+2025-11-23,Monza,Cesena,1-0
+2025-11-24,Sampdoria,Juve Stabia,1-0
+2025-11-28,Cesena,Modena,1-0
+2025-11-29,Empoli,Bari,5-0
+2025-11-29,Venezia,Mantova,3-0
+2025-11-29,Pescara,Padova,0-1
+2025-11-29,Reggiana,Frosinone,0-1
+2025-11-29,Sudtirol,Avellino,0-1
+2025-11-29,Catanzaro,Virtus Entella,3-2
+2025-11-29,Palermo,Carrarese,5-0
+2025-11-30,Juve Stabia,Monza,2-2
+2025-11-30,Spezia,Sampdoria,1-0
+2025-12-04,Juve Stabia,Bari,0-0
+2025-12-07,Empoli,Palermo,1-3
+2025-12-07,Sampdoria,Carrarese,3-2
+2025-12-08,Modena,Catanzaro,1-2
+2025-12-08,Frosinone,Juve Stabia,3-0
+2025-12-08,Avellino,Venezia,1-1
+2025-12-08,Padova,Cesena,1-1
+2025-12-08,Monza,Sudtirol,1-1
+2025-12-08,Mantova,Reggiana,0-1
+2025-12-08,Bari,Pescara,1-1
+2025-12-08,Virtus Entella,Spezia,0-1
+2025-12-12,Palermo,Sampdoria,1-0
+2025-12-13,Spezia,Modena,0-2
+2025-12-13,Venezia,Monza,2-0
+2025-12-13,Juve Stabia,Empoli,2-0
+2025-12-13,Reggiana,Padova,1-2
+2025-12-13,Sudtirol,Bari,0-0
+2025-12-13,Catanzaro,Avellino,1-0
+2025-12-13,Cesena,Mantova,3-2
+2025-12-14,Carrarese,Virtus Entella,3-1
+2025-12-14,Pescara,Frosinone,1-2
+2025-12-19,Bari,Catanzaro,1-2
+2025-12-20,Cesena,Juve Stabia,1-1
+2025-12-20,Frosinone,Spezia,2-1
+2025-12-20,Padova,Sampdoria,1-1
+2025-12-20,Modena,Venezia,1-2
+2025-12-20,Monza,Carrarese,4-1
+2025-12-20,Avellino,Palermo,2-2
+2025-12-20,Pescara,Reggiana,2-1
+2025-12-21,Virtus Entella,Sudtirol,1-1
+2025-12-21,Mantova,Empoli,0-1
+2025-12-26,Modena,Monza,1-2
+2025-12-27,Spezia,Pescara,2-1
+2025-12-27,Sampdoria,Reggiana,2-1
+2025-12-27,Empoli,Frosinone,1-1
+2025-12-27,Venezia,Virtus Entella,1-0
+2025-12-27,Juve Stabia,Sudtirol,1-0
+2025-12-27,Carrarese,Mantova,0-0
+2025-12-27,Catanzaro,Cesena,2-0
+2025-12-27,Palermo,Padova,1-0
+2025-12-27,Bari,Avellino,1-1
+2026-01-10,Frosinone,Catanzaro,2-0
+2026-01-10,Virtus Entella,Monza,1-0
+2026-01-10,Avellino,Sampdoria,2-1
+2026-01-10,Reggiana,Venezia,1-3
+2026-01-10,Sudtirol,Spezia,2-1
+2026-01-10,Carrarese,Bari,1-0
+2026-01-10,Juve Stabia,Pescara,2-2
+2026-01-10,Cesena,Empoli,0-1
+2026-01-11,Mantova,Palermo,1-1
+2026-01-11,Padova,Modena,2-0
+2026-01-16,Sampdoria,Virtus Entella,1-1
+2026-01-17,Empoli,Sudtirol,0-1
+2026-01-17,Venezia,Catanzaro,3-1
+2026-01-17,Avellino,Carrarese,1-2
+2026-01-17,Padova,Mantova,1-2
+2026-01-17,Monza,Frosinone,2-2
+2026-01-17,Reggiana,Cesena,1-2
+2026-01-17,Bari,Juve Stabia,0-1
+2026-01-18,Pescara,Modena,0-2
+2026-01-18,Palermo,Spezia,1-0
+2026-01-23,Carrarese,Empoli,3-0
+2026-01-24,Cesena,Bari,1-2
+2026-01-24,Frosinone,Reggiana,1-0
+2026-01-24,Juve Stabia,Virtus Entella,1-0
+2026-01-24,Monza,Pescara,3-0
+2026-01-24,Mantova,Venezia,2-5
+2026-01-24,Modena,Palermo,0-0
+2026-01-24,Spezia,Avellino,1-0
+2026-01-25,Sudtirol,Padova,3-0
+2026-01-25,Catanzaro,Sampdoria,0-0
+2026-01-30,Bari,Palermo,0-3
+2026-01-31,Empoli,Modena,0-0
+2026-01-31,Venezia,Carrarese,2-1
+2026-01-31,Virtus Entella,Frosinone,1-1
+2026-01-31,Avellino,Cesena,3-1
+2026-01-31,Sudtirol,Catanzaro,2-1
+2026-01-31,Pescara,Mantova,2-2
+2026-01-31,Sampdoria,Spezia,1-0
+2026-02-01,Reggiana,Juve Stabia,1-1
+2026-02-01,Padova,Monza,1-2
+2026-02-06,Cesena,Pescara,2-0
+2026-02-07,Frosinone,Venezia,1-2
+2026-02-07,Juve Stabia,Padova,3-3
+2026-02-07,Modena,Sampdoria,1-2
+2026-02-07,Carrarese,Sudtirol,0-0
+2026-02-07,Catanzaro,Reggiana,2-0
+2026-02-07,Mantova,Bari,2-1
+2026-02-07,Palermo,Empoli,3-2
+2026-02-07,Spezia,Virtus Entella,1-1
+2026-02-08,Monza,Avellino,2-1
+2026-02-10,Sampdoria,Palermo,3-3
+2026-02-10,Venezia,Modena,0-2
+2026-02-10,Pescara,Catanzaro,0-2
+2026-02-10,Virtus Entella,Cesena,3-1
+2026-02-10,Padova,Carrarese,1-0
+2026-02-10,Reggiana,Mantova,1-0
+2026-02-11,Sudtirol,Monza,0-0
+2026-02-11,Bari,Spezia,0-0
+2026-02-11,Empoli,Juve Stabia,1-2
+2026-02-11,Avellino,Frosinone,1-3
+2026-02-14,Sampdoria,Padova,1-0
+2026-02-14,Palermo,Virtus Entella,3-0
+2026-02-14,Modena,Carrarese,2-0
+2026-02-14,Catanzaro,Mantova,2-0
+2026-02-14,Cesena,Venezia,0-4
+2026-02-15,Bari,Sudtirol,1-2
+2026-02-15,Spezia,Frosinone,0-2
+2026-02-15,Monza,Juve Stabia,2-1
+2026-02-15,Empoli,Reggiana,1-1
+2026-02-15,Avellino,Pescara,0-1
+2026-02-20,Frosinone,Empoli,2-2
+2026-02-21,Venezia,Pescara,3-2
+2026-02-21,Palermo,Sudtirol,3-0
+2026-02-21,Virtus Entella,Catanzaro,1-3
+2026-02-21,Padova,Bari,1-1
+2026-02-21,Mantova,Sampdoria,2-1
+2026-02-21,Cesena,Spezia,2-3
+2026-02-21,Carrarese,Monza,0-1
+2026-02-22,Juve Stabia,Modena,1-2
+2026-02-22,Reggiana,Avellino,1-1
+2026-02-27,Monza,Virtus Entella,2-0
+2026-02-27,Sampdoria,Bari,0-2
+2026-02-28,Empoli,Cesena,1-1
+2026-02-28,Modena,Padova,1-2
+2026-02-28,Sudtirol,Venezia,1-1
+2026-02-28,Spezia,Reggiana,0-1
+2026-02-28,Avellino,Juve Stabia,0-0
+2026-03-01,Pescara,Palermo,2-1
+2026-03-01,Catanzaro,Frosinone,2-2
+2026-03-01,Mantova,Carrarese,1-1
+2026-03-03,Padova,Spezia,2-2
+2026-03-03,Cesena,Monza,1-3
+2026-03-03,Venezia,Avellino,4-0
+2026-03-03,Virtus Entella,Modena,2-1
+2026-03-03,Reggiana,Sudtirol,0-4
+2026-03-04,Carrarese,Catanzaro,3-3
+2026-03-04,Bari,Empoli,2-1
+2026-03-04,Frosinone,Pescara,2-2
+2026-03-04,Palermo,Mantova,2-1
+2026-03-04,Juve Stabia,Sampdoria,1-1
+2026-03-07,Spezia,Monza,4-2
+2026-03-07,Avellino,Padova,1-0
+2026-03-07,Sudtirol,Virtus Entella,0-1
+2026-03-07,Venezia,Reggiana,2-0
+2026-03-07,Modena,Cesena,0-0
+2026-03-08,Frosinone,Sampdoria,3-0
+2026-03-08,Catanzaro,Empoli,3-2
+2026-03-08,Mantova,Juve Stabia,2-0
+2026-03-08,Carrarese,Palermo,0-1
+2026-03-08,Pescara,Bari,4-0
+2026-03-13,Modena,Spezia,3-0
+2026-03-14,Bari,Reggiana,4-1
+2026-03-14,Cesena,Frosinone,2-2
+2026-03-14,Empoli,Mantova,2-2
+2026-03-14,Juve Stabia,Carrarese,1-1
+2026-03-14,Padova,Catanzaro,1-3
+2026-03-14,Monza,Palermo,3-0
+2026-03-14,Sampdoria,Venezia,0-0
+2026-03-15,Virtus Entella,Avellino,1-2
+2026-03-15,Sudtirol,Pescara,0-0
+2026-03-17,Palermo,Juve Stabia,2-2
+2026-03-17,Spezia,Empoli,1-1
+2026-03-17,Venezia,Padova,3-1
+2026-03-17,Reggiana,Monza,0-0
+2026-03-17,Mantova,Cesena,3-0
+2026-03-18,Frosinone,Bari,2-1
+2026-03-18,Pescara,Virtus Entella,3-0
+2026-03-18,Avellino,Sudtirol,3-2
+2026-03-18,Carrarese,Sampdoria,2-0
+2026-03-21,Cesena,Catanzaro,3-1
+2026-03-21,Juve Stabia,Spezia,3-1
+2026-03-21,Padova,Palermo,0-1
+2026-03-21,Monza,Venezia,1-1
+2026-03-21,Modena,Mantova,2-1
+2026-03-22,Bari,Carrarese,0-3
+2026-03-22,Empoli,Pescara,4-2
+2026-03-22,Sudtirol,Frosinone,1-3
+2026-03-22,Sampdoria,Avellino,2-1
+2026-03-22,Virtus Entella,Reggiana,3-0
+2026-04-05,Frosinone,Padova,2-0
+2026-04-05,Palermo,Avellino,2-0
+2026-04-06,Cesena,Sudtirol,1-1
+2026-04-06,Bari,Modena,3-1
+2026-04-06,Venezia,Juve Stabia,3-1
+2026-04-06,Reggiana,Pescara,1-3
+2026-04-06,Catanzaro,Monza,1-1
+2026-04-06,Mantova,Virtus Entella,1-0
+2026-04-06,Sampdoria,Empoli,1-0
+2026-04-06,Carrarese,Spezia,3-1
+2026-04-10,Frosinone,Palermo,1-1
+2026-04-11,Pescara,Sampdoria,1-2
+2026-04-11,Virtus Entella,Venezia,1-1
+2026-04-11,Juve Stabia,Cesena,2-0
+2026-04-11,Sudtirol,Modena,1-1
+2026-04-11,Avellino,Catanzaro,1-1
+2026-04-11,Monza,Bari,2-0
+2026-04-12,Padova,Empoli,1-0
+2026-04-12,Spezia,Mantova,0-2
+2026-04-12,Reggiana,Carrarese,2-0
+2026-04-14,Catanzaro,Modena,2-2
+2026-04-17,Sampdoria,Monza,0-3
+2026-04-18,Bari,Venezia,0-3
+2026-04-18,Spezia,Sudtirol,6-1
+2026-04-18,Modena,Frosinone,1-2
+2026-04-18,Mantova,Avellino,0-2
+2026-04-18,Palermo,Cesena,2-0
+2026-04-18,Juve Stabia,Catanzaro,1-1
+2026-04-19,Carrarese,Pescara,2-2
+2026-04-19,Padova,Reggiana,1-0
+2026-04-19,Empoli,Virtus Entella,1-1
+2026-04-24,Monza,Modena,1-0
+2026-04-24,Avellino,Bari,2-0
+2026-04-25,Catanzaro,Spezia,4-2
+2026-04-25,Frosinone,Carrarese,3-0
+2026-04-25,Pescara,Juve Stabia,1-1
+2026-04-25,Virtus Entella,Padova,1-0
+2026-04-25,Reggiana,Palermo,1-1
+2026-04-25,Sudtirol,Mantova,0-3
+2026-04-25,Venezia,Empoli,2-0
+2026-04-25,Cesena,Sampdoria,0-0
+2026-05-01,Sampdoria,Sudtirol,1-0
+2026-05-01,Bari,Virtus Entella,2-0
+2026-05-01,Empoli,Avellino,1-0
+2026-05-01,Spezia,Venezia,2-2
+2026-05-01,Palermo,Catanzaro,3-2
+2026-05-01,Juve Stabia,Frosinone,0-1
+2026-05-01,Padova,Pescara,1-0
+2026-05-01,Modena,Reggiana,2-1
+2026-05-01,Carrarese,Cesena,0-0
+2026-05-01,Mantova,Monza,3-2
+2026-05-08,Cesena,Padova,3-4
+2026-05-08,Frosinone,Mantova,5-0
+2026-05-08,Venezia,Palermo,2-0
+2026-05-08,Pescara,Spezia,1-1
+2026-05-08,Virtus Entella,Carrarese,2-1
+2026-05-08,Avellino,Modena,1-0
+2026-05-08,Reggiana,Sampdoria,1-0
+2026-05-08,Sudtirol,Juve Stabia,1-1
+2026-05-08,Monza,Empoli,2-2
+2026-05-08,Catanzaro,Bari,2-3
+2026-05-12,Modena,Juve Stabia,0-1
+2026-05-12,Catanzaro,Avellino,3-0
+2026-05-15,Bari,Sudtirol,0-0
+2026-05-16,Juve Stabia,Monza,2-2
+2026-05-17,Catanzaro,Palermo,3-0
+2026-05-19,Monza,Juve Stabia,2-1
+2026-05-20,Palermo,Catanzaro,2-0
+2026-05-22,Sudtirol,Bari,0-0
+2026-05-24,Catanzaro,Monza,0-2
+2026-05-29,Monza,Catanzaro,0-2
+2026-08-21,Vicenza Virtus,Catanzaro,3-2
+2026-08-22,Sudtirol,Virtus Entella,1-0
+2026-08-22,Carrarese,Mantova,1-2
+2026-08-22,Benevento,Modena,1-2
+2026-08-22,Empoli,Cremonese,1-0
+2026-08-22,Avellino,Arezzo,1-2
+2026-08-23,Hellas Verona,Ascoli,1-2
+2026-08-23,Pisa,Padova,0-1
+2026-08-23,Cesena,Sampdoria,1-1
+2026-08-23,Palermo,Juve Stabia,1-0
+2026-08-28,Cremonese,Modena,0-3
+2026-08-29,Sampdoria,Juve Stabia,1-2
+2026-08-29,Virtus Entella,Cesena,1-2
+2026-08-29,Ascoli,Carrarese,1-1
+2026-08-29,Avellino,Vicenza Virtus,3-0
+2026-08-29,Padova,Hellas Verona,1-1
+2026-08-30,Arezzo,Palermo,2-3
+2026-08-30,Mantova,Empoli,3-1
+2026-08-30,Benevento,Sudtirol,1-1
+2026-08-30,Pisa,Catanzaro,2-1
+2026-09-05,Sudtirol,Catanzaro,2-0
+2026-09-05,Ascoli,Benevento,1-0
+2026-09-05,Carrarese,Empoli,0-1
+2026-09-06,Cesena,Mantova,1-1
+2026-09-06,Virtus Entella,Vicenza Virtus,2-2
+2026-09-06,Juve Stabia,Pisa,0-3
+2026-09-06,Modena,Avellino,0-1
+2026-09-06,Hellas Verona,Arezzo,5-0
+2026-09-06,Cremonese,Padova,3-1
+2026-09-07,Palermo,Sampdoria,3-1
+2026-09-11,Empoli,Arezzo,0-1
+2026-09-11,Benevento,Hellas Verona,3-1
+2026-09-11,Pisa,Virtus Entella,1-4
+2026-09-12,Padova,Ascoli,1-0
+2026-09-12,Sudtirol,Modena,1-1
+2026-09-12,Vicenza Virtus,Juve Stabia,1-1
+2026-09-12,Catanzaro,Carrarese,1-0
+2026-09-12,Cesena,Cremonese,2-2
+2026-09-13,Avellino,Palermo,1-1
+2026-09-13,Mantova,Sampdoria,2-0
+2026-09-18,Juve Stabia,Cesena,1-1
+2026-09-19,Cremonese,Virtus Entella,0-0
+2026-09-19,Palermo,Padova,2-1
+2026-09-19,Carrarese,Benevento,0-1
+2026-09-19,Sampdoria,Catanzaro,2-1
+2026-09-19,Ascoli,Avellino,3-1
+2026-09-20,Hellas Verona,Vicenza Virtus,2-1
+2026-09-20,Arezzo,Sudtirol,1-4
+2026-09-20,Mantova,Pisa,2-2
+2026-09-20,Modena,Empoli,2-1
+2026-10-09,Avellino,Sampdoria,4-1
+2026-10-10,Benevento,Cesena,2-0
+2026-10-10,Empoli,Palermo,2-4
+2026-10-10,Virtus Entella,Juve Stabia,1-1
+2026-10-10,Sudtirol,Ascoli,0-0
+2026-10-10,Vicenza Virtus,Pisa,0-3
+2026-10-10,Arezzo,Cremonese,0-0
+2026-10-11,Catanzaro,Mantova,1-3
+2026-10-11,Padova,Carrarese,0-2
+2026-10-11,Modena,Hellas Verona,3-2
+2026-10-16,Hellas Verona,Catanzaro,
+2026-10-17,Benevento,Vicenza Virtus,
+2026-10-17,Ascoli,Empoli,
+2026-10-17,Padova,Virtus Entella,
+2026-10-17,Carrarese,Modena,
+2026-10-17,Mantova,Palermo,
+2026-10-17,Pisa,Cremonese,
+2026-10-18,Juve Stabia,Sudtirol,
+2026-10-18,Cesena,Avellino,
+2026-10-18,Sampdoria,Arezzo,
+2026-10-23,Empoli,Vicenza Virtus,
+2026-10-24,Cremonese,Juve Stabia,
+2026-10-24,Virtus Entella,Mantova,
+2026-10-24,Avellino,Padova,
+2026-10-24,Modena,Cesena,
+2026-10-24,Sudtirol,Sampdoria,
+2026-10-24,Catanzaro,Ascoli,
+2026-10-24,Arezzo,Benevento,
+2026-10-25,Palermo,Carrarese,
+2026-10-25,Hellas Verona,Pisa,
+2026-10-27,Benevento,Catanzaro,
+2026-10-27,Ascoli,Sampdoria,
+2026-10-27,Cesena,Empoli,
+2026-10-27,Virtus Entella,Avellino,
+2026-10-27,Padova,Sudtirol,
+2026-10-27,Vicenza Virtus,Modena,
+2026-10-27,Mantova,Cremonese,
+2026-10-28,Pisa,Palermo,
+2026-10-28,Juve Stabia,Hellas Verona,
+2026-10-28,Carrarese,Arezzo,
+2026-10-31,Cremonese,Benevento,
+2026-10-31,Modena,Mantova,
+2026-10-31,Sudtirol,Cesena,
+2026-10-31,Catanzaro,Padova,
+2026-10-31,Sampdoria,Virtus Entella,
+2026-11-01,Empoli,Juve Stabia,
+2026-11-01,Avellino,Pisa,
+2026-11-01,Arezzo,Ascoli,
+2026-11-01,Hellas Verona,Carrarese,
+2026-11-01,Palermo,Vicenza Virtus,
+2026-11-06,Ascoli,Palermo,
+2026-11-07,Cesena,Catanzaro,
+2026-11-07,Pisa,Sudtirol,
+2026-11-07,Juve Stabia,Arezzo,
+2026-11-07,Padova,Empoli,
+2026-11-07,Mantova,Hellas Verona,
+2026-11-07,Benevento,Avellino,
+2026-11-08,Virtus Entella,Modena,
+2026-11-08,Carrarese,Sampdoria,
+2026-11-08,Vicenza Virtus,Cremonese,
+2026-11-21,Sampdoria,Benevento,
+2026-11-21,Hellas Verona,Cesena,
+2026-11-21,Ascoli,Vicenza Virtus,
+2026-11-21,Empoli,Pisa,
+2026-11-21,Avellino,Mantova,
+2026-11-21,Arezzo,Padova,
+2026-11-21,Modena,Juve Stabia,
+2026-11-21,Sudtirol,Cremonese,
+2026-11-21,Carrarese,Virtus Entella,
+2026-11-21,Catanzaro,Palermo,
+2026-11-24,Benevento,Empoli,
+2026-11-24,Cesena,Ascoli,
+2026-11-24,Cremonese,Avellino,
+2026-11-24,Palermo,Sudtirol,
+2026-11-24,Virtus Entella,Hellas Verona,
+2026-11-24,Pisa,Modena,
+2026-11-24,Juve Stabia,Catanzaro,
+2026-11-24,Padova,Sampdoria,
+2026-11-24,Vicenza Virtus,Carrarese,
+2026-11-24,Mantova,Arezzo,
+2026-11-28,Sampdoria,Cremonese,
+2026-11-28,Ascoli,Virtus Entella,
+2026-11-28,Empoli,Hellas Verona,
+2026-11-28,Palermo,Benevento,
+2026-11-28,Arezzo,Pisa,
+2026-11-28,Modena,Padova,
+2026-11-28,Sudtirol,Mantova,
+2026-11-28,Carrarese,Juve Stabia,
+2026-11-28,Vicenza Virtus,Cesena,
+2026-11-28,Catanzaro,Avellino,
+2026-12-05,Hellas Verona,Palermo,
+2026-12-05,Cesena,Carrarese,
+2026-12-05,Cremonese,Catanzaro,
+2026-12-05,Virtus Entella,Empoli,
+2026-12-05,Avellino,Sudtirol,
+2026-12-05,Pisa,Sampdoria,
+2026-12-05,Juve Stabia,Benevento,
+2026-12-05,Padova,Vicenza Virtus,
+2026-12-05,Modena,Arezzo,
+2026-12-05,Mantova,Ascoli,
+2026-12-08,Sampdoria,Modena,
+2026-12-08,Hellas Verona,Avellino,
+2026-12-08,Benevento,Padova,
+2026-12-08,Ascoli,Juve Stabia,
+2026-12-08,Empoli,Sudtirol,
+2026-12-08,Palermo,Cremonese,
+2026-12-08,Arezzo,Cesena,
+2026-12-08,Carrarese,Pisa,
+2026-12-08,Vicenza Virtus,Mantova,
+2026-12-08,Catanzaro,Virtus Entella,
+2026-12-12,Sampdoria,Vicenza Virtus,
+2026-12-12,Cesena,Palermo,
+2026-12-12,Cremonese,Carrarese,
+2026-12-12,Virtus Entella,Arezzo,
+2026-12-12,Avellino,Empoli,
+2026-12-12,Pisa,Ascoli,
+2026-12-12,Juve Stabia,Padova,
+2026-12-12,Modena,Catanzaro,
+2026-12-12,Sudtirol,Hellas Verona,
+2026-12-12,Mantova,Benevento,
+2026-12-19,Hellas Verona,Cremonese,
+2026-12-19,Benevento,Pisa,
+2026-12-19,Ascoli,Modena,
+2026-12-19,Empoli,Sampdoria,
+2026-12-19,Palermo,Virtus Entella,
+2026-12-19,Juve Stabia,Mantova,
+2026-12-19,Padova,Cesena,
+2026-12-19,Carrarese,Avellino,
+2026-12-19,Vicenza Virtus,Sudtirol,
+2026-12-19,Catanzaro,Arezzo,
+2026-12-27,Sampdoria,Hellas Verona,
+2026-12-27,Cesena,Pisa,
+2026-12-27,Cremonese,Ascoli,
+2026-12-27,Virtus Entella,Benevento,
+2026-12-27,Avellino,Juve Stabia,
+2026-12-27,Arezzo,Vicenza Virtus,
+2026-12-27,Modena,Palermo,
+2026-12-27,Sudtirol,Carrarese,
+2026-12-27,Catanzaro,Empoli,
+2026-12-27,Mantova,Padova,
+2027-01-09,Ascoli,Catanzaro,
+2027-01-09,Cesena,Modena,
+2027-01-09,Palermo,Empoli,
+2027-01-09,Pisa,Avellino,
+2027-01-09,Juve Stabia,Sampdoria,
+2027-01-09,Padova,Cremonese,
+2027-01-09,Arezzo,Hellas Verona,
+2027-01-09,Sudtirol,Benevento,
+2027-01-09,Vicenza Virtus,Virtus Entella,
+2027-01-09,Mantova,Carrarese,
+2027-01-16,Sampdoria,Mantova,
+2027-01-16,Hellas Verona,Juve Stabia,
+2027-01-16,Benevento,Arezzo,
+2027-01-16,Ascoli,Sudtirol,
+2027-01-16,Empoli,Modena,
+2027-01-16,Cremonese,Vicenza Virtus,
+2027-01-16,Palermo,Pisa,
+2027-01-16,Avellino,Virtus Entella,
+2027-01-16,Carrarese,Padova,
+2027-01-16,Catanzaro,Cesena,
+2027-01-23,Cesena,Benevento,
+2027-01-23,Virtus Entella,Sampdoria,
+2027-01-23,Pisa,Hellas Verona,
+2027-01-23,Juve Stabia,Cremonese,
+2027-01-23,Padova,Catanzaro,
+2027-01-23,Arezzo,Empoli,
+2027-01-23,Modena,Carrarese,
+2027-01-23,Sudtirol,Palermo,
+2027-01-23,Vicenza Virtus,Ascoli,
+2027-01-23,Mantova,Avellino,
+2027-01-30,Hellas Verona,Modena,
+2027-01-30,Benevento,Sampdoria,
+2027-01-30,Ascoli,Padova,
+2027-01-30,Empoli,Mantova,
+2027-01-30,Cremonese,Pisa,
+2027-01-30,Palermo,Arezzo,
+2027-01-30,Virtus Entella,Sudtirol,
+2027-01-30,Avellino,Cesena,
+2027-01-30,Carrarese,Vicenza Virtus,
+2027-01-30,Catanzaro,Juve Stabia,
+2027-02-06,Sampdoria,Ascoli,
+2027-02-06,Benevento,Cremonese,
+2027-02-06,Cesena,Hellas Verona,
+2027-02-06,Pisa,Empoli,
+2027-02-06,Juve Stabia,Carrarese,
+2027-02-06,Padova,Arezzo,
+2027-02-06,Modena,Virtus Entella,
+2027-02-06,Sudtirol,Avellino,
+2027-02-06,Vicenza Virtus,Palermo,
+2027-02-06,Mantova,Catanzaro,
+2027-02-13,Empoli,Benevento,
+2027-02-13,Cremonese,Cesena,
+2027-02-13,Palermo,Mantova,
+2027-02-13,Virtus Entella,Carrarese,
+2027-02-13,Avellino,Ascoli,
+2027-02-13,Pisa,Juve Stabia,
+2027-02-13,Arezzo,Sampdoria,
+2027-02-13,Modena,Sudtirol,
+2027-02-13,Vicenza Virtus,Padova,
+2027-02-13,Catanzaro,Hellas Verona,
+2027-02-20,Sampdoria,Avellino,
+2027-02-20,Hellas Verona,Virtus Entella,
+2027-02-20,Benevento,Mantova,
+2027-02-20,Ascoli,Pisa,
+2027-02-20,Cesena,Vicenza Virtus,
+2027-02-20,Cremonese,Palermo,
+2027-02-20,Juve Stabia,Empoli,
+2027-02-20,Padova,Modena,
+2027-02-20,Sudtirol,Arezzo,
+2027-02-20,Carrarese,Catanzaro,
+2027-02-27,Sampdoria,Padova,
+2027-02-27,Empoli,Ascoli,
+2027-02-27,Palermo,Hellas Verona,
+2027-02-27,Virtus Entella,Cremonese,
+2027-02-27,Pisa,Benevento,
+2027-02-27,Juve Stabia,Modena,
+2027-02-27,Arezzo,Carrarese,
+2027-02-27,Vicenza Virtus,Avellino,
+2027-02-27,Catanzaro,Sudtirol,
+2027-02-27,Mantova,Cesena,
+2027-03-02,Hellas Verona,Empoli,
+2027-03-02,Benevento,Juve Stabia,
+2027-03-02,Ascoli,Arezzo,
+2027-03-02,Cesena,Virtus Entella,
+2027-03-02,Cremonese,Sampdoria,
+2027-03-02,Avellino,Catanzaro,
+2027-03-02,Padova,Mantova,
+2027-03-02,Modena,Pisa,
+2027-03-02,Sudtirol,Vicenza Virtus,
+2027-03-02,Carrarese,Palermo,
+2027-03-06,Sampdoria,Cesena,
+2027-03-06,Empoli,Carrarese,
+2027-03-06,Palermo,Modena,
+2027-03-06,Virtus Entella,Ascoli,
+2027-03-06,Avellino,Hellas Verona,
+2027-03-06,Pisa,Vicenza Virtus,
+2027-03-06,Padova,Benevento,
+2027-03-06,Arezzo,Juve Stabia,
+2027-03-06,Catanzaro,Cremonese,
+2027-03-06,Mantova,Sudtirol,
+2027-03-13,Hellas Verona,Sampdoria,
+2027-03-13,Benevento,Virtus Entella,
+2027-03-13,Cesena,Padova,
+2027-03-13,Empoli,Avellino,
+2027-03-13,Cremonese,Mantova,
+2027-03-13,Juve Stabia,Palermo,
+2027-03-13,Modena,Ascoli,
+2027-03-13,Carrarese,Sudtirol,
+2027-03-13,Vicenza Virtus,Arezzo,
+2027-03-13,Catanzaro,Pisa,
+2027-03-20,Sampdoria,Empoli,
+2027-03-20,Ascoli,Cremonese,
+2027-03-20,Virtus Entella,Catanzaro,
+2027-03-20,Avellino,Benevento,
+2027-03-20,Padova,Palermo,
+2027-03-20,Arezzo,Modena,
+2027-03-20,Sudtirol,Pisa,
+2027-03-20,Carrarese,Cesena,
+2027-03-20,Vicenza Virtus,Hellas Verona,
+2027-03-20,Mantova,Juve Stabia,
+2027-04-03,Hellas Verona,Mantova,
+2027-04-03,Benevento,Ascoli,
+2027-04-03,Cesena,Sudtirol,
+2027-04-03,Empoli,Padova,
+2027-04-03,Cremonese,Arezzo,
+2027-04-03,Palermo,Avellino,
+2027-04-03,Pisa,Carrarese,
+2027-04-03,Juve Stabia,Virtus Entella,
+2027-04-03,Modena,Sampdoria,
+2027-04-03,Catanzaro,Vicenza Virtus,
+2027-04-10,Sampdoria,Palermo,
+2027-04-10,Ascoli,Cesena,
+2027-04-10,Virtus Entella,Pisa,
+2027-04-10,Avellino,Cremonese,
+2027-04-10,Padova,Juve Stabia,
+2027-04-10,Arezzo,Catanzaro,
+2027-04-10,Sudtirol,Empoli,
+2027-04-10,Carrarese,Hellas Verona,
+2027-04-10,Vicenza Virtus,Benevento,
+2027-04-10,Mantova,Modena,
+2027-04-17,Sampdoria,Carrarese,
+2027-04-17,Hellas Verona,Padova,
+2027-04-17,Empoli,Virtus Entella,
+2027-04-17,Cremonese,Sudtirol,
+2027-04-17,Palermo,Ascoli,
+2027-04-17,Pisa,Cesena,
+2027-04-17,Juve Stabia,Avellino,
+2027-04-17,Arezzo,Mantova,
+2027-04-17,Modena,Vicenza Virtus,
+2027-04-17,Catanzaro,Benevento,
+2027-04-24,Benevento,Carrarese,
+2027-04-24,Ascoli,Mantova,
+2027-04-24,Cesena,Juve Stabia,
+2027-04-24,Cremonese,Hellas Verona,
+2027-04-24,Virtus Entella,Palermo,
+2027-04-24,Avellino,Modena,
+2027-04-24,Pisa,Arezzo,
+2027-04-24,Sudtirol,Padova,
+2027-04-24,Vicenza Virtus,Empoli,
+2027-04-24,Catanzaro,Sampdoria,
+2027-05-01,Sampdoria,Sudtirol,
+2027-05-01,Hellas Verona,Benevento,
+2027-05-01,Empoli,Cesena,
+2027-05-01,Palermo,Catanzaro,
+2027-05-01,Juve Stabia,Vicenza Virtus,
+2027-05-01,Padova,Pisa,
+2027-05-01,Arezzo,Avellino,
+2027-05-01,Modena,Cremonese,
+2027-05-01,Carrarese,Ascoli,
+2027-05-01,Mantova,Virtus Entella,
+2027-05-08,Benevento,Palermo,
+2027-05-08,Ascoli,Hellas Verona,
+2027-05-08,Cesena,Arezzo,
+2027-05-08,Cremonese,Empoli,
+2027-05-08,Virtus Entella,Padova,
+2027-05-08,Avellino,Carrarese,
+2027-05-08,Pisa,Mantova,
+2027-05-08,Sudtirol,Juve Stabia,
+2027-05-08,Vicenza Virtus,Sampdoria,
+2027-05-08,Catanzaro,Modena,
+2027-05-14,Sampdoria,Pisa,
+2027-05-14,Hellas Verona,Sudtirol,
+2027-05-14,Empoli,Catanzaro,
+2027-05-14,Palermo,Cesena,
+2027-05-14,Juve Stabia,Ascoli,
+2027-05-14,Padova,Avellino,
+2027-05-14,Arezzo,Virtus Entella,
+2027-05-14,Modena,Benevento,
+2027-05-14,Carrarese,Cremonese,
+2027-05-14,Mantova,Vicenza Virtus,
