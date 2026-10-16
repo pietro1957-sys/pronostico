@@ -76,8 +76,7 @@ st.markdown(
 )
 st.markdown(
     "<h3 style='text-align: center; color: #A0A0A0;'>Analisi "
-    "<b>Over/Under 2.5</b> e <b>Goal/No Goal</b> con Quota Reale &"
-    " ValueBet</h3>",
+    "<b>Over/Under</b>, <b>Goal/No Goal</b> e <b>Parziale/Finale</b></h3>",
     unsafe_allow_html=True,
 )
 st.markdown("---")
@@ -265,8 +264,10 @@ with tab1:
     over25 = 0
     both_score = 0
     exact_scores = Counter()
+    ht_ft_counts = Counter()
 
     for _ in range(SIMULATIONS):
+      # Partita intera
       hg = np.random.poisson(lambda_home)
       ag = np.random.poisson(lambda_away)
       exact_scores[f"{hg}-{ag}"] += 1
@@ -275,16 +276,64 @@ with tab1:
       if hg > 0 and ag > 0:
         both_score += 1
 
+      # Simulazione Primo Tempo (~44% dei gol)
+      hg_ht = np.random.poisson(lambda_home * 0.44)
+      ag_ht = np.random.poisson(lambda_away * 0.44)
+
+      # Assicuriamoci che i gol del 1T non superino quelli totali
+      hg_ht = min(hg_ht, hg)
+      ag_ht = min(ag_ht, ag)
+
+      # Gol Secondo Tempo
+      hg_st = hg - hg_ht
+      ag_st = ag - ag_ht
+
+      # Esito 1° Tempo (1, X, 2)
+      if hg_ht > ag_ht:
+        ht_res = "1"
+      elif hg_ht < ag_ht:
+        ht_res = "2"
+      else:
+        ht_res = "X"
+
+      # Esito Finale (1, X, 2)
+      if hg > ag:
+        ft_res = "1"
+      elif hg < ag:
+        ft_res = "2"
+      else:
+        ft_res = "X"
+
+      ht_ft_counts[f"{ht_res}/{ft_res}"] += 1
+
     p_over = round(over25 / SIMULATIONS * 100, 2)
     p_under = round(100 - p_over, 2)
     p_goal = round(both_score / SIMULATIONS * 100, 2)
     p_nogoal = round(100 - p_goal, 2)
 
-    # Calcolo Quote Teoriche
     q_over = round(100 / p_over, 2) if p_over > 0 else 99.0
     q_under = round(100 / p_under, 2) if p_under > 0 else 99.0
     q_goal = round(100 / p_goal, 2) if p_goal > 0 else 99.0
     q_nogoal = round(100 / p_nogoal, 2) if p_nogoal > 0 else 99.0
+
+    # Calcolo percentuali e quote parziale/finale
+    ht_ft_results = {}
+    combo_keys = [
+        "1/1",
+        "1/X",
+        "1/2",
+        "X/1",
+        "X/X",
+        "X/2",
+        "2/1",
+        "2/X",
+        "2/2",
+    ]
+    for combo in combo_keys:
+      count = ht_ft_counts[combo]
+      perc = round(count / SIMULATIONS * 100, 2)
+      quota_teorica = round(100 / perc, 2) if perc > 0 else 99.0
+      ht_ft_results[combo] = {"perc": perc, "quota": quota_teorica}
 
     return {
         "OVER25": p_over,
@@ -295,6 +344,7 @@ with tab1:
         "Q_UNDER25": q_under,
         "Q_GOAL": q_goal,
         "Q_NOGOAL": q_nogoal,
+        "HT_FT": ht_ft_results,
         "xG_home": round(lambda_home, 2),
         "xG_away": round(lambda_away, 2),
         "total_xG": round(lambda_home + lambda_away, 2),
@@ -412,6 +462,53 @@ with tab1:
 
       st.markdown("---")
 
+      # Parziale / Finale (1/X, 2/X, 1/2, 2/1, ecc.)
+      st.markdown("#### 🔄 Mercato Parziale / Finale (1T / Finale)")
+      ht_ft = p["HT_FT"]
+
+      col_hf1, col_hf2, col_hf3 = st.columns(3)
+      with col_hf1:
+        st.write(
+            f"• **1/X** (Casa/Pareggi): `{ht_ft['1/X']['perc']}%` | Quota min:"
+            f" `{ht_ft['1/X']['quota']}`"
+        )
+        st.write(
+            f"• **1/1** (Casa/Casa): `{ht_ft['1/1']['perc']}%` | Quota min:"
+            f" `{ht_ft['1/1']['quota']}`"
+        )
+        st.write(
+            f"• **1/2** (Casa/Ospiti): `{ht_ft['1/2']['perc']}%` | Quota min:"
+            f" `{ht_ft['1/2']['quota']}`"
+        )
+      with col_hf2:
+        st.write(
+            f"• **2/X** (Ospiti/Pareggio): `{ht_ft['2/X']['perc']}%` | Quota"
+            f" min: `{ht_ft['2/X']['quota']}`"
+        )
+        st.write(
+            f"• **2/2** (Ospiti/Ospiti): `{ht_ft['2/2']['perc']}%` | Quota"
+            f" min: `{ht_ft['2/2']['quota']}`"
+        )
+        st.write(
+            f"• **2/1** (Ospiti/Casa): `{ht_ft['2/1']['perc']}%` | Quota min:"
+            f" `{ht_ft['2/1']['quota']}`"
+        )
+      with col_hf3:
+        st.write(
+            f"• **X/X** (Pareggio/Pareggio): `{ht_ft['X/X']['perc']}%` | Quota"
+            f" min: `{ht_ft['X/X']['quota']}`"
+        )
+        st.write(
+            f"• **X/1** (Pareggio/Casa): `{ht_ft['X/1']['perc']}%` | Quota min:"
+            f" `{ht_ft['X/1']['quota']}`"
+        )
+        st.write(
+            f"• **X/2** (Pareggio/Ospiti): `{ht_ft['X/2']['perc']}%` | Quota"
+            f" min: `{ht_ft['X/2']['quota']}`"
+        )
+
+      st.markdown("---")
+
       # Risultati Esatti
       st.markdown("#### 🎯 Top 5 Risultati Esatti Più Probabili")
       for score, count in p["top_results"]:
@@ -425,28 +522,53 @@ with tab1:
       st.markdown("---")
       st.markdown("### 🛒 Aggiungi alla Schedina & Verifica Valore")
 
+      # Elenco mercati disponibili tra cui scegliere
+      mercati_disponibili = [
+          "Over 2.5",
+          "Under 2.5",
+          "Goal",
+          "No Goal",
+          "1/X (Parz/Fin)",
+          "2/X (Parz/Fin)",
+          "1/2 (Parz/Fin)",
+          "2/1 (Parz/Fin)",
+          "1/1 (Parz/Fin)",
+          "2/2 (Parz/Fin)",
+          "X/X (Parz/Fin)",
+          "X/1 (Parz/Fin)",
+          "X/2 (Parz/Fin)",
+      ]
+
       col_mercato, col_quota = st.columns(2)
       with col_mercato:
         mercato_scelto = st.selectbox(
-            "Seleziona Pronostico",
-            ["Over 2.5", "Under 2.5", "Goal", "No Goal"],
-            key="sel_mercato",
+            "Seleziona Pronostico", mercati_disponibili, key="sel_mercato"
         )
       with col_quota:
         quota_inserita = st.number_input(
             "Quota Offerta dal Bookmaker",
             min_value=1.01,
             max_value=100.0,
-            value=1.75,
+            value=2.00,
             step=0.01,
             key="sel_quota",
         )
 
+      # Mappatura quota teorica scelta
       map_q = {
           "Over 2.5": p["Q_OVER25"],
           "Under 2.5": p["Q_UNDER25"],
           "Goal": p["Q_GOAL"],
           "No Goal": p["Q_NOGOAL"],
+          "1/X (Parz/Fin)": ht_ft["1/X"]["quota"],
+          "2/X (Parz/Fin)": ht_ft["2/X"]["quota"],
+          "1/2 (Parz/Fin)": ht_ft["1/2"]["quota"],
+          "2/1 (Parz/Fin)": ht_ft["2/1"]["quota"],
+          "1/1 (Parz/Fin)": ht_ft["1/1"]["quota"],
+          "2/2 (Parz/Fin)": ht_ft["2/2"]["quota"],
+          "X/X (Parz/Fin)": ht_ft["X/X"]["quota"],
+          "X/1 (Parz/Fin)": ht_ft["X/1"]["quota"],
+          "X/2 (Parz/Fin)": ht_ft["X/2"]["quota"],
       }
       q_teorica_scelta = map_q[mercato_scelto]
 
@@ -486,7 +608,6 @@ with tab1:
   if len(st.session_state.schedina) == 0:
     st.info("ℹ️ Il carrello è vuoto.")
   else:
-    # Mostra lista elementi
     for idx, bet in enumerate(st.session_state.schedina):
       col_info, col_del = st.columns([5, 1])
       with col_info:
@@ -500,7 +621,6 @@ with tab1:
           st.rerun()
       st.markdown("---")
 
-    # SELETTORE MODALITÀ DI GIOCATA: MULTIPLA VS SINGOLE
     st.markdown("### 💶 Gestione Tipologia di Giocata & Puntata")
 
     tipo_giocata = st.radio(
@@ -529,7 +649,6 @@ with tab1:
     testo_telegram = ""
 
     if "Multipla" in tipo_giocata:
-      # CALCOLO MULTIPLA
       quota_totale_multipla = 1.0
       for bet in st.session_state.schedina:
         quota_totale_multipla *= bet["quota"]
@@ -557,7 +676,6 @@ with tab1:
       )
 
     else:
-      # CALCOLO SINGOLE
       spesa_totale = importo_input * num_partite
       vincita_potenziale_totale = sum(
           round(importo_input * bet["quota"], 2)
@@ -590,7 +708,6 @@ with tab1:
 
     st.markdown("---")
 
-    # SALVATAGGIO NELLO STORICO CSV
     if st.button(
         "💾 Salva e Registra Schedina nello Storico CSV",
         type="primary",
@@ -600,7 +717,6 @@ with tab1:
       data_ora = datetime.now().strftime("%Y-%m-%d %H:%M")
 
       if "Multipla" in tipo_giocata:
-        # Registra come 1 singola riga di tipo Multipla
         nuovo_id = len(df_h) + 1
         dettaglio_multipla = " | ".join(
             f"{b['partita']} ({b['pronostico']} @ {b['quota']})"
@@ -619,7 +735,6 @@ with tab1:
         df_h = pd.concat([df_h, nuova_riga], ignore_index=True)
 
       else:
-        # Registra ciascuna partita come SINGOLA riga distinta
         nuove_righe = []
         for bet in st.session_state.schedina:
           nuovo_id = len(df_h) + len(nuove_righe) + 1
