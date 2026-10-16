@@ -75,9 +75,9 @@ st.markdown(
     unsafe_allow_html=True,
 )
 st.markdown(
-    "<h3 style='text-align: center; color: #A0A0A0;'>Analisi dedicata a"
-    " <b>Over/Under 2.5</b> e <b>Goal / No Goal</b> con Gestione Cassa e"
-    " Storico</h3>",
+    "<h3 style='text-align: center; color: #A0A0A0;'>Analisi "
+    "<b>Over/Under 2.5</b> e <b>Goal/No Goal</b> con Quota Reale &"
+    " ValueBet</h3>",
     unsafe_allow_html=True,
 )
 st.markdown("---")
@@ -88,7 +88,6 @@ tab1, tab2 = st.tabs(
 )
 
 with tab1:
-  # Menu a tendina per scegliere la competizione
   competizione_scelta = st.selectbox(
       "🏆 Seleziona Competizione", list(COMPETIZIONI.keys())
   )
@@ -281,11 +280,21 @@ with tab1:
     p_goal = round(both_score / SIMULATIONS * 100, 2)
     p_nogoal = round(100 - p_goal, 2)
 
+    # Calcolo Quote Teoriche (Fair Odds = 100 / Probabilità)
+    q_over = round(100 / p_over, 2) if p_over > 0 else 99.0
+    q_under = round(100 / p_under, 2) if p_under > 0 else 99.0
+    q_goal = round(100 / p_goal, 2) if p_goal > 0 else 99.0
+    q_nogoal = round(100 / p_nogoal, 2) if p_nogoal > 0 else 99.0
+
     return {
         "OVER25": p_over,
         "UNDER25": p_under,
         "GOAL": p_goal,
         "NOGOAL": p_nogoal,
+        "Q_OVER25": q_over,
+        "Q_UNDER25": q_under,
+        "Q_GOAL": q_goal,
+        "Q_NOGOAL": q_nogoal,
         "xG_home": round(lambda_home, 2),
         "xG_away": round(lambda_away, 2),
         "total_xG": round(lambda_home + lambda_away, 2),
@@ -370,16 +379,36 @@ with tab1:
       # Over / Under
       st.markdown("#### ⚽ Mercato Over / Under 2.5")
       ou1, ou2 = st.columns(2)
-      ou1.metric(label="Over 2.5", value=f"{p['OVER25']}%")
-      ou2.metric(label="Under 2.5", value=f"{p['UNDER25']}%")
+      ou1.metric(
+          label="Over 2.5",
+          value=f"{p['OVER25']}%",
+          delta=f"Quota Minima: {p['Q_OVER25']}",
+          delta_color="off",
+      )
+      ou2.metric(
+          label="Under 2.5",
+          value=f"{p['UNDER25']}%",
+          delta=f"Quota Minima: {p['Q_UNDER25']}",
+          delta_color="off",
+      )
 
       st.markdown("---")
 
       # Goal / No Goal
       st.markdown("#### 🥅 Mercato Goal / No Goal")
       gg1, gg2 = st.columns(2)
-      gg1.metric(label="Goal", value=f"{p['GOAL']}%")
-      gg2.metric(label="No Goal", value=f"{p['NOGOAL']}%")
+      gg1.metric(
+          label="Goal",
+          value=f"{p['GOAL']}%",
+          delta=f"Quota Minima: {p['Q_GOAL']}",
+          delta_color="off",
+      )
+      gg2.metric(
+          label="No Goal",
+          value=f"{p['NOGOAL']}%",
+          delta=f"Quota Minima: {p['Q_NOGOAL']}",
+          delta_color="off",
+      )
 
       st.markdown("---")
 
@@ -387,10 +416,14 @@ with tab1:
       st.markdown("#### 🎯 Top 5 Risultati Esatti Più Probabili")
       for score, count in p["top_results"]:
         perc = round(count / SIMULATIONS * 100, 2)
-        st.write(f"• **Risultato {score}** → `{perc}%`")
+        q_exact = round(100 / perc, 2) if perc > 0 else 99.0
+        st.write(
+            f"• **Risultato {score}** → `{perc}%` | Quota teorica:"
+            f" `{q_exact}`"
+        )
 
       st.markdown("---")
-      st.markdown("### 🛒 Aggiungi alla Schedina")
+      st.markdown("### 🛒 Aggiungi alla Schedina & Verifica Valore")
 
       col_mercato, col_quota = st.columns(2)
       with col_mercato:
@@ -401,12 +434,38 @@ with tab1:
         )
       with col_quota:
         quota_inserita = st.number_input(
-            "Quota Bookmaker",
+            "Quota Offerta dal Bookmaker",
             min_value=1.01,
             max_value=100.0,
             value=1.75,
             step=0.01,
             key="sel_quota",
+        )
+
+      # Mappatura quota teorica scelta
+      map_q = {
+          "Over 2.5": p["Q_OVER25"],
+          "Under 2.5": p["Q_UNDER25"],
+          "Goal": p["Q_GOAL"],
+          "No Goal": p["Q_NOGOAL"],
+      }
+      q_teorica_scelta = map_q[mercato_scelto]
+
+      if quota_inserita > q_teorica_scelta:
+        st.success(
+            f"🟢 **VALORE TROVATO (+EV)!** La quota bookmaker ({quota_inserita})"
+            f" è SUPERIORE alla quota teorica minima ({q_teorica_scelta})."
+        )
+      elif quota_inserita == q_teorica_scelta:
+        st.info(
+            f"⚖️ **QUOTA IN LINEA:** La quota bookmaker ({quota_inserita}) è"
+            f" identica alla quota teorica ({q_teorica_scelta})."
+        )
+      else:
+        st.error(
+            f"🔴 **NESSUN VALORE (-EV):** La quota bookmaker ({quota_inserita})"
+            f" è TROPPO BASSA rispetto alla quota teorica minima"
+            f" ({q_teorica_scelta}). Giocata sconsigliata!"
         )
 
       if st.button(
@@ -561,9 +620,7 @@ with tab2:
   if df_history.empty:
     st.info("ℹ️ Nessuna scommessa salvata nello storico CSV.")
   else:
-    # Calcolo metriche di cassa
     spesa_totale = df_history["Puntata"].sum()
-
     vinte = df_history[df_history["Esito"] == "Vinta"]
     incasso_totale = vinte["Vincita_Potenziale"].sum()
 
@@ -582,7 +639,6 @@ with tab2:
         round((len(vinte) / totale_chiuse) * 100, 1) if totale_chiuse > 0 else 0
     )
 
-    # Indicatori
     c1, c2, c3, c4 = st.columns(4)
     c1.metric("Cassa Attuale", f"€{cassa_attuale:.2f}")
     c2.metric("Profitto / Perdita Netto", f"€{profitto_netto:.2f}")
@@ -592,7 +648,6 @@ with tab2:
     st.markdown("---")
     st.markdown("### 📑 Gestisci le Giocate nello Storico CSV")
 
-    # Modifica esito interattivo
     for i, row in df_history.iterrows():
       with st.expander(
           f"Giocata #{row['ID']} - {row['Data']} | Quota:"
