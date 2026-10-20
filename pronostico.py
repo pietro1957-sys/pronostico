@@ -1,8 +1,6 @@
 import os
-from collections import Counter
 from datetime import datetime
-from math import exp, factorial
-import numpy as np
+from math import comb
 import pandas as pd
 import requests
 import streamlit as st
@@ -54,12 +52,18 @@ def save_history(df_hist):
 # ==================================================
 # CONFIGURAZIONE COMPETIZIONI
 # ==================================================
-COMPETIZIONI = {"Serie A": "serieA.csv", "europa League": "europaleague.csv","serieB":"serieB.csv","premier league":"premierleague.csv"}
+COMPETIZIONI = {
+    "Serie A": "serieA.csv",
+    "serieB": "serieB.csv",
+    "premier league": "premierleague.csv",
+    "Bundesliga": "bundesliga.csv",
+    "Ligue 1": "ligue1.csv",
+    "La Liga": "laliga.csv",
+    "europa League": "europaleague.csv",
+}
 
-ELO_START = 1500
-K = 20
-HOME_ADVANTAGE = 70
-SIMULATIONS = 5000
+PRIOR_MATCHES = 3
+OVER_TREND_GOALS_THRESHOLD = 3.5
 
 # Inizializzazione del carrello schedina nella memoria di sessione
 if "schedina" not in st.session_state:
@@ -123,7 +127,7 @@ with tab1:
   )
 
   possible_home_cols = [
-      "Squadra-A",
+      "SquadraA",
       "HomeTeam",
       "Casa",
       "Home",
@@ -134,7 +138,7 @@ with tab1:
   )
 
   possible_away_cols = [
-      "Squadra-B",
+      "SquadraB",
       "AwayTeam",
       "Ospiti",
       "Away",
@@ -153,6 +157,13 @@ with tab1:
   played = df[
       (~df[RESULT_COL].isna()) & (df[RESULT_COL].astype(str).str.strip() != "")
   ].copy()
+  possible_date_cols = ["Date", "Data", "date", "data"]
+  DATE_COL = next(
+      (col for col in possible_date_cols if col in played.columns), None
+  )
+  if DATE_COL:
+    played[DATE_COL] = pd.to_datetime(played[DATE_COL], errors="coerce")
+    played = played.sort_values(DATE_COL, na_position="first")
 
   def estrai_gol(valore, posizione):
     try:
@@ -173,119 +184,113 @@ with tab1:
   played["gol_casa"] = played["gol_casa"].astype(int)
   played["gol_trasferta"] = played["gol_trasferta"].astype(int)
 
-  # ELO e Statistiche
-  ratings = {}
-
-  def expected_score(r1, r2):
-    return 1 / (1 + 10 ** ((r2 - r1) / 400))
-
-  for _, row in played.iterrows():
-    home = row[HOME_COL]
-    away = row[AWAY_COL]
-
-    if home not in ratings:
-      ratings[home] = ELO_START
-    if away not in ratings:
-      ratings[away] = ELO_START
-
-    hg, ag = row["gol_casa"], row["gol_trasferta"]
-    ra, rb = ratings[home], ratings[away]
-
-    ea = expected_score(ra + HOME_ADVANTAGE, rb)
-    eb = expected_score(rb, ra + HOME_ADVANTAGE)
-
-    sa, sb = (1, 0) if hg > ag else ((0, 1) if hg < ag else (0.5, 0.5))
-
-    ratings[home] += K * (sa - ea)
-    ratings[away] += K * (sb - eb)
-
-  avg_home_goals = played["gol_casa"].mean() if len(played) > 0 else 1.2
-  avg_away_goals = played["gol_trasferta"].mean() if len(played) > 0 else 1.0
-
   teams = sorted(set(played[HOME_COL]).union(set(played[AWAY_COL])))
+  max_goals = max(
+      12,
+      int(max(played["gol_casa"].max(), played["gol_trasferta"].max())) + 1,
+  )
 
-  attack_home = {}
-  attack_away = {}
-  defense_home = {}
-  defense_away = {}
+  def goal_distribution(samples, league_samples):
+    league_counts = league_samples.clip(upper=max_goals).value_counts()
+    league_probs = [
+        league_counts.get(goals, 0) / len(league_samples)
+        for goals in range(max_goals + 1)
+    ]
+    counts = samples.clip(upper=max_goals).value_counts()
+    denominator = len(samples) + PRIOR_MATCHES
+    return [
+        (
+            counts.get(goals, 0) + PRIOR_MATCHES * league_probs[goals]
+        )
+        / denominator
+        for goals in range(max_goals + 1)
+    ]
 
-  for team in teams:
-    home_games = played[played[HOME_COL] == team]
-    away_games = played[played[AWAY_COL] == team]
-
-    attack_home[team] = (
-        home_games["gol_casa"].mean()
-        if len(home_games) > 0
-        else avg_home_goals
-    )
-    attack_away[team] = (
-        away_games["gol_trasferta"].mean()
-        if len(away_games) > 0
-        else avg_away_goals
-    )
-    defense_home[team] = (
-        home_games["gol_trasferta"].mean()
-        if len(home_games) > 0
-        else avg_away_goals
-    )
-    defense_away[team] = (
-        home_games["gol_casa"].mean()
-        if len(home_games) > 0
-        else avg_home_goals
-    )
-
-  def recent_form(team, n=5):
-    recent = played[
-        (played[HOME_COL] == team) | (played[AWAY_COL] == team)
-    ].tail(n)
-    points = 0
-    for _, row in recent.iterrows():
-      hg, ag = row["gol_casa"], row["gol_trasferta"]
-      if row[HOME_COL] == team:
-        points += 3 if hg > ag else (1 if hg == ag else 0)
-      else:
-        points += 3 if ag > hg else (1 if ag == hg else 0)
-    return points
+  def blend_distributions(first, second):
+    return [(a + b) / 2 for a, b in zip(first, second)]
 
   def predict_match(home, away):
-    form_home = recent_form(home)
-    form_away = recent_form(away)
-    form_factor = (form_home - form_away) / 15
+    home_games = played[played[HOME_COL] == home]
+    away_games = played[played[AWAY_COL] == away]
+    home_scored_avg = (
+        home_games["gol_casa"].mean()
+        if not home_games.empty
+        else played["gol_casa"].mean()
+    )
+    away_scored_avg = (
+        away_games["gol_trasferta"].mean()
+        if not away_games.empty
+        else played["gol_trasferta"].mean()
+    )
+    attack_goals_avg = home_scored_avg + away_scored_avg
+    home_attack = goal_distribution(
+        home_games["gol_casa"], played["gol_casa"]
+    )
+    away_defense = goal_distribution(
+        away_games["gol_casa"], played["gol_casa"]
+    )
+    away_attack = goal_distribution(
+        away_games["gol_trasferta"], played["gol_trasferta"]
+    )
+    home_defense = goal_distribution(
+        home_games["gol_trasferta"], played["gol_trasferta"]
+    )
+    home_goal_probs = blend_distributions(home_attack, away_defense)
+    away_goal_probs = blend_distributions(away_attack, home_defense)
 
-    lambda_home = (attack_home[home] * defense_away[away]) / avg_home_goals
-    lambda_away = (attack_away[away] * defense_home[home]) / avg_away_goals
+    over_prob = 0.0
+    both_score_prob = 0.0
+    exact_scores = []
+    ht_ft_counts = {
+        combo: 0.0
+        for combo in [
+            "1/1", "1/X", "1/2", "X/1", "X/X", "X/2", "2/1", "2/X", "2/2"
+        ]
+    }
 
-    lambda_home *= 1 + form_factor * 0.15
-    lambda_away *= 1 - form_factor * 0.15
+    def halftime_goal_probs(full_time_goals):
+      return [
+          comb(full_time_goals, halftime_goals)
+          * 0.44**halftime_goals
+          * 0.56 ** (full_time_goals - halftime_goals)
+          for halftime_goals in range(full_time_goals + 1)
+      ]
 
-    lambda_home = max(lambda_home, 0.20)
-    lambda_away = max(lambda_away, 0.20)
+    home_halftime_probs = [
+        halftime_goal_probs(goals) for goals in range(max_goals + 1)
+    ]
+    away_halftime_probs = [
+        halftime_goal_probs(goals) for goals in range(max_goals + 1)
+    ]
 
-    over25 = 0
-    both_score = 0
-    exact_scores = Counter()
-    ht_ft_counts = Counter()
+    for hg, home_prob in enumerate(home_goal_probs):
+      for ag, away_prob in enumerate(away_goal_probs):
+        score_prob = home_prob * away_prob
+        exact_scores.append((f"{hg}-{ag}", score_prob * 100))
+        if hg + ag > 2:
+          over_prob += score_prob
+        if hg > 0 and ag > 0:
+          both_score_prob += score_prob
 
-    for _ in range(SIMULATIONS):
-      hg = np.random.poisson(lambda_home)
-      ag = np.random.poisson(lambda_away)
-      exact_scores[f"{hg}-{ag}"] += 1
-      if hg + ag > 2:
-        over25 += 1
-      if hg > 0 and ag > 0:
-        both_score += 1
+        ft_res = "1" if hg > ag else ("2" if hg < ag else "X")
+        for hg_ht, home_ht_prob in enumerate(home_halftime_probs[hg]):
+          for ag_ht, away_ht_prob in enumerate(away_halftime_probs[ag]):
+            ht_res = (
+                "1" if hg_ht > ag_ht else ("2" if hg_ht < ag_ht else "X")
+            )
+            ht_ft_counts[f"{ht_res}/{ft_res}"] += (
+                score_prob * home_ht_prob * away_ht_prob
+            )
 
-      hg_ht = min(np.random.poisson(lambda_home * 0.44), hg)
-      ag_ht = min(np.random.poisson(lambda_away * 0.44), ag)
-
-      ht_res = "1" if hg_ht > ag_ht else ("2" if hg_ht < ag_ht else "X")
-      ft_res = "1" if hg > ag else ("2" if hg < ag else "X")
-
-      ht_ft_counts[f"{ht_res}/{ft_res}"] += 1
-
-    p_over = round(over25 / SIMULATIONS * 100, 2)
+    p_over = round(over_prob * 100, 2)
     p_under = round(100 - p_over, 2)
-    p_goal = round(both_score / SIMULATIONS * 100, 2)
+    if attack_goals_avg > OVER_TREND_GOALS_THRESHOLD:
+      ou_recommendation = "Over 2.5"
+    else:
+      ou_recommendation = (
+          "Over 2.5" if p_over >= p_under else "Under 2.5"
+      )
+    p_goal = round(both_score_prob * 100, 2)
     p_nogoal = round(100 - p_goal, 2)
 
     q_over = round(100 / p_over, 2) if p_over > 0 else 99.0
@@ -294,26 +299,16 @@ with tab1:
     q_nogoal = round(100 / p_nogoal, 2) if p_nogoal > 0 else 99.0
 
     ht_ft_results = {}
-    combo_keys = [
-        "1/1",
-        "1/X",
-        "1/2",
-        "X/1",
-        "X/X",
-        "X/2",
-        "2/1",
-        "2/X",
-        "2/2",
-    ]
-    for combo in combo_keys:
-      count = ht_ft_counts[combo]
-      perc = round(count / SIMULATIONS * 100, 2)
+    for combo, combo_prob in ht_ft_counts.items():
+      perc = round(combo_prob * 100, 2)
       quota_teorica = round(100 / perc, 2) if perc > 0 else 99.0
       ht_ft_results[combo] = {"perc": perc, "quota": quota_teorica}
 
     return {
         "OVER25": p_over,
         "UNDER25": p_under,
+        "OU_RECOMMENDATION": ou_recommendation,
+        "ATTACK_GOALS_AVG": round(attack_goals_avg, 2),
         "GOAL": p_goal,
         "NOGOAL": p_nogoal,
         "Q_OVER25": q_over,
@@ -321,10 +316,9 @@ with tab1:
         "Q_GOAL": q_goal,
         "Q_NOGOAL": q_nogoal,
         "HT_FT": ht_ft_results,
-        "xG_home": round(lambda_home, 2),
-        "xG_away": round(lambda_away, 2),
-        "total_xG": round(lambda_home + lambda_away, 2),
-        "top_results": exact_scores.most_common(5),
+        "top_results": sorted(
+            exact_scores, key=lambda result: result[1], reverse=True
+        )[:5],
     }
 
   # Selezione Squadre
@@ -396,24 +390,21 @@ with tab1:
 
       # SUB-TABS PER ORGANIZZARE I MERCATI IN SCHEDE PULITE
       subtab1, subtab2, subtab3, subtab4 = st.tabs([
-          "📊 Panoramica & xG",
+          "📊 Risultati più probabili",
           "⚽ Over / Under 2.5",
           "🥅 Goal / No Goal",
           "🔄 Parziale / Finale",
       ])
 
-      # SUBTAB 1: PANORAMICA & xG
+      # SUBTAB 1: RISULTATI PIU' PROBABILI
       with subtab1:
-        st.markdown("#### ⚽ Gol Attesi (Expected Goals)")
-        xg1, xg2, xg3 = st.columns(3)
-        xg1.metric(label=f"xG {home_team}", value=p["xG_home"])
-        xg2.metric(label=f"xG {away_team}", value=p["xG_away"])
-        xg3.metric(label="Totale xG", value=p["total_xG"])
-
-        st.markdown("---")
-        st.markdown("#### 🎯 Top 5 Risultati Esatti Più Probabili")
-        for score, count in p["top_results"]:
-          perc = round(count / SIMULATIONS * 100, 2)
+        st.markdown(
+            "#### 🎯 Top 5 risultati esatti più probabili"
+        )
+        st.caption(
+            "Stime basate sui risultati storici casa/trasferta, senza calcolo xG."
+        )
+        for score, perc in p["top_results"]:
           q_exact = round(100 / perc, 2) if perc > 0 else 99.0
           st.write(
               f"• **Risultato {score}** → `{perc}%` | Quota teorica:"
@@ -423,6 +414,12 @@ with tab1:
       # SUBTAB 2: OVER / UNDER
       with subtab2:
         st.markdown("#### ⚽ Mercato Over / Under 2.5")
+        st.info(
+            f"Pronostico suggerito: **{p['OU_RECOMMENDATION']}** —"
+            " media gol segnati"
+            f" nelle partite casalinghe di {home_team} e in trasferta di"
+            f" {away_team}: **{p['ATTACK_GOALS_AVG']}**."
+        )
         ou1, ou2 = st.columns(2)
         ou1.metric(
             label="Over 2.5",

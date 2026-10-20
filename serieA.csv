@@ -1,1902 +1,381 @@
-Squadra-A,Squadra-B,risultati
-AC Milan,Udinese,4-2
-Sampdoria,Atalanta,0-2
-Lecce,Inter,1-2
-Monza,Torino,1-2
-Lazio,Bologna,2-1
-Fiorentina,Cremonese,3-2
-Salernitana,AS Roma,0-1
-Spezia,Empoli,1-0
-Hellas Verona,Napoli,2-5
-Juventus,Sassuolo,3-0
-Udinese,Salernitana,0-0
-Torino,Lazio,0-0
-Sassuolo,Lecce,1-0
-Inter,Spezia,3-0
-Napoli,Monza,4-0
-Empoli,Fiorentina,0-0
-Atalanta,AC Milan,1-1
-Bologna,Hellas Verona,1-1
-AS Roma,Cremonese,1-0
-Sampdoria,Juventus,0-0
-Monza,Udinese,1-2
-Lazio,Inter,3-1
-Juventus,AS Roma,1-1
-Cremonese,Torino,1-2
-AC Milan,Bologna,2-0
-Spezia,Sassuolo,2-2
-Hellas Verona,Atalanta,0-1
-Salernitana,Sampdoria,4-0
-Fiorentina,Napoli,0-0
-Lecce,Empoli,1-1
-Sassuolo,AC Milan,0-0
-AS Roma,Monza,3-0
-Inter,Cremonese,3-1
-Udinese,Fiorentina,1-0
-Sampdoria,Lazio,1-1
-Empoli,Hellas Verona,1-1
-Napoli,Lecce,1-1
-Juventus,Spezia,2-0
-Atalanta,Torino,3-1
-Bologna,Salernitana,1-1
-Fiorentina,Juventus,1-1
-AC Milan,Inter,3-2
-Lazio,Napoli,1-2
-Cremonese,Sassuolo,0-0
-Spezia,Bologna,2-2
-Hellas Verona,Sampdoria,2-1
-Udinese,AS Roma,4-0
-Salernitana,Empoli,2-2
-Monza,Atalanta,0-2
-Torino,Lecce,1-0
-Napoli,Spezia,1-0
-Inter,Torino,1-0
-Sampdoria,AC Milan,1-2
-Atalanta,Cremonese,1-1
-Sassuolo,Udinese,1-3
-Bologna,Fiorentina,2-1
-Lecce,Monza,1-1
-Lazio,Hellas Verona,2-0
-Juventus,Salernitana,2-2
-Empoli,AS Roma,1-2
-Salernitana,Lecce,1-2
-Bologna,Empoli,0-1
-Spezia,Sampdoria,2-1
-Torino,Sassuolo,0-1
-Udinese,Inter,3-1
-Fiorentina,Hellas Verona,2-0
-Cremonese,Lazio,0-4
-Monza,Juventus,1-0
-AS Roma,Atalanta,0-1
-AC Milan,Napoli,1-2
-Napoli,Torino,3-1
-Inter,AS Roma,1-2
-Empoli,AC Milan,1-3
-Lazio,Spezia,4-0
-Sassuolo,Salernitana,5-0
-Sampdoria,Monza,0-3
-Lecce,Cremonese,1-1
-Atalanta,Fiorentina,1-0
-Juventus,Bologna,3-0
-Hellas Verona,Udinese,1-2
-Sassuolo,Inter,1-2
-AC Milan,Juventus,2-0
-Bologna,Sampdoria,1-1
-Torino,Empoli,1-1
-Udinese,Atalanta,2-2
-Salernitana,Hellas Verona,2-1
-Monza,Spezia,2-0
-Cremonese,Napoli,1-4
-AS Roma,Lecce,2-1
-Fiorentina,Lazio,0-4
-Empoli,Monza,1-0
-Torino,Juventus,0-1
-Atalanta,Sassuolo,2-1
-Inter,Salernitana,2-0
-Lazio,Udinese,0-0
-Spezia,Cremonese,2-2
-Napoli,Bologna,3-2
-Hellas Verona,AC Milan,1-2
-Sampdoria,AS Roma,0-1
-Lecce,Fiorentina,1-1
-Juventus,Empoli,4-0
-Salernitana,Spezia,1-0
-AC Milan,Monza,4-1
-Fiorentina,Inter,3-4
-Udinese,Torino,1-2
-Bologna,Lecce,2-0
-Atalanta,Lazio,0-2
-AS Roma,Napoli,0-1
-Cremonese,Sampdoria,0-1
-Sassuolo,Hellas Verona,2-1
-Napoli,Sassuolo,4-0
-Lecce,Juventus,0-1
-Inter,Sampdoria,3-0
-Empoli,Atalanta,0-2
-Spezia,Fiorentina,1-2
-Cremonese,Udinese,0-0
-Lazio,Salernitana,1-3
-Torino,AC Milan,2-1
-Hellas Verona,AS Roma,1-3
-Monza,Bologna,1-2
-Udinese,Lecce,1-1
-Empoli,Sassuolo,1-0
-Salernitana,Cremonese,2-2
-Atalanta,Napoli,1-2
-AC Milan,Spezia,2-1
-Bologna,Torino,2-1
-Sampdoria,Fiorentina,0-2
-Monza,Hellas Verona,2-0
-AS Roma,Lazio,0-1
-Juventus,Inter,2-0
-Napoli,Empoli,2-0
-Spezia,Udinese,1-1
-Cremonese,AC Milan,0-0
-Sassuolo,AS Roma,1-1
-Lecce,Atalanta,2-1
-Fiorentina,Salernitana,2-1
-Torino,Sampdoria,2-0
-Inter,Bologna,6-1
-Hellas Verona,Juventus,0-1
-Lazio,Monza,1-0
-Empoli,Cremonese,2-0
-Napoli,Udinese,3-2
-Sampdoria,Lecce,0-2
-Bologna,Sassuolo,3-0
-Atalanta,Inter,2-3
-AS Roma,Torino,1-1
-Hellas Verona,Spezia,1-2
-Monza,Salernitana,3-0
-AC Milan,Fiorentina,2-1
-Juventus,Lazio,3-0
-Sassuolo,Sampdoria,1-2
-Salernitana,AC Milan,1-2
-Torino,Hellas Verona,1-1
-Spezia,Atalanta,2-2
-AS Roma,Bologna,1-0
-Lecce,Lazio,2-1
-Fiorentina,Monza,1-1
-Cremonese,Juventus,0-1
-Udinese,Empoli,1-1
-Inter,Napoli,1-0
-Fiorentina,Sassuolo,2-1
-Juventus,Udinese,1-0
-Monza,Inter,2-2
-Salernitana,Torino,1-1
-Lazio,Empoli,2-2
-Spezia,Lecce,0-0
-Sampdoria,Napoli,0-2
-AC Milan,AS Roma,2-2
-Hellas Verona,Cremonese,2-0
-Bologna,Atalanta,1-2
-Napoli,Juventus,5-1
-Cremonese,Monza,2-3
-Lecce,AC Milan,2-2
-Inter,Hellas Verona,1-0
-Sassuolo,Lazio,0-2
-Udinese,Bologna,1-2
-Torino,Spezia,0-1
-Atalanta,Salernitana,8-2
-AS Roma,Fiorentina,2-0
-Empoli,Sampdoria,1-0
-Hellas Verona,Lecce,2-0
-Salernitana,Napoli,0-2
-Fiorentina,Torino,0-1
-Sampdoria,Udinese,0-1
-Monza,Sassuolo,1-1
-Spezia,AS Roma,0-2
-Juventus,Atalanta,3-3
-Bologna,Cremonese,1-1
-Inter,Empoli,0-1
-Lazio,AC Milan,4-0
-Bologna,Spezia,2-0
-Lecce,Salernitana,1-2
-Empoli,Torino,2-2
-Cremonese,Inter,1-2
-Atalanta,Sampdoria,2-0
-AC Milan,Sassuolo,2-5
-Juventus,Monza,0-2
-Lazio,Fiorentina,1-1
-Napoli,AS Roma,2-1
-Udinese,Hellas Verona,1-1
-Cremonese,Lecce,0-2
-AS Roma,Empoli,2-0
-Sassuolo,Atalanta,1-0
-Spezia,Napoli,0-3
-Torino,Udinese,1-0
-Fiorentina,Bologna,1-2
-Inter,AC Milan,1-0
-Hellas Verona,Lazio,1-1
-Monza,Sampdoria,2-2
-Salernitana,Juventus,0-3
-AC Milan,Torino,1-0
-Empoli,Spezia,2-2
-Lecce,AS Roma,1-1
-Lazio,Atalanta,0-2
-Udinese,Sassuolo,2-2
-Bologna,Monza,0-1
-Juventus,Fiorentina,1-0
-Napoli,Cremonese,3-0
-Hellas Verona,Salernitana,1-0
-Sampdoria,Inter,0-0
-Sassuolo,Napoli,0-2
-Sampdoria,Bologna,1-2
-Monza,AC Milan,0-1
-Inter,Udinese,3-1
-Atalanta,Lecce,1-2
-Fiorentina,Empoli,1-1
-Salernitana,Lazio,0-2
-Spezia,Juventus,0-2
-AS Roma,Hellas Verona,1-0
-Torino,Cremonese,2-2
-Empoli,Napoli,0-2
-Lecce,Sassuolo,0-1
-Bologna,Inter,1-0
-Salernitana,Monza,3-0
-Udinese,Spezia,2-2
-AC Milan,Atalanta,2-0
-Hellas Verona,Fiorentina,0-3
-Lazio,Sampdoria,1-0
-Cremonese,AS Roma,2-1
-Juventus,Torino,4-2
-Napoli,Lazio,0-1
-Monza,Empoli,2-1
-Atalanta,Udinese,0-0
-Fiorentina,AC Milan,2-1
-Spezia,Hellas Verona,0-0
-Sampdoria,Salernitana,0-0
-Inter,Lecce,2-0
-AS Roma,Juventus,1-0
-Sassuolo,Cremonese,3-2
-Torino,Bologna,1-0
-Spezia,Inter,2-1
-Empoli,Udinese,0-1
-Napoli,Atalanta,2-0
-Bologna,Lazio,0-0
-Lecce,Torino,0-2
-Hellas Verona,Monza,1-1
-Cremonese,Fiorentina,0-2
-AS Roma,Sassuolo,3-4
-Juventus,Sampdoria,4-2
-AC Milan,Salernitana,1-1
-Sassuolo,Spezia,1-0
-Atalanta,Empoli,2-1
-Monza,Cremonese,1-1
-Salernitana,Bologna,2-2
-Udinese,AC Milan,3-1
-Sampdoria,Hellas Verona,3-1
-Fiorentina,Lecce,1-0
-Torino,Napoli,0-4
-Lazio,AS Roma,1-0
-Inter,Juventus,0-1
-Cremonese,Atalanta,1-3
-Inter,Fiorentina,0-1
-Juventus,Hellas Verona,1-0
-Bologna,Udinese,3-0
-Spezia,Salernitana,1-1
-Monza,Lazio,0-2
-AS Roma,Sampdoria,3-0
-Napoli,AC Milan,0-4
-Empoli,Lecce,1-0
-Sassuolo,Torino,1-1
-Salernitana,Inter,1-1
-Lecce,Napoli,1-2
-AC Milan,Empoli,0-0
-Udinese,Monza,2-2
-Fiorentina,Spezia,1-1
-Sampdoria,Cremonese,2-3
-Atalanta,Bologna,0-2
-Torino,AS Roma,0-1
-Hellas Verona,Sassuolo,2-1
-Lazio,Juventus,2-1
-Cremonese,Empoli,1-0
-Spezia,Lazio,0-3
-Bologna,AC Milan,1-1
-Napoli,Hellas Verona,0-0
-Inter,Monza,0-1
-Lecce,Sampdoria,1-1
-Torino,Salernitana,1-1
-Sassuolo,Juventus,1-0
-AS Roma,Udinese,3-0
-Fiorentina,Atalanta,1-1
-Hellas Verona,Bologna,2-1
-Salernitana,Sassuolo,3-0
-Lazio,Torino,0-1
-Sampdoria,Spezia,1-1
-Empoli,Inter,0-3
-Udinese,Cremonese,3-0
-Monza,Fiorentina,3-2
-AC Milan,Lecce,2-0
-Juventus,Napoli,0-1
-Atalanta,AS Roma,3-1
-Lecce,Udinese,1-0
-Spezia,Monza,0-2
-AS Roma,AC Milan,1-1
-Torino,Atalanta,1-2
-Inter,Lazio,3-1
-Sassuolo,Empoli,2-1
-Napoli,Salernitana,1-1
-Cremonese,Hellas Verona,1-1
-Fiorentina,Sampdoria,5-0
-Bologna,Juventus,1-1
-Juventus,Lecce,2-1
-Sampdoria,Torino,0-2
-Atalanta,Spezia,3-2
-Salernitana,Fiorentina,3-3
-Lazio,Sassuolo,2-0
-AC Milan,Cremonese,1-1
-Hellas Verona,Inter,0-6
-Monza,AS Roma,1-1
-Udinese,Napoli,1-1
-Empoli,Bologna,3-1
-AC Milan,Lazio,2-0
-AS Roma,Inter,0-2
-Cremonese,Spezia,2-0
-Atalanta,Juventus,0-2
-Torino,Monza,1-1
-Napoli,Fiorentina,1-0
-Lecce,Hellas Verona,0-1
-Udinese,Sampdoria,2-0
-Empoli,Salernitana,2-1
-Sassuolo,Bologna,1-1
-Lazio,Lecce,2-2
-Salernitana,Atalanta,1-0
-Spezia,AC Milan,2-0
-Inter,Sassuolo,4-2
-Hellas Verona,Torino,0-1
-Fiorentina,Udinese,2-0
-Monza,Napoli,2-0
-Bologna,AS Roma,0-0
-Juventus,Cremonese,2-0
-Sampdoria,Empoli,1-1
-Sassuolo,Monza,1-2
-Cremonese,Bologna,1-5
-Atalanta,Hellas Verona,3-1
-AC Milan,Sampdoria,5-1
-Lecce,Spezia,0-0
-Torino,Fiorentina,1-1
-Napoli,Inter,3-1
-Udinese,Lazio,0-1
-AS Roma,Salernitana,2-2
-Empoli,Juventus,4-1
-Sampdoria,Sassuolo,2-2
-Salernitana,Udinese,3-2
-Spezia,Torino,0-4
-Fiorentina,AS Roma,2-1
-Inter,Atalanta,3-2
-Hellas Verona,Empoli,1-1
-Bologna,Napoli,2-2
-Monza,Lecce,0-1
-Lazio,Cremonese,3-2
-Juventus,AC Milan,0-1
-Sassuolo,Fiorentina,1-3
-Torino,Inter,0-1
-Empoli,Lazio,0-2
-Cremonese,Salernitana,2-0
-Napoli,Sampdoria,2-0
-AC Milan,Hellas Verona,3-1
-Udinese,Juventus,0-1
-AS Roma,Spezia,2-1
-Atalanta,Monza,5-2
-Lecce,Bologna,2-3
-Spezia,Hellas Verona,1-3
-Empoli,Hellas Verona,0-1
-Frosinone,Napoli,1-3
-Genoa,Fiorentina,1-4
-Inter,Monza,2-0
-Sassuolo,Atalanta,0-2
-AS Roma,Salernitana,2-2
-Udinese,Juventus,0-3
-Lecce,Lazio,2-1
-Torino,Cagliari,0-0
-Bologna,AC Milan,0-2
-Frosinone,Atalanta,2-1
-Monza,Empoli,2-0
-AC Milan,Torino,4-1
-Hellas Verona,AS Roma,2-1
-Juventus,Bologna,1-1
-Fiorentina,Lecce,2-2
-Lazio,Genoa,0-1
-Napoli,Sassuolo,2-0
-Salernitana,Udinese,1-1
-Cagliari,Inter,0-2
-Sassuolo,Hellas Verona,3-1
-AS Roma,AC Milan,1-2
-Udinese,Frosinone,0-0
-Bologna,Cagliari,2-1
-Napoli,Lazio,1-2
-Atalanta,Monza,3-0
-Torino,Genoa,1-0
-Inter,Fiorentina,4-0
-Empoli,Juventus,0-2
-Lecce,Salernitana,2-0
-Juventus,Lazio,3-1
-Inter,AC Milan,5-1
-Genoa,Napoli,2-2
-Cagliari,Udinese,0-0
-Frosinone,Sassuolo,4-2
-Monza,Lecce,1-1
-Fiorentina,Atalanta,3-2
-AS Roma,Empoli,7-0
-Salernitana,Torino,0-3
-Hellas Verona,Bologna,0-0
-Salernitana,Frosinone,1-1
-Lecce,Genoa,1-0
-AC Milan,Hellas Verona,1-0
-Sassuolo,Juventus,4-2
-Lazio,Monza,1-1
-Empoli,Inter,0-1
-Udinese,Fiorentina,0-2
-Atalanta,Cagliari,2-0
-Bologna,Napoli,0-0
-Torino,AS Roma,1-1
-Juventus,Lecce,1-0
-Cagliari,AC Milan,1-3
-Hellas Verona,Atalanta,0-1
-Empoli,Salernitana,1-0
-Lazio,Torino,2-0
-Napoli,Udinese,4-1
-Inter,Sassuolo,1-2
-Frosinone,Fiorentina,1-1
-Monza,Bologna,0-0
-Genoa,AS Roma,4-1
-Lecce,Napoli,0-4
-AC Milan,Lazio,2-0
-Salernitana,Inter,0-4
-Bologna,Empoli,3-0
-Udinese,Genoa,2-2
-Atalanta,Juventus,0-0
-AS Roma,Frosinone,2-0
-Sassuolo,Monza,0-1
-Torino,Hellas Verona,0-0
-Fiorentina,Cagliari,3-0
-Empoli,Udinese,0-0
-Lecce,Sassuolo,1-1
-Inter,Bologna,2-2
-Juventus,Torino,2-0
-Genoa,AC Milan,0-1
-Monza,Salernitana,3-0
-Lazio,Atalanta,3-2
-Frosinone,Hellas Verona,2-1
-Cagliari,AS Roma,1-4
-Napoli,Fiorentina,1-3
-Hellas Verona,Napoli,1-3
-Torino,Inter,0-3
-Sassuolo,Lazio,0-2
-AS Roma,Monza,1-0
-Bologna,Frosinone,2-1
-Salernitana,Cagliari,2-2
-Atalanta,Genoa,2-0
-AC Milan,Juventus,0-1
-Udinese,Lecce,1-1
-Fiorentina,Empoli,0-2
-Genoa,Salernitana,1-0
-Sassuolo,Bologna,1-1
-Lecce,Torino,0-1
-Juventus,Hellas Verona,1-0
-Cagliari,Frosinone,4-3
-Monza,Udinese,1-1
-Inter,AS Roma,1-0
-Napoli,AC Milan,2-2
-Empoli,Atalanta,0-3
-Lazio,Fiorentina,1-0
-Bologna,Lazio,1-0
-Salernitana,Napoli,0-2
-Atalanta,Inter,1-2
-AC Milan,Udinese,0-1
-Hellas Verona,Monza,1-3
-Cagliari,Genoa,2-1
-AS Roma,Lecce,2-1
-Fiorentina,Juventus,0-1
-Frosinone,Empoli,2-1
-Torino,Sassuolo,2-1
-Sassuolo,Salernitana,2-2
-Genoa,Hellas Verona,1-0
-Lecce,AC Milan,2-2
-Juventus,Cagliari,2-1
-Monza,Torino,1-1
-Napoli,Empoli,0-1
-Udinese,Atalanta,1-1
-Fiorentina,Bologna,2-1
-Lazio,AS Roma,0-0
-Inter,Frosinone,2-0
-Salernitana,Lazio,2-1
-Atalanta,Napoli,1-2
-AC Milan,Fiorentina,1-0
-Cagliari,Monza,1-1
-Empoli,Sassuolo,3-4
-Frosinone,Genoa,2-1
-AS Roma,Udinese,3-1
-Juventus,Inter,1-1
-Hellas Verona,Lecce,2-2
-Bologna,Torino,2-0
-Monza,Juventus,1-2
-Genoa,Empoli,1-1
-Lazio,Cagliari,1-0
-AC Milan,Frosinone,3-1
-Lecce,Bologna,1-1
-Udinese,Hellas Verona,3-3
-Fiorentina,Salernitana,3-0
-Sassuolo,AS Roma,1-2
-Napoli,Inter,0-3
-Torino,Atalanta,3-0
-Juventus,Napoli,1-0
-Hellas Verona,Lazio,1-1
-Atalanta,AC Milan,3-2
-Inter,Udinese,4-0
-Frosinone,Torino,0-0
-Monza,Genoa,1-0
-Salernitana,Bologna,1-2
-AS Roma,Fiorentina,1-1
-Empoli,Lecce,1-1
-Cagliari,Sassuolo,2-1
-Genoa,Juventus,1-1
-Lecce,Frosinone,2-1
-Napoli,Cagliari,2-1
-Torino,Empoli,1-0
-AC Milan,Monza,3-0
-Udinese,Sassuolo,2-2
-Fiorentina,Hellas Verona,1-0
-Bologna,AS Roma,2-0
-Lazio,Inter,0-2
-Atalanta,Salernitana,4-1
-Sassuolo,Genoa,1-2
-Empoli,Lazio,0-2
-Salernitana,AC Milan,2-2
-Monza,Fiorentina,0-1
-Frosinone,Juventus,1-2
-Bologna,Atalanta,1-0
-Torino,Udinese,1-1
-Hellas Verona,Cagliari,2-0
-Inter,Lecce,2-0
-AS Roma,Napoli,2-0
-Napoli,Monza,0-0
-Fiorentina,Torino,1-0
-Lazio,Frosinone,3-1
-Genoa,Inter,1-1
-Atalanta,Lecce,1-0
-Cagliari,Empoli,0-0
-Udinese,Bologna,3-0
-AC Milan,Sassuolo,1-0
-Hellas Verona,Salernitana,0-1
-Juventus,AS Roma,1-0
-Bologna,Genoa,1-1
-Inter,Hellas Verona,2-1
-Frosinone,Monza,2-3
-Lecce,Cagliari,1-1
-Sassuolo,Fiorentina,1-0
-Empoli,AC Milan,0-3
-Udinese,Lazio,1-2
-Torino,Napoli,3-0
-Salernitana,Juventus,1-2
-AS Roma,Atalanta,1-1
-Napoli,Salernitana,2-1
-Genoa,Torino,0-0
-Hellas Verona,Empoli,2-1
-Monza,Inter,1-5
-Lazio,Lecce,1-0
-Cagliari,Bologna,2-1
-Fiorentina,Udinese,2-2
-AC Milan,AS Roma,3-1
-Atalanta,Frosinone,5-0
-Juventus,Sassuolo,3-0
-AS Roma,Hellas Verona,2-1
-Udinese,AC Milan,2-3
-Frosinone,Cagliari,3-1
-Empoli,Monza,3-0
-Salernitana,Genoa,1-2
-Lecce,Juventus,0-3
-Cagliari,Torino,1-2
-Atalanta,Udinese,2-0
-Juventus,Empoli,1-1
-AC Milan,Bologna,2-2
-Genoa,Lecce,2-1
-Hellas Verona,Frosinone,1-1
-Monza,Sassuolo,1-0
-Lazio,Napoli,0-0
-Fiorentina,Inter,0-1
-Salernitana,AS Roma,1-2
-Lecce,Fiorentina,3-2
-Udinese,Monza,0-0
-Empoli,Genoa,0-0
-Frosinone,AC Milan,2-3
-Bologna,Sassuolo,4-2
-Torino,Salernitana,0-0
-Napoli,Hellas Verona,2-1
-Atalanta,Lazio,3-1
-Inter,Juventus,1-0
-AS Roma,Cagliari,4-0
-Salernitana,Empoli,1-3
-Cagliari,Lazio,1-3
-AS Roma,Inter,2-4
-Sassuolo,Torino,1-1
-Fiorentina,Frosinone,5-1
-Bologna,Lecce,4-0
-Monza,Hellas Verona,0-0
-Genoa,Atalanta,1-4
-AC Milan,Napoli,1-0
-Juventus,Udinese,0-1
-Bologna,Fiorentina,2-0
-Torino,Lecce,2-0
-Inter,Salernitana,4-0
-Napoli,Genoa,1-1
-Hellas Verona,Juventus,2-2
-Atalanta,Sassuolo,3-0
-Lazio,Bologna,1-2
-Udinese,Cagliari,1-1
-Empoli,Fiorentina,1-1
-Frosinone,AS Roma,0-3
-Monza,AC Milan,4-2
-Torino,Lazio,0-2
-Bologna,Hellas Verona,2-0
-Sassuolo,Empoli,2-3
-Salernitana,Monza,0-2
-Genoa,Udinese,2-0
-Juventus,Frosinone,3-2
-Cagliari,Napoli,1-1
-Lecce,Inter,0-4
-AC Milan,Atalanta,1-1
-AS Roma,Torino,3-2
-Fiorentina,Lazio,2-1
-Sassuolo,Napoli,1-6
-Inter,Atalanta,4-0
-Lazio,AC Milan,0-1
-Udinese,Salernitana,1-1
-Monza,AS Roma,1-4
-Torino,Fiorentina,0-0
-Hellas Verona,Sassuolo,1-0
-Empoli,Cagliari,0-1
-Frosinone,Lecce,1-1
-Atalanta,Bologna,1-2
-Napoli,Juventus,2-1
-Inter,Genoa,2-1
-Napoli,Torino,1-1
-Sassuolo,Frosinone,1-0
-Cagliari,Salernitana,4-2
-Bologna,Inter,0-1
-Genoa,Monza,2-3
-Lecce,Hellas Verona,0-1
-AC Milan,Empoli,1-0
-Juventus,Atalanta,2-2
-Fiorentina,AS Roma,2-2
-Lazio,Udinese,1-2
-Empoli,Bologna,0-1
-Udinese,Torino,0-2
-Monza,Cagliari,1-0
-Salernitana,Lecce,0-1
-Frosinone,Lazio,2-3
-Juventus,Genoa,0-0
-Hellas Verona,AC Milan,1-3
-AS Roma,Sassuolo,1-0
-Inter,Napoli,1-1
-Napoli,Atalanta,0-3
-Genoa,Frosinone,1-1
-Torino,Monza,1-0
-Lazio,Juventus,1-0
-Fiorentina,AC Milan,1-2
-Bologna,Salernitana,3-0
-Sassuolo,Udinese,1-1
-Cagliari,Hellas Verona,1-1
-Lecce,AS Roma,0-0
-Inter,Empoli,2-0
-Salernitana,Sassuolo,2-2
-AC Milan,Lecce,3-0
-AS Roma,Lazio,1-0
-Empoli,Torino,3-2
-Frosinone,Bologna,0-0
-Monza,Napoli,2-4
-Cagliari,Atalanta,2-1
-Hellas Verona,Genoa,1-2
-Juventus,Fiorentina,1-0
-Udinese,Inter,1-2
-Lazio,Salernitana,4-1
-Lecce,Empoli,1-0
-Torino,Juventus,0-0
-Bologna,Monza,0-0
-Napoli,Frosinone,2-2
-Sassuolo,AC Milan,3-3
-Inter,Cagliari,2-2
-Fiorentina,Genoa,1-1
-Atalanta,Hellas Verona,2-2
-Genoa,Lazio,0-1
-Cagliari,Juventus,2-2
-Empoli,Napoli,1-0
-Hellas Verona,Udinese,1-0
-Sassuolo,Lecce,0-3
-Torino,Frosinone,0-0
-Salernitana,Fiorentina,0-2
-Monza,Atalanta,1-2
-AS Roma,Bologna,1-3
-AC Milan,Inter,1-2
-Udinese,AS Roma,1-2
-Frosinone,Salernitana,3-0
-Lecce,Monza,1-1
-Juventus,AC Milan,0-0
-Lazio,Hellas Verona,1-0
-Inter,Torino,2-0
-Bologna,Udinese,1-1
-Napoli,AS Roma,2-2
-Atalanta,Empoli,2-0
-Fiorentina,Sassuolo,5-1
-Genoa,Cagliari,3-0
-Torino,Bologna,0-0
-Monza,Lazio,2-2
-Sassuolo,Inter,1-0
-Cagliari,Lecce,1-1
-Hellas Verona,Fiorentina,2-1
-Empoli,Frosinone,0-0
-AC Milan,Genoa,3-3
-AS Roma,Juventus,1-1
-Salernitana,Atalanta,1-2
-Udinese,Napoli,1-1
-Frosinone,Inter,0-5
-Napoli,Bologna,0-2
-AC Milan,Cagliari,5-1
-Lazio,Empoli,2-0
-Genoa,Sassuolo,2-1
-Hellas Verona,Torino,1-2
-Juventus,Salernitana,1-1
-Atalanta,AS Roma,2-1
-Lecce,Udinese,0-2
-Fiorentina,Monza,2-1
-Fiorentina,Napoli,2-2
-Lecce,Atalanta,0-2
-Torino,AC Milan,3-1
-Sassuolo,Cagliari,0-2
-Udinese,Empoli,1-1
-Monza,Frosinone,0-1
-Inter,Lazio,1-1
-AS Roma,Genoa,1-0
-Salernitana,Hellas Verona,1-2
-Bologna,Juventus,3-3
-Cagliari,Fiorentina,2-3
-Genoa,Bologna,2-0
-Juventus,Monza,2-0
-AC Milan,Salernitana,3-3
-Napoli,Lecce,0-0
-Atalanta,Torino,3-0
-Lazio,Sassuolo,1-1
-Hellas Verona,Inter,2-2
-Empoli,AS Roma,2-1
-Frosinone,Udinese,0-1
-Atalanta,Fiorentina,2-3
-Genoa,Inter,2-2
-Parma,Fiorentina,1-1
-AC Milan,Torino,2-2
-Empoli,Monza,0-0
-Bologna,Udinese,1-1
-Hellas Verona,Napoli,3-0
-Lazio,Venezia,3-1
-Cagliari,AS Roma,0-0
-Lecce,Atalanta,0-4
-Juventus,como,3-0
-Udinese,Lazio,2-1
-Parma,AC Milan,2-1
-Inter,Lecce,2-0
-Monza,Genoa,0-1
-Fiorentina,Venezia,0-0
-Torino,Atalanta,2-1
-Napoli,Bologna,3-0
-AS Roma,Empoli,1-2
-Cagliari,como,1-1
-Hellas Verona,Juventus,0-3
-Venezia,Torino,0-1
-Inter,Atalanta,4-0
-Bologna,Empoli,1-1
-Lecce,Cagliari,1-0
-Lazio,AC Milan,2-2
-Napoli,Parma,2-1
-Genoa,Hellas Verona,0-2
-Fiorentina,Monza,2-2
-Udinese,como,1-0
-Juventus,AS Roma,0-0
-como,Bologna,2-2
-Empoli,Juventus,0-0
-AC Milan,Venezia,4-0
-Genoa,AS Roma,1-1
-Atalanta,Fiorentina,3-2
-Torino,Lecce,0-0
-Cagliari,Napoli,0-4
-Monza,Inter,1-1
-Parma,Udinese,2-3
-Lazio,Hellas Verona,2-1
-Cagliari,Empoli,0-2
-Hellas Verona,Torino,2-3
-Venezia,Genoa,2-0
-Juventus,Napoli,0-0
-Lecce,Parma,2-2
-Fiorentina,Lazio,2-1
-Monza,Bologna,1-2
-AS Roma,Udinese,3-0
-Inter,AC Milan,1-2
-Atalanta,como,2-3
-AC Milan,Lecce,3-0
-Udinese,Inter,2-3
-Genoa,Juventus,0-3
-Bologna,Atalanta,1-1
-Torino,Lazio,2-3
-AS Roma,Venezia,2-1
-como,Hellas Verona,3-2
-Empoli,Fiorentina,0-0
-Napoli,Monza,2-0
-Parma,Cagliari,2-3
-Napoli,como,3-1
-Hellas Verona,Venezia,2-1
-Udinese,Lecce,1-0
-Atalanta,Genoa,5-1
-Inter,Torino,3-2
-Juventus,Cagliari,1-1
-Lazio,Empoli,2-1
-Bologna,Parma,0-0
-Monza,AS Roma,1-1
-Fiorentina,AC Milan,2-1
-Genoa,Bologna,2-2
-como,Parma,1-1
-AC Milan,Udinese,1-0
-Juventus,Lazio,1-0
-Empoli,Napoli,0-1
-Venezia,Atalanta,0-2
-Lecce,Fiorentina,0-6
-Cagliari,Torino,3-2
-AS Roma,Inter,0-1
-Hellas Verona,Monza,0-3
-Udinese,Cagliari,2-0
-Torino,como,1-0
-Napoli,Lecce,1-0
-Atalanta,Hellas Verona,6-1
-Parma,Empoli,1-1
-Lazio,Genoa,3-0
-Monza,Venezia,2-2
-Inter,Juventus,4-4
-Fiorentina,AS Roma,5-1
-Cagliari,Bologna,0-2
-Lecce,Hellas Verona,1-0
-AC Milan,Napoli,0-2
-Empoli,Inter,0-3
-Venezia,Udinese,3-2
-Juventus,Parma,2-2
-Atalanta,Monza,2-0
-Genoa,Fiorentina,0-1
-AS Roma,Torino,1-0
-como,Lazio,1-5
-Bologna,Lecce,1-0
-Udinese,Juventus,0-2
-Monza,AC Milan,0-1
-Napoli,Atalanta,0-3
-Torino,Fiorentina,0-1
-Hellas Verona,AS Roma,3-2
-Inter,Venezia,1-0
-Empoli,como,1-0
-Parma,Genoa,0-1
-Lazio,Cagliari,2-1
-Genoa,como,1-1
-Lecce,Empoli,1-1
-Venezia,Parma,1-2
-Cagliari,AC Milan,3-3
-Juventus,Torino,2-0
-Atalanta,Udinese,2-1
-AS Roma,Bologna,2-3
-Fiorentina,Hellas Verona,3-1
-Monza,Lazio,0-1
-Inter,Napoli,1-1
-Hellas Verona,Inter,0-5
-AC Milan,Juventus,0-0
-Parma,Atalanta,1-3
-Genoa,Cagliari,2-2
-Torino,Monza,1-1
-como,Fiorentina,0-2
-Napoli,AS Roma,1-0
-Lazio,Bologna,3-0
-Empoli,Udinese,1-1
-Venezia,Lecce,0-1
-Cagliari,Hellas Verona,1-0
-como,Monza,1-1
-AC Milan,Empoli,3-0
-Bologna,Venezia,3-0
-Udinese,Genoa,0-2
-Torino,Napoli,0-1
-Parma,Lazio,3-1
-Lecce,Juventus,1-1
-AS Roma,Atalanta,0-2
-Inter,Parma,3-1
-Atalanta,AC Milan,2-1
-Genoa,Torino,0-0
-Juventus,Bologna,2-2
-AS Roma,Lecce,4-1
-Fiorentina,Cagliari,1-0
-Hellas Verona,Empoli,1-4
-Venezia,como,2-2
-Napoli,Lazio,0-1
-Monza,Udinese,1-2
-Empoli,Torino,0-1
-Cagliari,Atalanta,0-1
-Udinese,Napoli,1-3
-Juventus,Venezia,2-2
-Lecce,Monza,2-1
-Bologna,Fiorentina,1-0
-Parma,Hellas Verona,2-3
-como,AS Roma,2-0
-AC Milan,Genoa,0-0
-Lazio,Inter,0-6
-Hellas Verona,AC Milan,0-1
-Torino,Bologna,0-2
-Genoa,Napoli,1-2
-Lecce,Lazio,1-2
-AS Roma,Parma,5-0
-Venezia,Cagliari,2-1
-Atalanta,Empoli,3-2
-Monza,Juventus,1-2
-Fiorentina,Udinese,1-2
-Inter,como,2-0
-Empoli,Genoa,1-2
-Parma,Monza,2-1
-Cagliari,Inter,0-3
-Lazio,Atalanta,1-1
-Udinese,Torino,2-2
-Napoli,Venezia,1-0
-Juventus,Fiorentina,2-2
-AC Milan,AS Roma,1-1
-como,Lecce,2-0
-Bologna,Hellas Verona,2-3
-Venezia,Empoli,1-1
-Fiorentina,Napoli,0-3
-Hellas Verona,Udinese,0-0
-Monza,Cagliari,1-2
-Lecce,Genoa,0-0
-Torino,Parma,0-0
-AS Roma,Lazio,2-0
-Lazio,como,1-1
-Udinese,Atalanta,0-0
-Empoli,Lecce,1-3
-Torino,Juventus,1-1
-AC Milan,Cagliari,1-1
-Genoa,Parma,1-0
-Venezia,Inter,0-1
-Bologna,AS Roma,2-2
-Napoli,Hellas Verona,2-0
-Monza,Fiorentina,2-1
-como,AC Milan,1-2
-Atalanta,Juventus,1-1
-Inter,Bologna,2-2
-AS Roma,Genoa,3-1
-Bologna,Monza,3-1
-Juventus,AC Milan,2-0
-Atalanta,Napoli,2-3
-Fiorentina,Torino,1-1
-Cagliari,Lecce,4-1
-Parma,Venezia,1-1
-Hellas Verona,Lazio,0-3
-Inter,Empoli,3-1
-como,Udinese,4-1
-Torino,Cagliari,2-0
-como,Atalanta,1-2
-Napoli,Juventus,2-1
-Empoli,Bologna,1-1
-AC Milan,Parma,3-2
-Udinese,AS Roma,1-2
-Lecce,Inter,0-4
-Lazio,Fiorentina,1-2
-Venezia,Hellas Verona,1-1
-Genoa,Monza,2-0
-Parma,Lecce,1-3
-Udinese,Venezia,3-2
-Monza,Hellas Verona,0-1
-Atalanta,Torino,1-1
-Bologna,como,2-0
-Juventus,Empoli,4-1
-Fiorentina,Genoa,2-1
-AC Milan,Inter,1-1
-AS Roma,Napoli,1-1
-Cagliari,Lazio,1-2
-Fiorentina,Inter,3-0
-como,Juventus,1-2
-Hellas Verona,Atalanta,0-5
-Empoli,AC Milan,0-2
-Torino,Genoa,1-1
-Venezia,AS Roma,0-1
-Lazio,Monza,5-1
-Cagliari,Parma,2-1
-Lecce,Bologna,0-0
-Napoli,Udinese,1-1
-Inter,Fiorentina,2-1
-Bologna,Torino,3-2
-Atalanta,Cagliari,0-0
-Lazio,Napoli,2-2
-AC Milan,Hellas Verona,1-0
-Fiorentina,como,0-2
-Udinese,Empoli,3-0
-Monza,Lecce,0-0
-Parma,AS Roma,0-1
-Juventus,Inter,1-0
-Genoa,Venezia,2-0
-Lecce,Udinese,0-1
-Venezia,Lazio,0-0
-Parma,Bologna,2-0
-Torino,AC Milan,2-1
-Inter,Genoa,1-0
-como,Napoli,2-1
-Hellas Verona,Fiorentina,1-0
-Empoli,Atalanta,0-5
-Cagliari,Juventus,0-1
-AS Roma,Monza,4-0
-Bologna,AC Milan,2-1
-Fiorentina,Lecce,1-0
-Atalanta,Venezia,0-0
-Napoli,Inter,1-1
-Udinese,Parma,1-0
-Monza,Torino,0-2
-Genoa,Empoli,1-1
-Bologna,Cagliari,2-1
-AS Roma,como,2-1
-AC Milan,Lazio,1-2
-Juventus,Hellas Verona,2-0
-Cagliari,Genoa,1-1
-Parma,Torino,2-2
-como,Venezia,1-1
-Lecce,AC Milan,2-3
-Inter,Monza,3-2
-Hellas Verona,Bologna,1-2
-Napoli,Fiorentina,2-1
-Empoli,AS Roma,0-1
-Juventus,Atalanta,0-4
-Lazio,Udinese,1-1
-Genoa,Lecce,2-1
-Udinese,Hellas Verona,0-1
-Monza,Parma,1-1
-AC Milan,como,2-1
-Torino,Empoli,1-0
-Venezia,Napoli,0-0
-Bologna,Lazio,5-0
-AS Roma,Cagliari,1-0
-Fiorentina,Juventus,3-0
-Atalanta,Inter,0-2
-Venezia,Bologna,0-1
-como,Empoli,1-1
-Juventus,Genoa,1-0
-Lecce,AS Roma,0-1
-Cagliari,Monza,3-0
-Fiorentina,Atalanta,1-0
-Inter,Udinese,2-1
-Napoli,AC Milan,2-1
-Hellas Verona,Parma,0-0
-Lazio,Torino,1-1
-Genoa,Udinese,1-0
-Monza,como,1-3
-Parma,Inter,2-2
-AC Milan,Fiorentina,2-2
-Lecce,Venezia,1-1
-Torino,Hellas Verona,1-1
-Empoli,Cagliari,0-0
-Atalanta,Lazio,0-1
-AS Roma,Juventus,1-1
-Bologna,Napoli,1-1
-Udinese,AC Milan,0-4
-Venezia,Monza,1-0
-Inter,Cagliari,3-1
-Juventus,Lecce,2-1
-Atalanta,Bologna,2-0
-Fiorentina,Parma,0-0
-Hellas Verona,Genoa,0-0
-como,Torino,1-0
-Lazio,AS Roma,1-1
-Napoli,Empoli,3-0
-Lecce,como,0-3
-Monza,Napoli,0-1
-AS Roma,Hellas Verona,1-0
-Empoli,Venezia,2-2
-Bologna,Inter,1-0
-AC Milan,Atalanta,0-1
-Cagliari,Fiorentina,1-2
-Genoa,Lazio,0-2
-Torino,Udinese,2-0
-Parma,Juventus,1-0
-Venezia,AC Milan,0-2
-como,Genoa,1-0
-Fiorentina,Empoli,2-1
-Inter,AS Roma,0-1
-Juventus,Monza,2-0
-Napoli,Torino,2-0
-Atalanta,Lecce,1-1
-Udinese,Bologna,0-0
-Lazio,Parma,2-2
-Hellas Verona,Cagliari,0-2
-Torino,Venezia,1-1
-Cagliari,Udinese,1-2
-Parma,como,0-1
-Lecce,Napoli,0-1
-Inter,Hellas Verona,1-0
-Empoli,Lazio,0-1
-Monza,Atalanta,0-4
-AS Roma,Fiorentina,1-0
-Bologna,Juventus,1-1
-Genoa,AC Milan,1-2
-AC Milan,Bologna,3-1
-como,Cagliari,3-1
-Lazio,Juventus,1-1
-Empoli,Parma,2-1
-Udinese,Monza,1-2
-Hellas Verona,Lecce,1-1
-Torino,Inter,0-2
-Napoli,Genoa,2-2
-Venezia,Fiorentina,2-1
-Atalanta,AS Roma,2-1
-Genoa,Atalanta,2-3
-Cagliari,Venezia,3-0
-Juventus,Udinese,2-0
-AS Roma,AC Milan,3-1
-Fiorentina,Bologna,3-2
-Hellas Verona,como,1-1
-Inter,Lazio,2-2
-Parma,Napoli,0-0
-Lecce,Torino,1-0
-Monza,Empoli,1-3
-Napoli,Cagliari,2-0
-como,Inter,0-2
-Bologna,Genoa,1-3
-AC Milan,Monza,2-0
-Lazio,Lecce,0-1
-Udinese,Fiorentina,2-3
-Atalanta,Parma,2-3
-Torino,AS Roma,0-2
-Empoli,Hellas Verona,1-2
-Venezia,Juventus,2-3
-Sassuolo,Napoli,0-2
-Genoa,Lecce,0-0
-AC Milan,Cremonese,1-2
-AS Roma,Bologna,1-0
-Cagliari,Fiorentina,1-1
-como,Lazio,2-0
-Juventus,Parma,2-0
-Atalanta,Pisa,1-1
-Udinese,Hellas Verona,1-1
-Inter,Torino,5-0
-Cremonese,Sassuolo,3-2
-Lecce,AC Milan,0-2
-Bologna,como,1-0
-Parma,Atalanta,1-1
-Napoli,Cagliari,1-0
-Pisa,AS Roma,0-1
-Genoa,Juventus,0-1
-Torino,Fiorentina,0-0
-Lazio,Hellas Verona,4-0
-Inter,Udinese,1-2
-Cagliari,Parma,2-0
-Juventus,Inter,4-3
-Fiorentina,Napoli,1-3
-AS Roma,Torino,0-1
-Atalanta,Lecce,4-1
-Pisa,Udinese,0-1
-Sassuolo,Lazio,1-0
-AC Milan,Bologna,1-0
-Hellas Verona,Cremonese,0-0
-como,Genoa,1-1
-Lecce,Cagliari,1-2
-Bologna,Genoa,2-1
-Hellas Verona,Juventus,1-1
-Udinese,AC Milan,0-3
-Lazio,AS Roma,0-1
-Torino,Atalanta,0-3
-Cremonese,Parma,0-0
-Fiorentina,como,1-2
-Inter,Sassuolo,2-1
-Napoli,Pisa,3-2
-como,Cremonese,1-1
-Juventus,Atalanta,1-1
-Cagliari,Inter,0-2
-Sassuolo,Udinese,3-1
-AS Roma,Hellas Verona,2-0
-Pisa,Fiorentina,0-0
-Lecce,Bologna,2-2
-AC Milan,Napoli,2-1
-Parma,Torino,2-1
-Genoa,Lazio,0-3
-Hellas Verona,Sassuolo,0-1
-Lazio,Torino,3-3
-Parma,Lecce,0-1
-Inter,Cremonese,4-1
-Atalanta,como,1-1
-Udinese,Cagliari,1-1
-Bologna,Pisa,4-0
-Fiorentina,AS Roma,1-2
-Napoli,Genoa,2-1
-Juventus,AC Milan,0-0
-Pisa,Hellas Verona,0-0
-Lecce,Sassuolo,0-0
-Torino,Napoli,1-0
-AS Roma,Inter,0-1
-como,Juventus,2-0
-Cagliari,Bologna,0-2
-Genoa,Parma,0-0
-Atalanta,Lazio,0-0
-AC Milan,Fiorentina,2-1
-Cremonese,Udinese,1-1
-AC Milan,Pisa,2-2
-Udinese,Lecce,3-2
-Parma,como,0-0
-Napoli,Inter,3-1
-Cremonese,Atalanta,1-1
-Torino,Genoa,2-1
-Sassuolo,AS Roma,0-1
-Hellas Verona,Cagliari,2-2
-Fiorentina,Bologna,2-2
-Lazio,Juventus,1-0
-Lecce,Napoli,0-1
-Atalanta,AC Milan,1-1
-Juventus,Udinese,3-1
-AS Roma,Parma,2-1
-como,Hellas Verona,3-1
-Genoa,Cremonese,0-2
-Bologna,Torino,0-0
-Inter,Fiorentina,3-0
-Cagliari,Sassuolo,1-2
-Pisa,Lazio,0-0
-Udinese,Atalanta,1-0
-Napoli,como,0-0
-Cremonese,Juventus,1-2
-Hellas Verona,Inter,1-2
-Fiorentina,Lecce,0-1
-Torino,Pisa,2-2
-Parma,Bologna,1-3
-AC Milan,AS Roma,1-0
-Sassuolo,Genoa,1-2
-Lazio,Cagliari,2-0
-Pisa,Cremonese,1-0
-Lecce,Hellas Verona,0-0
-como,Cagliari,0-0
-Juventus,Torino,0-0
-Parma,AC Milan,2-2
-Atalanta,Sassuolo,0-3
-Genoa,Fiorentina,2-2
-Bologna,Napoli,2-0
-AS Roma,Udinese,2-0
-Inter,Lazio,2-0
-Cagliari,Genoa,3-3
-Udinese,Bologna,0-3
-Fiorentina,Juventus,1-1
-Napoli,Atalanta,3-1
-Hellas Verona,Parma,1-2
-Cremonese,AS Roma,1-3
-Lazio,Lecce,2-0
-Inter,AC Milan,0-1
-Torino,como,1-5
-Sassuolo,Pisa,2-2
-como,Sassuolo,2-0
-Genoa,Hellas Verona,2-1
-Parma,Udinese,0-2
-Juventus,Cagliari,2-1
-AC Milan,Lazio,1-0
-Lecce,Torino,2-1
-Pisa,Inter,0-2
-Atalanta,Fiorentina,2-0
-AS Roma,Napoli,0-1
-Bologna,Cremonese,1-3
-Sassuolo,Fiorentina,3-1
-Inter,como,4-0
-Hellas Verona,Atalanta,3-1
-Cremonese,Lecce,2-0
-Cagliari,AS Roma,1-0
-Lazio,Bologna,1-1
-Napoli,Juventus,2-1
-Pisa,Parma,0-1
-Udinese,Genoa,1-2
-Torino,AC Milan,2-3
-Lecce,Pisa,1-0
-Torino,Cremonese,1-0
-Parma,Lazio,0-1
-Atalanta,Cagliari,2-1
-AC Milan,Sassuolo,2-2
-Udinese,Napoli,1-0
-Fiorentina,Hellas Verona,1-2
-Genoa,Inter,1-2
-Bologna,Juventus,0-1
-AS Roma,como,1-0
-Lazio,Cremonese,0-0
-Juventus,AS Roma,2-1
-Cagliari,Pisa,2-2
-Sassuolo,Torino,0-1
-Fiorentina,Udinese,5-1
-Genoa,Atalanta,0-1
-Parma,Fiorentina,1-0
-Torino,Cagliari,1-2
-Lecce,como,0-3
-Udinese,Lazio,1-1
-Pisa,Juventus,0-2
-AC Milan,Hellas Verona,3-0
-Cremonese,Napoli,0-2
-Bologna,Sassuolo,1-1
-Atalanta,Inter,0-1
-AS Roma,Genoa,3-1
-Cagliari,AC Milan,0-1
-como,Udinese,1-0
-Sassuolo,Parma,1-1
-Genoa,Pisa,1-1
-Juventus,Lecce,1-1
-Atalanta,AS Roma,1-0
-Lazio,Napoli,0-2
-Fiorentina,Cremonese,1-0
-Hellas Verona,Torino,0-3
-Inter,Bologna,3-1
-Pisa,como,0-3
-Lecce,AS Roma,0-2
-Sassuolo,Juventus,0-3
-Napoli,Hellas Verona,2-2
-Bologna,Atalanta,0-2
-Lazio,Fiorentina,2-2
-Torino,Udinese,1-2
-Parma,Inter,0-2
-Cremonese,Cagliari,2-2
-AC Milan,Genoa,1-1
-Udinese,Pisa,2-2
-como,Bologna,1-1
-AS Roma,Sassuolo,2-0
-Atalanta,Torino,2-0
-Lecce,Parma,1-2
-Fiorentina,AC Milan,1-1
-Hellas Verona,Lazio,0-1
-Inter,Napoli,2-2
-Genoa,Cagliari,3-0
-Juventus,Cremonese,5-0
-Napoli,Parma,0-0
-Inter,Lecce,1-0
-Hellas Verona,Bologna,2-3
-como,AC Milan,1-3
-Pisa,Atalanta,1-1
-Udinese,Inter,0-1
-Napoli,Sassuolo,1-0
-Cagliari,Juventus,1-0
-Parma,Genoa,0-0
-Bologna,Fiorentina,1-2
-Torino,AS Roma,0-2
-AC Milan,Lecce,1-0
-Cremonese,Hellas Verona,0-0
-Lazio,como,0-3
-Inter,Pisa,6-2
-como,Torino,6-0
-Fiorentina,Cagliari,1-2
-Lecce,Lazio,0-0
-Sassuolo,Cremonese,1-0
-Genoa,Bologna,3-2
-Atalanta,Parma,4-0
-Juventus,Napoli,3-0
-AS Roma,AC Milan,1-1
-Hellas Verona,Udinese,1-3
-Lazio,Genoa,3-2
-Pisa,Sassuolo,1-3
-Napoli,Fiorentina,2-1
-Cagliari,Hellas Verona,4-0
-Torino,Lecce,1-0
-como,Atalanta,0-0
-Cremonese,Inter,0-2
-Parma,Juventus,1-4
-Udinese,AS Roma,1-0
-Bologna,AC Milan,0-3
-Hellas Verona,Pisa,0-0
-Genoa,Napoli,2-3
-Fiorentina,Torino,2-2
-Bologna,Parma,0-1
-Lecce,Udinese,2-1
-Sassuolo,Inter,0-5
-Juventus,Lazio,2-2
-Atalanta,Cremonese,2-1
-AS Roma,Cagliari,2-0
-Pisa,AC Milan,1-2
-como,Fiorentina,1-2
-Lazio,Atalanta,0-2
-Inter,Juventus,3-2
-Udinese,Sassuolo,1-2
-Cremonese,Genoa,0-0
-Parma,Hellas Verona,2-1
-Torino,Bologna,1-2
-Napoli,AS Roma,2-2
-Cagliari,Lecce,0-2
-AC Milan,como,1-1
-Sassuolo,Hellas Verona,3-0
-Juventus,como,0-2
-Lecce,Inter,0-2
-Cagliari,Lazio,0-0
-Genoa,Torino,3-0
-Atalanta,Napoli,2-1
-AC Milan,Parma,0-1
-AS Roma,Cremonese,3-0
-Fiorentina,Pisa,1-0
-Bologna,Udinese,1-0
-Parma,Cagliari,1-1
-como,Lecce,3-1
-Hellas Verona,Napoli,1-2
-Inter,Genoa,2-0
-Cremonese,AC Milan,0-2
-Sassuolo,Atalanta,2-1
-Torino,Lazio,2-0
-AS Roma,Juventus,3-3
-Pisa,Bologna,0-1
-Udinese,Fiorentina,3-0
-Napoli,Torino,2-1
-Cagliari,como,1-2
-Atalanta,Udinese,2-2
-Juventus,Pisa,4-0
-Lecce,Cremonese,2-1
-Bologna,Hellas Verona,1-2
-Fiorentina,Parma,0-0
-Genoa,AS Roma,2-1
-AC Milan,Inter,1-0
-Lazio,Sassuolo,2-1
-Torino,Parma,4-1
-Inter,Atalanta,1-1
-Napoli,Lecce,2-1
-Udinese,Juventus,0-1
-Hellas Verona,Genoa,0-2
-Sassuolo,Bologna,0-1
-Pisa,Cagliari,3-1
-como,AS Roma,2-1
-Lazio,AC Milan,1-0
-Cremonese,Fiorentina,1-4
-Cagliari,Napoli,0-1
-Genoa,Udinese,0-2
-Parma,Cremonese,0-2
-AC Milan,Torino,3-2
-Juventus,Sassuolo,1-1
-como,Pisa,5-0
-Atalanta,Hellas Verona,1-0
-Bologna,Lazio,0-2
-AS Roma,Lecce,1-0
-Fiorentina,Inter,1-1
-Sassuolo,Cagliari,2-1
-Hellas Verona,Fiorentina,0-1
-Lazio,Parma,1-1
-Cremonese,Bologna,1-2
-Pisa,Torino,0-1
-Inter,AS Roma,5-2
-Udinese,como,0-0
-Lecce,Atalanta,0-3
-Juventus,Genoa,2-0
-Napoli,AC Milan,1-0
-AS Roma,Pisa,3-0
-Cagliari,Cremonese,1-0
-Torino,Hellas Verona,2-1
-AC Milan,Udinese,0-3
-Atalanta,Juventus,0-1
-Genoa,Sassuolo,2-1
-Parma,Napoli,1-1
-Bologna,Lecce,2-0
-como,Inter,3-4
-Fiorentina,Lazio,1-0
-Sassuolo,como,2-1
-Inter,Cagliari,3-0
-Udinese,Parma,0-1
-Napoli,Lazio,0-2
-AS Roma,Atalanta,1-1
-Cremonese,Torino,0-0
-Hellas Verona,AC Milan,0-1
-Pisa,Genoa,1-2
-Juventus,Bologna,2-0
-Lecce,Fiorentina,1-1
-Napoli,Cremonese,4-0
-Parma,Pisa,1-0
-Bologna,AS Roma,0-2
-Hellas Verona,Lecce,0-0
-Fiorentina,Sassuolo,0-0
-Genoa,como,0-2
-Torino,Inter,2-2
-AC Milan,Juventus,0-0
-Cagliari,Atalanta,3-2
-Lazio,Udinese,3-3
-Pisa,Lecce,1-2
-Udinese,Torino,2-0
-como,Napoli,0-0
-Atalanta,Genoa,0-0
-Bologna,Cagliari,0-0
-Sassuolo,AC Milan,2-0
-Juventus,Hellas Verona,1-1
-Inter,Parma,2-0
-Cremonese,Lazio,1-2
-AS Roma,Fiorentina,4-0
-Torino,Sassuolo,2-1
-Cagliari,Udinese,0-2
-Lazio,Inter,0-3
-Lecce,Juventus,0-1
-Hellas Verona,como,0-1
-Fiorentina,Genoa,0-0
-Cremonese,Pisa,3-0
-Parma,AS Roma,2-3
-AC Milan,Atalanta,2-3
-Napoli,Bologna,2-3
-Genoa,AC Milan,1-2
-Juventus,Fiorentina,0-2
-AS Roma,Lazio,2-0
-Pisa,Napoli,0-3
-como,Parma,1-0
-Inter,Hellas Verona,1-1
-Atalanta,Bologna,0-1
-Sassuolo,Lecce,2-3
-Cagliari,Torino,2-1
-Udinese,Cremonese,0-1
-Fiorentina,Atalanta,1-1
-Bologna,Inter,3-3
-Lazio,Pisa,2-1
-Parma,Sassuolo,1-0
-Napoli,Udinese,1-0
-AC Milan,Cagliari,1-2
-Torino,Juventus,2-2
-Hellas Verona,AS Roma,0-2
-Cremonese,como,1-4
-Lecce,Genoa,1-0
-Udinese,como,1-1
-Inter,Monza,4-1
-Genoa,Napoli,0-2
-Parma,Cagliari,0-1
-Frosinone,Juventus,0-1
-Venezia,Lecce,0-2
-Atalanta,Sassuolo,2-1
-Torino,AC Milan,1-2
-Bologna,Lazio,0-1
-AS Roma,Fiorentina,4-0
-AC Milan,Venezia,2-0
-Sassuolo,Torino,2-1
-Fiorentina,Frosinone,0-3
-Monza,Udinese,2-3
-Juventus,Parma,2-0
-Napoli,como,1-2
-Lazio,Genoa,1-0
-Cagliari,Inter,0-1
-Lecce,AS Roma,0-4
-Atalanta,Bologna,1-0
-Genoa,como,1-4
-Fiorentina,Torino,1-2
-Inter,Napoli,3-2
-AS Roma,Atalanta,2-1
-Frosinone,Venezia,3-2
-Parma,Monza,1-1
-Bologna,Sassuolo,2-2
-Juventus,AC Milan,1-1
-Cagliari,Lecce,1-0
-Udinese,Lazio,1-2
-Venezia,Fiorentina,2-4
-Genoa,Frosinone,1-1
-Lazio,AC Milan,2-2
-Atalanta,Cagliari,1-2
-Lecce,Monza,3-2
-Napoli,Bologna,1-0
-Sassuolo,Juventus,3-2
-Torino,AS Roma,0-2
-como,Parma,2-1
-Inter,Udinese,5-3
-Monza,Sassuolo,2-1
-Udinese,Cagliari,0-1
-Bologna,Torino,1-1
-AS Roma,Inter,2-2
-Venezia,Lazio,0-2
-Fiorentina,Napoli,1-1
-Frosinone,como,2-0
-Parma,Genoa,2-1
-Juventus,Atalanta,2-0
-AC Milan,Lecce,3-0
-Genoa,Fiorentina,2-1
-Inter,Parma,3-0
-Napoli,Frosinone,3-0
-como,AS Roma,0-0
-Lazio,Monza,3-1
-Lecce,Bologna,1-2
-Sassuolo,AC Milan,1-1
-Cagliari,Juventus,1-1
-Atalanta,Venezia,3-1
-Torino,Udinese,2-1
-Frosinone,Sassuolo,
-Venezia,Napoli,
-Bologna,Inter,
-AS Roma,Genoa,
-Udinese,Lecce,
-Fiorentina,como,
-AC Milan,Atalanta,
-Juventus,Lazio,
-Monza,Cagliari,
-Parma,Torino,
-Torino,Monza,
-Cagliari,Bologna,
-como,Sassuolo,
-Napoli,AS Roma,
-Lazio,Parma,
-Inter,Fiorentina,
-Genoa,Venezia,
-Atalanta,Frosinone,
-Lecce,Juventus,
-Udinese,AC Milan,
-Sassuolo,Lazio,
-AS Roma,Cagliari,
-Torino,como,
-AC Milan,Bologna,
-Venezia,Inter,
-Parma,Udinese,
-Genoa,Juventus,
-Monza,Napoli,
-Frosinone,Lecce,
-Fiorentina,Atalanta,
-Bologna,Monza,
-Udinese,AS Roma,
-AC Milan,Inter,
-como,Venezia,
-Lazio,Cagliari,
-Frosinone,Torino,
-Lecce,Genoa,
-Juventus,Napoli,
-Sassuolo,Fiorentina,
-Atalanta,Parma,
-Venezia,Udinese,
-Cagliari,Frosinone,
-Torino,Lecce,
-Parma,Bologna,
-AS Roma,Sassuolo,
-Napoli,Lazio,
-Genoa,AC Milan,
-Monza,Atalanta,
-Inter,como,
-Fiorentina,Juventus,
-Lazio,Lecce,
-como,Cagliari,
-Parma,AS Roma,
-Napoli,Torino,
-Sassuolo,Genoa,
-AC Milan,Frosinone,
-Bologna,Udinese,
-Atalanta,Inter,
-Monza,Fiorentina,
-Juventus,Venezia,
-Sassuolo,Napoli,
-Cagliari,AC Milan,
-Udinese,Fiorentina,
-AS Roma,Monza,
-Torino,Lazio,
-Inter,Genoa,
-Frosinone,Parma,
-Venezia,Bologna,
-Lecce,Atalanta,
-como,Juventus,
-Lazio,Atalanta,
-AC Milan,Parma,
-Napoli,Lecce,
-Genoa,Torino,
-Juventus,Udinese,
-Bologna,AS Roma,
-Fiorentina,Cagliari,
-Frosinone,Inter,
-Venezia,Sassuolo,
-Monza,como,
-Lazio,AS Roma,
-Cagliari,Venezia,
-Napoli,AC Milan,
-Udinese,Frosinone,
-Juventus,Monza,
-Atalanta,Genoa,
-Inter,Torino,
-Parma,Fiorentina,
-Lecce,Sassuolo,
-como,Bologna,
-Sassuolo,Parma,
-AC Milan,como,
-Genoa,Udinese,
-AS Roma,Juventus,
-Atalanta,Napoli,
-Fiorentina,Bologna,
-Torino,Cagliari,
-Frosinone,Lazio,
-Venezia,Monza,
-Lecce,Inter,
-Cagliari,Genoa,
-Udinese,Atalanta,
-AS Roma,Frosinone,
-Bologna,Juventus,
-Fiorentina,Lazio,
-Torino,Venezia,
-Inter,Sassuolo,
-Parma,Napoli,
-como,Lecce,
-Monza,AC Milan,
-Lazio,Inter,
-Sassuolo,Udinese,
-AC Milan,Fiorentina,
-Napoli,Cagliari,
-Genoa,Monza,
-Juventus,Torino,
-Atalanta,como,
-Frosinone,Bologna,
-Venezia,AS Roma,
-Lecce,Parma,
-Cagliari,Sassuolo,
-Udinese,Napoli,
-AS Roma,AC Milan,
-Bologna,Genoa,
-Fiorentina,Lecce,
-Torino,Atalanta,
-Inter,Juventus,
-Parma,Venezia,
-como,Lazio,
-Monza,Frosinone,
-Lazio,Bologna,
-Sassuolo,Monza,
-AC Milan,Torino,
-Cagliari,como,
-Napoli,Fiorentina,
-Juventus,Genoa,
-Atalanta,AS Roma,
-Venezia,Frosinone,
-Parma,Inter,
-Lecce,Udinese,
-Genoa,Parma,
-Juventus,Cagliari,
-AS Roma,Udinese,
-Bologna,Atalanta,
-Fiorentina,Sassuolo,
-Inter,Venezia,
-Frosinone,AC Milan,
-Lecce,Torino,
-como,Napoli,
-Monza,Lazio,
-Lazio,Venezia,
-Sassuolo,como,
-AC Milan,Juventus,
-Cagliari,Parma,
-Napoli,Inter,
-Udinese,Bologna,
-Genoa,Lecce,
-Atalanta,Fiorentina,
-Torino,Frosinone,
-Monza,AS Roma,
-Juventus,Sassuolo,
-AS Roma,Torino,
-Atalanta,Lazio,
-Bologna,AC Milan,
-Fiorentina,Udinese,
-Inter,Cagliari,
-Venezia,Genoa,
-Parma,Frosinone,
-Lecce,Napoli,
-como,Monza,
-Cagliari,Lazio,
-Napoli,Juventus,
-Udinese,Venezia,
-Genoa,Atalanta,
-AS Roma,Parma,
-Bologna,como,
-Torino,Sassuolo,
-Inter,AC Milan,
-Frosinone,Fiorentina,
-Monza,Lecce,
-Lazio,Napoli,
-Sassuolo,AS Roma,
-AC Milan,Genoa,
-Udinese,Parma,
-Juventus,Bologna,
-Atalanta,Monza,
-Fiorentina,Inter,
-Venezia,Cagliari,
-Lecce,Frosinone,
-como,Torino,
-Cagliari,Udinese,
-Genoa,Lazio,
-AS Roma,Venezia,
-Bologna,Lecce,
-Torino,Fiorentina,
-Inter,Atalanta,
-Frosinone,Napoli,
-Parma,Sassuolo,
-como,AC Milan,
-Monza,Juventus,
-Lazio,Frosinone,
-Sassuolo,Bologna,
-AC Milan,Cagliari,
-Napoli,Parma,
-Udinese,Inter,
-Juventus,AS Roma,
-Atalanta,Torino,
-Fiorentina,Venezia,
-Lecce,como,
-Monza,Genoa,
-Lazio,Juventus,
-AC Milan,Sassuolo,
-Cagliari,Fiorentina,
-Genoa,AS Roma,
-Bologna,Napoli,
-Torino,Inter,
-Frosinone,Monza,
-Venezia,Atalanta,
-Parma,Lecce,
-como,Udinese,
-Sassuolo,Cagliari,
-Napoli,Venezia,
-Udinese,Torino,
-Juventus,como,
-AS Roma,Lecce,
-Atalanta,AC Milan,
-Fiorentina,Genoa,
-Inter,Frosinone,
-Parma,Lazio,
-Monza,Bologna,
-Sassuolo,Atalanta,
-AC Milan,Monza,
-Cagliari,Napoli,
-Genoa,Inter,
-AS Roma,Bologna,
-Torino,Juventus,
-Frosinone,Udinese,
-Venezia,Parma,
-Lecce,Lazio,
-como,Fiorentina,
-Lazio,Torino,
-Cagliari,Atalanta,
-Napoli,Sassuolo,
-Udinese,Monza,
-Juventus,Lecce,
-Bologna,Venezia,
-Fiorentina,AC Milan,
-Inter,AS Roma,
-Frosinone,Genoa,
-Parma,como,
-Sassuolo,Lecce,
-AC Milan,Napoli,
-AS Roma,Lazio,
-Atalanta,Udinese,
-Bologna,Cagliari,
-Fiorentina,Parma,
-Torino,Genoa,
-Venezia,Juventus,
-como,Frosinone,
-Monza,Inter,
-Lazio,como,
-Cagliari,Monza,
-Napoli,Udinese,
-Genoa,Sassuolo,
-Juventus,Fiorentina,
-Inter,Bologna,
-Frosinone,AS Roma,
-Venezia,Torino,
-Parma,Atalanta,
-Lecce,AC Milan,
-Sassuolo,Frosinone,
-AC Milan,Lazio,
-Udinese,Genoa,
-AS Roma,Napoli,
-Atalanta,Juventus,
-Bologna,Fiorentina,
-Torino,Parma,
-Lecce,Cagliari,
-como,Inter,
-Monza,Venezia,
-Lazio,Sassuolo,
-Napoli,Monza,
-Udinese,Juventus,
-Genoa,Cagliari,
-Fiorentina,AS Roma,
-Torino,Bologna,
-Inter,Lecce,
-Frosinone,Atalanta,
-Venezia,como,
-Parma,AC Milan,
-Lazio,Udinese,
-Sassuolo,Venezia,
-AC Milan,AS Roma,
-Cagliari,Torino,
-Napoli,Genoa,
-Juventus,Inter,
-Bologna,Frosinone,
-Lecce,Fiorentina,
-como,Atalanta,
-Monza,Parma,
-Udinese,Sassuolo,
-Genoa,Bologna,
-AS Roma,como,
-Atalanta,Lecce,
-Fiorentina,Monza,
-Torino,Napoli,
-Inter,Lazio,
-Frosinone,Cagliari,
-Venezia,AC Milan,
-Parma,Juventus,
-Lazio,Fiorentina,
-Sassuolo,Inter,
-AC Milan,Udinese,
-Cagliari,AS Roma,
-Napoli,Atalanta,
-Juventus,Frosinone,
-Bologna,Parma,
-Lecce,Venezia,
-como,Genoa,
-Monza,Torino,
+Date,SquadraA,SquadraB,risultati
+2026-08-22,Udinese,como,1-1
+2026-08-22,Inter,Monza,4-1
+2026-08-22,Genoa,Napoli,0-2
+2026-08-22,Parma,Cagliari,0-1
+2026-08-23,Frosinone,Juventus,0-1
+2026-08-23,Venezia,Lecce,0-2
+2026-08-23,Atalanta,Sassuolo,2-1
+2026-08-23,Torino,AC Milan,1-2
+2026-08-24,Bologna,Lazio,0-1
+2026-08-24,AS Roma,Fiorentina,4-0
+2026-08-28,AC Milan,Venezia,2-0
+2026-08-29,Sassuolo,Torino,2-1
+2026-08-29,Fiorentina,Frosinone,0-3
+2026-08-29,Monza,Udinese,2-3
+2026-08-29,Juventus,Parma,2-0
+2026-08-30,Napoli,como,1-2
+2026-08-30,Lazio,Genoa,1-0
+2026-08-30,Cagliari,Inter,0-1
+2026-08-31,Lecce,AS Roma,0-4
+2026-08-31,Atalanta,Bologna,1-0
+2026-09-04,Genoa,como,1-4
+2026-09-05,Fiorentina,Torino,1-2
+2026-09-05,Inter,Napoli,3-2
+2026-09-05,AS Roma,Atalanta,2-1
+2026-09-06,Frosinone,Venezia,3-2
+2026-09-06,Parma,Monza,1-1
+2026-09-06,Bologna,Sassuolo,2-2
+2026-09-06,Juventus,AC Milan,1-1
+2026-09-07,Cagliari,Lecce,1-0
+2026-09-07,Udinese,Lazio,1-2
+2026-09-11,Venezia,Fiorentina,2-4
+2026-09-12,Genoa,Frosinone,1-1
+2026-09-12,Lazio,AC Milan,2-2
+2026-09-12,Atalanta,Cagliari,1-2
+2026-09-13,Lecce,Monza,3-2
+2026-09-13,Napoli,Bologna,1-0
+2026-09-13,Sassuolo,Juventus,3-2
+2026-09-14,Torino,AS Roma,0-2
+2026-09-14,como,Parma,2-1
+2026-09-14,Inter,Udinese,5-3
+2026-09-18,Monza,Sassuolo,2-1
+2026-09-19,Udinese,Cagliari,0-1
+2026-09-19,Bologna,Torino,1-1
+2026-09-19,AS Roma,Inter,2-2
+2026-09-19,Venezia,Lazio,0-2
+2026-09-20,Fiorentina,Napoli,1-1
+2026-09-20,Frosinone,como,2-0
+2026-09-20,Parma,Genoa,2-1
+2026-09-20,Juventus,Atalanta,2-0
+2026-09-20,AC Milan,Lecce,3-0
+2026-10-10,Genoa,Fiorentina,2-1
+2026-10-10,Inter,Parma,3-0
+2026-10-10,Napoli,Frosinone,3-0
+2026-10-11,como,AS Roma,0-0
+2026-10-11,Lazio,Monza,3-1
+2026-10-11,Lecce,Bologna,1-2
+2026-10-11,Sassuolo,AC Milan,1-1
+2026-10-11,Cagliari,Juventus,1-1
+2026-10-12,Atalanta,Venezia,3-1
+2026-10-12,Torino,Udinese,2-1
+2026-10-16,Frosinone,Sassuolo,4-2
+2026-10-17,Venezia,Napoli,1-0
+2026-10-17,Bologna,Inter,1-3
+2026-10-17,AS Roma,Genoa,2-0
+2026-10-18,Udinese,Lecce,0-3
+2026-10-18,Fiorentina,como,1-3
+2026-10-18,AC Milan,Atalanta,3-2
+2026-10-18,Juventus,Lazio,0-3
+2026-10-19,Monza,Cagliari,4-0
+2026-10-19,Parma,Torino,0-3
+2026-10-23,Torino,Monza,3-2
+2026-10-24,Cagliari,Bologna,0-2
+2026-10-24,como,Sassuolo,2-0
+2026-10-24,Napoli,AS Roma,3-3
+2026-10-24,Lazio,Parma,2-1
+2026-10-25,Inter,Fiorentina,
+2026-10-25,Genoa,Venezia,
+2026-10-25,Atalanta,Frosinone,
+2026-10-25,Lecce,Juventus,
+2026-10-25,Udinese,AC Milan,
+2026-10-27,Sassuolo,Lazio,
+2026-10-27,AS Roma,Cagliari,
+2026-10-27,Torino,como,
+2026-10-28,AC Milan,Bologna,
+2026-10-28,Venezia,Inter,
+2026-10-28,Parma,Udinese,
+2026-10-28,Genoa,Juventus,
+2026-10-28,Monza,Napoli,
+2026-10-29,Frosinone,Lecce,
+2026-10-29,Fiorentina,Atalanta,
+2026-10-31,Bologna,Monza,
+2026-10-31,Udinese,AS Roma,
+2026-10-31,AC Milan,Inter,
+2026-11-01,como,Venezia,
+2026-11-01,Lazio,Cagliari,
+2026-11-01,Frosinone,Torino,
+2026-11-01,Lecce,Genoa,
+2026-11-01,Juventus,Napoli,
+2026-11-02,Sassuolo,Fiorentina,
+2026-11-02,Atalanta,Parma,
+2026-11-06,Venezia,Udinese,
+2026-11-07,Cagliari,Frosinone,
+2026-11-07,Torino,Lecce,
+2026-11-07,Parma,Bologna,
+2026-11-07,AS Roma,Sassuolo,
+2026-11-08,Napoli,Lazio,
+2026-11-08,Genoa,AC Milan,
+2026-11-08,Monza,Atalanta,
+2026-11-08,Inter,como,
+2026-11-08,Fiorentina,Juventus,
+2026-11-21,Lazio,Lecce,
+2026-11-21,como,Cagliari,
+2026-11-21,Parma,AS Roma,
+2026-11-21,Napoli,Torino,
+2026-11-22,Sassuolo,Genoa,
+2026-11-22,AC Milan,Frosinone,
+2026-11-22,Bologna,Udinese,
+2026-11-22,Atalanta,Inter,
+2026-11-23,Monza,Fiorentina,
+2026-11-23,Juventus,Venezia,
+2026-11-29,Sassuolo,Napoli,
+2026-11-29,Cagliari,AC Milan,
+2026-11-29,Udinese,Fiorentina,
+2026-11-29,AS Roma,Monza,
+2026-11-29,Torino,Lazio,
+2026-11-29,Inter,Genoa,
+2026-11-29,Frosinone,Parma,
+2026-11-29,Venezia,Bologna,
+2026-11-29,Lecce,Atalanta,
+2026-11-29,como,Juventus,
+2026-12-06,Lazio,Atalanta,
+2026-12-06,AC Milan,Parma,
+2026-12-06,Napoli,Lecce,
+2026-12-06,Genoa,Torino,
+2026-12-06,Juventus,Udinese,
+2026-12-06,Bologna,AS Roma,
+2026-12-06,Fiorentina,Cagliari,
+2026-12-06,Frosinone,Inter,
+2026-12-06,Venezia,Sassuolo,
+2026-12-06,Monza,como,
+2026-12-13,Lazio,AS Roma,
+2026-12-13,Cagliari,Venezia,
+2026-12-13,Napoli,AC Milan,
+2026-12-13,Udinese,Frosinone,
+2026-12-13,Juventus,Monza,
+2026-12-13,Atalanta,Genoa,
+2026-12-13,Inter,Torino,
+2026-12-13,Parma,Fiorentina,
+2026-12-13,Lecce,Sassuolo,
+2026-12-13,como,Bologna,
+2026-12-20,Sassuolo,Parma,
+2026-12-20,AC Milan,como,
+2026-12-20,Genoa,Udinese,
+2026-12-20,AS Roma,Juventus,
+2026-12-20,Atalanta,Napoli,
+2026-12-20,Fiorentina,Bologna,
+2026-12-20,Torino,Cagliari,
+2026-12-20,Frosinone,Lazio,
+2026-12-20,Venezia,Monza,
+2026-12-20,Lecce,Inter,
+2027-01-03,Cagliari,Genoa,
+2027-01-03,Udinese,Atalanta,
+2027-01-03,AS Roma,Frosinone,
+2027-01-03,Bologna,Juventus,
+2027-01-03,Fiorentina,Lazio,
+2027-01-03,Torino,Venezia,
+2027-01-03,Inter,Sassuolo,
+2027-01-03,Parma,Napoli,
+2027-01-03,como,Lecce,
+2027-01-03,Monza,AC Milan,
+2027-01-06,Lazio,Inter,
+2027-01-06,Sassuolo,Udinese,
+2027-01-06,AC Milan,Fiorentina,
+2027-01-06,Napoli,Cagliari,
+2027-01-06,Genoa,Monza,
+2027-01-06,Juventus,Torino,
+2027-01-06,Atalanta,como,
+2027-01-06,Frosinone,Bologna,
+2027-01-06,Venezia,AS Roma,
+2027-01-06,Lecce,Parma,
+2027-01-10,Cagliari,Sassuolo,
+2027-01-10,Udinese,Napoli,
+2027-01-10,AS Roma,AC Milan,
+2027-01-10,Bologna,Genoa,
+2027-01-10,Fiorentina,Lecce,
+2027-01-10,Torino,Atalanta,
+2027-01-10,Inter,Juventus,
+2027-01-10,Parma,Venezia,
+2027-01-10,como,Lazio,
+2027-01-10,Monza,Frosinone,
+2027-01-17,Lazio,Bologna,
+2027-01-17,Sassuolo,Monza,
+2027-01-17,AC Milan,Torino,
+2027-01-17,Cagliari,como,
+2027-01-17,Napoli,Fiorentina,
+2027-01-17,Juventus,Genoa,
+2027-01-17,Atalanta,AS Roma,
+2027-01-17,Venezia,Frosinone,
+2027-01-17,Parma,Inter,
+2027-01-17,Lecce,Udinese,
+2027-01-24,Genoa,Parma,
+2027-01-24,Juventus,Cagliari,
+2027-01-24,AS Roma,Udinese,
+2027-01-24,Bologna,Atalanta,
+2027-01-24,Fiorentina,Sassuolo,
+2027-01-24,Inter,Venezia,
+2027-01-24,Frosinone,AC Milan,
+2027-01-24,Lecce,Torino,
+2027-01-24,como,Napoli,
+2027-01-24,Monza,Lazio,
+2027-01-31,Lazio,Venezia,
+2027-01-31,Sassuolo,como,
+2027-01-31,AC Milan,Juventus,
+2027-01-31,Cagliari,Parma,
+2027-01-31,Napoli,Inter,
+2027-01-31,Udinese,Bologna,
+2027-01-31,Genoa,Lecce,
+2027-01-31,Atalanta,Fiorentina,
+2027-01-31,Torino,Frosinone,
+2027-01-31,Monza,AS Roma,
+2027-02-07,Juventus,Sassuolo,
+2027-02-07,AS Roma,Torino,
+2027-02-07,Atalanta,Lazio,
+2027-02-07,Bologna,AC Milan,
+2027-02-07,Fiorentina,Udinese,
+2027-02-07,Inter,Cagliari,
+2027-02-07,Venezia,Genoa,
+2027-02-07,Parma,Frosinone,
+2027-02-07,Lecce,Napoli,
+2027-02-07,como,Monza,
+2027-02-14,Cagliari,Lazio,
+2027-02-14,Napoli,Juventus,
+2027-02-14,Udinese,Venezia,
+2027-02-14,Genoa,Atalanta,
+2027-02-14,AS Roma,Parma,
+2027-02-14,Bologna,como,
+2027-02-14,Torino,Sassuolo,
+2027-02-14,Inter,AC Milan,
+2027-02-14,Frosinone,Fiorentina,
+2027-02-14,Monza,Lecce,
+2027-02-21,Lazio,Napoli,
+2027-02-21,Sassuolo,AS Roma,
+2027-02-21,AC Milan,Genoa,
+2027-02-21,Udinese,Parma,
+2027-02-21,Juventus,Bologna,
+2027-02-21,Atalanta,Monza,
+2027-02-21,Fiorentina,Inter,
+2027-02-21,Venezia,Cagliari,
+2027-02-21,Lecce,Frosinone,
+2027-02-21,como,Torino,
+2027-02-28,Cagliari,Udinese,
+2027-02-28,Genoa,Lazio,
+2027-02-28,AS Roma,Venezia,
+2027-02-28,Bologna,Lecce,
+2027-02-28,Torino,Fiorentina,
+2027-02-28,Inter,Atalanta,
+2027-02-28,Frosinone,Napoli,
+2027-02-28,Parma,Sassuolo,
+2027-02-28,como,AC Milan,
+2027-02-28,Monza,Juventus,
+2027-03-07,Lazio,Frosinone,
+2027-03-07,Sassuolo,Bologna,
+2027-03-07,AC Milan,Cagliari,
+2027-03-07,Napoli,Parma,
+2027-03-07,Udinese,Inter,
+2027-03-07,Juventus,AS Roma,
+2027-03-07,Atalanta,Torino,
+2027-03-07,Fiorentina,Venezia,
+2027-03-07,Lecce,como,
+2027-03-07,Monza,Genoa,
+2027-03-14,Lazio,Juventus,
+2027-03-14,AC Milan,Sassuolo,
+2027-03-14,Cagliari,Fiorentina,
+2027-03-14,Genoa,AS Roma,
+2027-03-14,Bologna,Napoli,
+2027-03-14,Torino,Inter,
+2027-03-14,Frosinone,Monza,
+2027-03-14,Venezia,Atalanta,
+2027-03-14,Parma,Lecce,
+2027-03-14,como,Udinese,
+2027-03-21,Sassuolo,Cagliari,
+2027-03-21,Napoli,Venezia,
+2027-03-21,Udinese,Torino,
+2027-03-21,Juventus,como,
+2027-03-21,AS Roma,Lecce,
+2027-03-21,Atalanta,AC Milan,
+2027-03-21,Fiorentina,Genoa,
+2027-03-21,Inter,Frosinone,
+2027-03-21,Parma,Lazio,
+2027-03-21,Monza,Bologna,
+2027-04-04,Sassuolo,Atalanta,
+2027-04-04,AC Milan,Monza,
+2027-04-04,Cagliari,Napoli,
+2027-04-04,Genoa,Inter,
+2027-04-04,AS Roma,Bologna,
+2027-04-04,Torino,Juventus,
+2027-04-04,Frosinone,Udinese,
+2027-04-04,Venezia,Parma,
+2027-04-04,Lecce,Lazio,
+2027-04-04,como,Fiorentina,
+2027-04-11,Lazio,Torino,
+2027-04-11,Cagliari,Atalanta,
+2027-04-11,Napoli,Sassuolo,
+2027-04-11,Udinese,Monza,
+2027-04-11,Juventus,Lecce,
+2027-04-11,Bologna,Venezia,
+2027-04-11,Fiorentina,AC Milan,
+2027-04-11,Inter,AS Roma,
+2027-04-11,Frosinone,Genoa,
+2027-04-11,Parma,como,
+2027-04-18,Sassuolo,Lecce,
+2027-04-18,AC Milan,Napoli,
+2027-04-18,AS Roma,Lazio,
+2027-04-18,Atalanta,Udinese,
+2027-04-18,Bologna,Cagliari,
+2027-04-18,Fiorentina,Parma,
+2027-04-18,Torino,Genoa,
+2027-04-18,Venezia,Juventus,
+2027-04-18,como,Frosinone,
+2027-04-18,Monza,Inter,
+2027-04-25,Lazio,como,
+2027-04-25,Cagliari,Monza,
+2027-04-25,Napoli,Udinese,
+2027-04-25,Genoa,Sassuolo,
+2027-04-25,Juventus,Fiorentina,
+2027-04-25,Inter,Bologna,
+2027-04-25,Frosinone,AS Roma,
+2027-04-25,Venezia,Torino,
+2027-04-25,Parma,Atalanta,
+2027-04-25,Lecce,AC Milan,
+2027-05-02,Sassuolo,Frosinone,
+2027-05-02,AC Milan,Lazio,
+2027-05-02,Udinese,Genoa,
+2027-05-02,AS Roma,Napoli,
+2027-05-02,Atalanta,Juventus,
+2027-05-02,Bologna,Fiorentina,
+2027-05-02,Torino,Parma,
+2027-05-02,Lecce,Cagliari,
+2027-05-02,como,Inter,
+2027-05-02,Monza,Venezia,
+2027-05-09,Lazio,Sassuolo,
+2027-05-09,Napoli,Monza,
+2027-05-09,Udinese,Juventus,
+2027-05-09,Genoa,Cagliari,
+2027-05-09,Fiorentina,AS Roma,
+2027-05-09,Torino,Bologna,
+2027-05-09,Inter,Lecce,
+2027-05-09,Frosinone,Atalanta,
+2027-05-09,Venezia,como,
+2027-05-09,Parma,AC Milan,
+2027-05-16,Lazio,Udinese,
+2027-05-16,Sassuolo,Venezia,
+2027-05-16,AC Milan,AS Roma,
+2027-05-16,Cagliari,Torino,
+2027-05-16,Napoli,Genoa,
+2027-05-16,Juventus,Inter,
+2027-05-16,Bologna,Frosinone,
+2027-05-16,Lecce,Fiorentina,
+2027-05-16,como,Atalanta,
+2027-05-16,Monza,Parma,
+2027-05-23,Udinese,Sassuolo,
+2027-05-23,Genoa,Bologna,
+2027-05-23,AS Roma,como,
+2027-05-23,Atalanta,Lecce,
+2027-05-23,Fiorentina,Monza,
+2027-05-23,Torino,Napoli,
+2027-05-23,Inter,Lazio,
+2027-05-23,Frosinone,Cagliari,
+2027-05-23,Venezia,AC Milan,
+2027-05-23,Parma,Juventus,
+2027-05-30,Lazio,Fiorentina,
+2027-05-30,Sassuolo,Inter,
+2027-05-30,AC Milan,Udinese,
+2027-05-30,Cagliari,AS Roma,
+2027-05-30,Napoli,Atalanta,
+2027-05-30,Juventus,Frosinone,
+2027-05-30,Bologna,Parma,
+2027-05-30,Lecce,Venezia,
+2027-05-30,como,Genoa,
+2027-05-30,Monza,Torino,
