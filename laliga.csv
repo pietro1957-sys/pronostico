@@ -1,0 +1,761 @@
+Date,SquadraA,SquadraB,risultati
+2025-08-15,Girona,Rayo Vallecano,1-3
+2025-08-15,Villarreal,Oviedo,2-0
+2025-08-16,Mallorca,Barcelona,0-3
+2025-08-16,Valencia,Real Sociedad,1-1
+2025-08-16,Alaves,Levante,2-1
+2025-08-17,Celta Vigo,Getafe,0-2
+2025-08-17,Athletic Club,Sevilla,3-2
+2025-08-17,Espanyol,Atletico Madrid,2-1
+2025-08-18,Elche,Real Betis,1-1
+2025-08-19,Real Madrid,Osasuna,1-0
+2025-08-22,Real Betis,Alaves,1-0
+2025-08-23,Mallorca,Celta Vigo,1-1
+2025-08-23,Atletico Madrid,Elche,1-1
+2025-08-23,Levante,Barcelona,2-3
+2025-08-24,Osasuna,Valencia,1-0
+2025-08-24,Villarreal,Girona,5-0
+2025-08-24,Real Sociedad,Espanyol,2-2
+2025-08-24,Oviedo,Real Madrid,0-3
+2025-08-25,Athletic Club,Rayo Vallecano,1-0
+2025-08-25,Sevilla,Getafe,1-2
+2025-08-27,Celta Vigo,Real Betis,1-1
+2025-08-29,Elche,Levante,2-0
+2025-08-29,Valencia,Getafe,3-0
+2025-08-30,Alaves,Atletico Madrid,1-1
+2025-08-30,Oviedo,Real Sociedad,1-0
+2025-08-30,Girona,Sevilla,0-2
+2025-08-30,Real Madrid,Mallorca,2-1
+2025-08-31,Celta Vigo,Villarreal,1-1
+2025-08-31,Real Betis,Athletic Club,1-2
+2025-08-31,Espanyol,Osasuna,1-0
+2025-08-31,Rayo Vallecano,Barcelona,1-1
+2025-09-12,Sevilla,Elche,2-2
+2025-09-13,Getafe,Oviedo,2-0
+2025-09-13,Real Sociedad,Real Madrid,1-2
+2025-09-13,Athletic Club,Alaves,0-1
+2025-09-13,Atletico Madrid,Villarreal,2-0
+2025-09-14,Celta Vigo,Girona,1-1
+2025-09-14,Levante,Real Betis,2-2
+2025-09-14,Osasuna,Rayo Vallecano,2-0
+2025-09-14,Barcelona,Valencia,6-0
+2025-09-15,Espanyol,Mallorca,3-2
+2025-09-19,Real Betis,Real Sociedad,3-1
+2025-09-20,Girona,Levante,0-4
+2025-09-20,Real Madrid,Espanyol,2-0
+2025-09-20,Villarreal,Osasuna,2-1
+2025-09-20,Alaves,Sevilla,1-2
+2025-09-20,Valencia,Athletic Club,2-0
+2025-09-21,Rayo Vallecano,Celta Vigo,1-1
+2025-09-21,Mallorca,Atletico Madrid,1-1
+2025-09-21,Elche,Oviedo,1-0
+2025-09-21,Barcelona,Getafe,3-0
+2025-09-23,Athletic Club,Girona,1-1
+2025-09-23,Espanyol,Valencia,2-2
+2025-09-23,Sevilla,Villarreal,1-2
+2025-09-23,Levante,Real Madrid,1-4
+2025-09-24,Getafe,Alaves,1-1
+2025-09-24,Atletico Madrid,Rayo Vallecano,3-2
+2025-09-24,Real Sociedad,Mallorca,1-0
+2025-09-25,Osasuna,Elche,1-1
+2025-09-25,Oviedo,Barcelona,1-3
+2025-09-26,Girona,Espanyol,0-0
+2025-09-27,Getafe,Levante,1-1
+2025-09-27,Atletico Madrid,Real Madrid,5-2
+2025-09-27,Mallorca,Alaves,1-0
+2025-09-27,Villarreal,Athletic Club,1-0
+2025-09-28,Rayo Vallecano,Sevilla,0-1
+2025-09-28,Elche,Celta Vigo,2-1
+2025-09-28,Barcelona,Real Sociedad,2-1
+2025-09-28,Real Betis,Osasuna,2-0
+2025-09-30,Valencia,Oviedo,1-2
+2025-10-03,Osasuna,Getafe,2-1
+2025-10-04,Oviedo,Levante,0-2
+2025-10-04,Girona,Valencia,2-1
+2025-10-04,Athletic Club,Mallorca,2-1
+2025-10-04,Real Madrid,Villarreal,3-1
+2025-10-05,Alaves,Elche,3-1
+2025-10-05,Sevilla,Barcelona,4-1
+2025-10-05,Espanyol,Real Betis,1-2
+2025-10-05,Real Sociedad,Rayo Vallecano,0-1
+2025-10-05,Celta Vigo,Atletico Madrid,1-1
+2025-10-17,Oviedo,Espanyol,0-2
+2025-10-18,Sevilla,Mallorca,1-3
+2025-10-18,Barcelona,Girona,2-1
+2025-10-18,Villarreal,Real Betis,2-2
+2025-10-18,Atletico Madrid,Osasuna,1-0
+2025-10-19,Elche,Athletic Club,0-0
+2025-10-19,Celta Vigo,Real Sociedad,1-1
+2025-10-19,Levante,Rayo Vallecano,0-3
+2025-10-19,Getafe,Real Madrid,0-1
+2025-10-20,Alaves,Valencia,0-0
+2025-10-24,Real Sociedad,Sevilla,2-1
+2025-10-25,Girona,Oviedo,3-3
+2025-10-25,Espanyol,Elche,1-0
+2025-10-25,Athletic Club,Getafe,0-1
+2025-10-25,Valencia,Villarreal,0-2
+2025-10-26,Mallorca,Levante,1-1
+2025-10-26,Real Madrid,Barcelona,2-1
+2025-10-26,Osasuna,Celta Vigo,2-3
+2025-10-26,Rayo Vallecano,Alaves,1-0
+2025-10-27,Real Betis,Atletico Madrid,0-2
+2025-10-31,Getafe,Girona,2-1
+2025-11-01,Villarreal,Rayo Vallecano,4-0
+2025-11-01,Atletico Madrid,Sevilla,3-0
+2025-11-01,Real Sociedad,Athletic Club,3-2
+2025-11-01,Real Madrid,Valencia,4-0
+2025-11-02,Levante,Celta Vigo,1-2
+2025-11-02,Alaves,Espanyol,2-1
+2025-11-02,Barcelona,Elche,3-1
+2025-11-02,Real Betis,Mallorca,3-0
+2025-11-03,Oviedo,Osasuna,0-0
+2025-11-07,Elche,Real Sociedad,1-1
+2025-11-08,Girona,Alaves,1-0
+2025-11-08,Sevilla,Osasuna,1-0
+2025-11-08,Atletico Madrid,Levante,3-1
+2025-11-08,Espanyol,Villarreal,0-2
+2025-11-09,Athletic Club,Oviedo,1-0
+2025-11-09,Rayo Vallecano,Real Madrid,0-0
+2025-11-09,Valencia,Real Betis,1-1
+2025-11-09,Mallorca,Getafe,1-0
+2025-11-09,Celta Vigo,Barcelona,2-4
+2025-11-21,Valencia,Levante,1-0
+2025-11-22,Alaves,Celta Vigo,0-1
+2025-11-22,Barcelona,Athletic Club,4-0
+2025-11-22,Osasuna,Real Sociedad,1-3
+2025-11-22,Villarreal,Mallorca,2-1
+2025-11-23,Oviedo,Rayo Vallecano,0-0
+2025-11-23,Real Betis,Girona,1-1
+2025-11-23,Getafe,Atletico Madrid,0-1
+2025-11-23,Elche,Real Madrid,2-2
+2025-11-24,Espanyol,Sevilla,2-1
+2025-11-28,Getafe,Elche,1-0
+2025-11-29,Mallorca,Osasuna,2-2
+2025-11-29,Barcelona,Alaves,3-1
+2025-11-29,Levante,Athletic Club,0-2
+2025-11-29,Atletico Madrid,Oviedo,2-0
+2025-11-30,Real Sociedad,Villarreal,2-3
+2025-11-30,Sevilla,Real Betis,0-2
+2025-11-30,Celta Vigo,Espanyol,0-1
+2025-11-30,Girona,Real Madrid,1-1
+2025-12-01,Rayo Vallecano,Valencia,1-1
+2025-12-02,Barcelona,Atletico Madrid,3-1
+2025-12-03,Athletic Club,Real Madrid,0-3
+2025-12-05,Oviedo,Mallorca,0-0
+2025-12-06,Villarreal,Getafe,2-0
+2025-12-06,Alaves,Real Sociedad,1-0
+2025-12-06,Real Betis,Barcelona,3-5
+2025-12-06,Athletic Club,Atletico Madrid,1-0
+2025-12-07,Elche,Girona,3-0
+2025-12-07,Valencia,Sevilla,1-1
+2025-12-07,Espanyol,Rayo Vallecano,1-0
+2025-12-07,Real Madrid,Celta Vigo,0-2
+2025-12-08,Osasuna,Levante,2-0
+2025-12-12,Real Sociedad,Girona,1-2
+2025-12-13,Atletico Madrid,Valencia,2-1
+2025-12-13,Mallorca,Elche,3-1
+2025-12-13,Barcelona,Osasuna,2-0
+2025-12-13,Getafe,Espanyol,0-1
+2025-12-14,Sevilla,Oviedo,4-0
+2025-12-14,Celta Vigo,Athletic Club,2-0
+2025-12-14,Alaves,Real Madrid,1-2
+2025-12-15,Rayo Vallecano,Real Betis,0-0
+2025-12-19,Valencia,Mallorca,1-1
+2025-12-20,Oviedo,Celta Vigo,0-0
+2025-12-20,Levante,Real Sociedad,1-1
+2025-12-20,Osasuna,Alaves,3-0
+2025-12-20,Real Madrid,Sevilla,2-0
+2025-12-21,Girona,Atletico Madrid,0-3
+2025-12-21,Villarreal,Barcelona,0-2
+2025-12-21,Elche,Rayo Vallecano,4-0
+2025-12-21,Real Betis,Getafe,4-0
+2025-12-22,Athletic Club,Espanyol,1-2
+2026-01-02,Rayo Vallecano,Getafe,1-1
+2026-01-03,Celta Vigo,Valencia,4-1
+2026-01-03,Osasuna,Athletic Club,1-1
+2026-01-03,Elche,Villarreal,1-3
+2026-01-03,Espanyol,Barcelona,0-2
+2026-01-04,Sevilla,Levante,0-3
+2026-01-04,Real Madrid,Real Betis,5-1
+2026-01-04,Alaves,Oviedo,1-1
+2026-01-04,Mallorca,Girona,1-2
+2026-01-04,Real Sociedad,Atletico Madrid,1-1
+2026-01-09,Getafe,Real Sociedad,1-2
+2026-01-10,Oviedo,Real Betis,1-1
+2026-01-10,Villarreal,Alaves,3-1
+2026-01-10,Girona,Osasuna,1-0
+2026-01-10,Valencia,Elche,1-1
+2026-01-11,Rayo Vallecano,Mallorca,2-1
+2026-01-11,Levante,Espanyol,1-1
+2026-01-12,Sevilla,Celta Vigo,0-1
+2026-01-16,Espanyol,Girona,0-2
+2026-01-17,Real Madrid,Levante,2-0
+2026-01-17,Mallorca,Athletic Club,3-2
+2026-01-17,Osasuna,Oviedo,3-2
+2026-01-17,Real Betis,Villarreal,2-0
+2026-01-18,Getafe,Valencia,0-1
+2026-01-18,Atletico Madrid,Alaves,1-0
+2026-01-18,Celta Vigo,Rayo Vallecano,3-0
+2026-01-18,Real Sociedad,Barcelona,2-1
+2026-01-19,Elche,Sevilla,2-2
+2026-01-23,Levante,Elche,3-2
+2026-01-24,Rayo Vallecano,Osasuna,1-3
+2026-01-24,Valencia,Espanyol,3-2
+2026-01-24,Sevilla,Athletic Club,2-1
+2026-01-24,Villarreal,Real Madrid,0-2
+2026-01-25,Atletico Madrid,Mallorca,3-0
+2026-01-25,Barcelona,Oviedo,3-0
+2026-01-25,Real Sociedad,Celta Vigo,3-1
+2026-01-25,Alaves,Real Betis,2-1
+2026-01-26,Girona,Getafe,1-1
+2026-01-30,Espanyol,Alaves,1-2
+2026-01-31,Oviedo,Girona,1-0
+2026-01-31,Osasuna,Villarreal,2-2
+2026-01-31,Levante,Atletico Madrid,0-0
+2026-01-31,Elche,Barcelona,1-3
+2026-02-01,Real Madrid,Rayo Vallecano,2-1
+2026-02-01,Real Betis,Valencia,2-1
+2026-02-01,Getafe,Celta Vigo,0-0
+2026-02-01,Athletic Club,Real Sociedad,1-1
+2026-02-02,Mallorca,Sevilla,4-1
+2026-02-06,Celta Vigo,Osasuna,1-2
+2026-02-07,Barcelona,Mallorca,3-0
+2026-02-07,Real Sociedad,Elche,3-1
+2026-02-08,Alaves,Getafe,0-2
+2026-02-08,Athletic Club,Levante,4-2
+2026-02-08,Sevilla,Girona,1-1
+2026-02-08,Atletico Madrid,Real Betis,0-1
+2026-02-08,Valencia,Real Madrid,0-2
+2026-02-09,Villarreal,Espanyol,4-1
+2026-02-13,Elche,Osasuna,0-0
+2026-02-14,Espanyol,Celta Vigo,2-2
+2026-02-14,Getafe,Villarreal,2-1
+2026-02-14,Sevilla,Alaves,1-1
+2026-02-14,Real Madrid,Real Sociedad,4-1
+2026-02-15,Oviedo,Athletic Club,1-2
+2026-02-15,Rayo Vallecano,Atletico Madrid,3-0
+2026-02-15,Levante,Valencia,0-2
+2026-02-15,Mallorca,Real Betis,1-2
+2026-02-16,Girona,Barcelona,2-1
+2026-02-18,Levante,Villarreal,0-1
+2026-02-20,Athletic Club,Elche,2-1
+2026-02-21,Real Sociedad,Oviedo,3-3
+2026-02-21,Real Betis,Rayo Vallecano,1-1
+2026-02-21,Osasuna,Real Madrid,2-1
+2026-02-21,Atletico Madrid,Espanyol,4-2
+2026-02-22,Getafe,Sevilla,0-1
+2026-02-22,Barcelona,Levante,3-0
+2026-02-22,Celta Vigo,Mallorca,2-0
+2026-02-22,Villarreal,Valencia,2-1
+2026-02-23,Alaves,Girona,2-2
+2026-02-27,Levante,Alaves,2-0
+2026-02-28,Rayo Vallecano,Athletic Club,1-1
+2026-02-28,Barcelona,Villarreal,4-1
+2026-02-28,Mallorca,Real Sociedad,0-1
+2026-02-28,Oviedo,Atletico Madrid,0-1
+2026-03-01,Elche,Espanyol,2-2
+2026-03-01,Valencia,Osasuna,1-0
+2026-03-01,Real Betis,Sevilla,2-2
+2026-03-01,Girona,Celta Vigo,1-2
+2026-03-02,Real Madrid,Getafe,0-1
+2026-03-04,Rayo Vallecano,Oviedo,3-0
+2026-03-06,Celta Vigo,Real Madrid,1-2
+2026-03-07,Osasuna,Mallorca,2-2
+2026-03-07,Levante,Girona,1-1
+2026-03-07,Atletico Madrid,Real Sociedad,3-2
+2026-03-07,Athletic Club,Barcelona,0-1
+2026-03-08,Villarreal,Elche,2-1
+2026-03-08,Getafe,Real Betis,2-0
+2026-03-08,Sevilla,Rayo Vallecano,1-1
+2026-03-08,Valencia,Alaves,3-2
+2026-03-09,Espanyol,Oviedo,1-1
+2026-03-13,Alaves,Villarreal,1-1
+2026-03-14,Girona,Athletic Club,3-0
+2026-03-14,Atletico Madrid,Getafe,1-0
+2026-03-14,Oviedo,Valencia,1-0
+2026-03-14,Real Madrid,Elche,4-1
+2026-03-15,Mallorca,Espanyol,2-1
+2026-03-15,Barcelona,Sevilla,5-2
+2026-03-15,Real Betis,Celta Vigo,1-1
+2026-03-15,Real Sociedad,Osasuna,3-1
+2026-03-16,Rayo Vallecano,Levante,1-1
+2026-03-20,Villarreal,Real Sociedad,3-1
+2026-03-21,Elche,Mallorca,2-1
+2026-03-21,Espanyol,Getafe,1-2
+2026-03-21,Levante,Oviedo,4-2
+2026-03-21,Osasuna,Girona,1-0
+2026-03-21,Sevilla,Valencia,0-2
+2026-03-22,Barcelona,Rayo Vallecano,1-0
+2026-03-22,Celta Vigo,Alaves,3-4
+2026-03-22,Athletic Club,Real Betis,2-1
+2026-03-22,Real Madrid,Atletico Madrid,3-2
+2026-04-03,Rayo Vallecano,Elche,1-0
+2026-04-04,Real Sociedad,Levante,2-0
+2026-04-04,Mallorca,Real Madrid,2-1
+2026-04-04,Real Betis,Espanyol,0-0
+2026-04-04,Atletico Madrid,Barcelona,1-2
+2026-04-05,Getafe,Athletic Club,2-0
+2026-04-05,Valencia,Celta Vigo,2-3
+2026-04-05,Oviedo,Sevilla,1-0
+2026-04-05,Alaves,Osasuna,2-2
+2026-04-06,Girona,Villarreal,1-0
+2026-04-10,Real Madrid,Girona,1-1
+2026-04-11,Real Sociedad,Alaves,3-3
+2026-04-11,Elche,Valencia,1-0
+2026-04-11,Barcelona,Espanyol,4-1
+2026-04-11,Sevilla,Atletico Madrid,2-1
+2026-04-12,Osasuna,Real Betis,1-1
+2026-04-12,Mallorca,Rayo Vallecano,3-0
+2026-04-12,Celta Vigo,Oviedo,0-3
+2026-04-12,Athletic Club,Villarreal,1-2
+2026-04-13,Levante,Getafe,1-0
+2026-04-21,Athletic Club,Osasuna,1-0
+2026-04-21,Mallorca,Valencia,1-1
+2026-04-21,Real Madrid,Alaves,2-1
+2026-04-21,Girona,Real Betis,2-3
+2026-04-22,Elche,Atletico Madrid,3-2
+2026-04-22,Real Sociedad,Getafe,0-1
+2026-04-22,Barcelona,Celta Vigo,1-0
+2026-04-23,Levante,Sevilla,2-0
+2026-04-23,Rayo Vallecano,Espanyol,1-0
+2026-04-23,Oviedo,Villarreal,1-1
+2026-04-24,Real Betis,Real Madrid,1-1
+2026-04-25,Alaves,Mallorca,2-1
+2026-04-25,Getafe,Barcelona,0-2
+2026-04-25,Valencia,Girona,2-1
+2026-04-25,Atletico Madrid,Athletic Club,3-2
+2026-04-26,Rayo Vallecano,Real Sociedad,3-3
+2026-04-26,Oviedo,Elche,1-2
+2026-04-26,Osasuna,Sevilla,2-1
+2026-04-26,Villarreal,Celta Vigo,2-1
+2026-04-27,Espanyol,Levante,0-0
+2026-05-01,Girona,Mallorca,0-1
+2026-05-02,Villarreal,Levante,5-1
+2026-05-02,Valencia,Atletico Madrid,0-2
+2026-05-02,Alaves,Athletic Club,2-4
+2026-05-02,Osasuna,Barcelona,1-2
+2026-05-03,Celta Vigo,Elche,3-1
+2026-05-03,Getafe,Rayo Vallecano,0-2
+2026-05-03,Real Betis,Oviedo,3-0
+2026-05-03,Espanyol,Real Madrid,0-2
+2026-05-04,Sevilla,Real Sociedad,1-0
+2026-05-08,Levante,Osasuna,3-2
+2026-05-09,Elche,Alaves,1-1
+2026-05-09,Sevilla,Espanyol,2-1
+2026-05-09,Atletico Madrid,Celta Vigo,0-1
+2026-05-09,Real Sociedad,Real Betis,2-2
+2026-05-10,Mallorca,Villarreal,1-1
+2026-05-10,Athletic Club,Valencia,0-1
+2026-05-10,Oviedo,Getafe,0-0
+2026-05-10,Barcelona,Real Madrid,2-0
+2026-05-11,Rayo Vallecano,Girona,1-1
+2026-05-12,Celta Vigo,Levante,2-3
+2026-05-12,Real Betis,Elche,2-1
+2026-05-12,Osasuna,Atletico Madrid,1-2
+2026-05-13,Villarreal,Sevilla,2-3
+2026-05-13,Espanyol,Athletic Club,2-0
+2026-05-13,Alaves,Barcelona,1-0
+2026-05-13,Getafe,Mallorca,3-1
+2026-05-14,Valencia,Rayo Vallecano,1-1
+2026-05-14,Girona,Real Sociedad,1-1
+2026-05-14,Real Madrid,Oviedo,2-0
+2026-05-17,Atletico Madrid,Girona,1-0
+2026-05-17,Athletic Club,Celta Vigo,1-1
+2026-05-17,Sevilla,Real Madrid,0-1
+2026-05-17,Levante,Mallorca,2-0
+2026-05-17,Real Sociedad,Valencia,3-4
+2026-05-17,Oviedo,Alaves,0-1
+2026-05-17,Osasuna,Espanyol,1-2
+2026-05-17,Rayo Vallecano,Villarreal,2-0
+2026-05-17,Elche,Getafe,1-0
+2026-05-17,Barcelona,Real Betis,3-1
+2026-05-23,Valencia,Barcelona,3-1
+2026-05-23,Celta Vigo,Sevilla,1-0
+2026-05-23,Espanyol,Real Sociedad,1-1
+2026-05-23,Real Madrid,Athletic Club,4-2
+2026-05-23,Alaves,Rayo Vallecano,1-2
+2026-05-23,Real Betis,Levante,2-1
+2026-05-23,Getafe,Osasuna,1-0
+2026-05-23,Girona,Elche,1-1
+2026-05-23,Mallorca,Oviedo,3-0
+2026-05-24,Villarreal,Atletico Madrid,5-1
+2026-08-15,Alaves,Getafe,3-0
+2026-08-15,Sevilla,Rayo Vallecano,2-1
+2026-08-16,Racing Santander,Villarreal,2-2
+2026-08-16,Espanyol,Levante,3-0
+2026-08-17,Deportivo La Coruna,Elche,1-1
+2026-08-19,Atletico Madrid,Malaga,2-0
+2026-08-20,Rayo Vallecano,Alaves,1-1
+2026-08-21,Real Betis,Real Sociedad,1-0
+2026-08-22,Athletic Club,Sevilla,1-3
+2026-08-22,Valencia,Celta Vigo,0-0
+2026-08-22,Espanyol,Real Madrid,1-2
+2026-08-23,Atletico Madrid,Villarreal,2-2
+2026-08-23,Getafe,Racing Santander,1-0
+2026-08-23,Elche,Barcelona,0-5
+2026-08-24,Osasuna,Levante,0-0
+2026-08-24,Malaga,Deportivo La Coruna,1-1
+2026-08-25,Valencia,Real Betis,0-1
+2026-08-26,Real Madrid,Real Sociedad,4-1
+2026-08-27,Celta Vigo,Osasuna,1-2
+2026-08-27,Barcelona,Athletic Club,2-0
+2026-08-28,Racing Santander,Elche,3-2
+2026-08-28,Alaves,Villarreal,1-0
+2026-08-29,Levante,Real Betis,5-2
+2026-08-29,Real Sociedad,Espanyol,2-1
+2026-08-29,Sevilla,Atletico Madrid,1-3
+2026-08-30,Real Madrid,Malaga,4-0
+2026-08-30,Deportivo La Coruna,Valencia,3-1
+2026-08-30,Celta Vigo,Athletic Club,0-2
+2026-08-31,Osasuna,Getafe,1-0
+2026-08-31,Barcelona,Rayo Vallecano,5-2
+2026-09-03,Real Sociedad,Celta Vigo,0-0
+2026-09-04,Real Betis,Real Madrid,1-0
+2026-09-05,Athletic Club,Atletico Madrid,3-0
+2026-09-05,Rayo Vallecano,Racing Santander,3-2
+2026-09-05,Villarreal,Deportivo La Coruna,2-3
+2026-09-06,Valencia,Barcelona,0-5
+2026-09-06,Malaga,Levante,0-0
+2026-09-06,Alaves,Osasuna,5-2
+2026-09-06,Espanyol,Sevilla,1-1
+2026-09-07,Getafe,Celta Vigo,1-1
+2026-09-07,Elche,Real Sociedad,2-3
+2026-09-11,Sevilla,Valencia,1-0
+2026-09-12,Racing Santander,Alaves,2-1
+2026-09-12,Osasuna,Espanyol,0-2
+2026-09-12,Athletic Club,Elche,1-1
+2026-09-12,Real Madrid,Rayo Vallecano,4-1
+2026-09-13,Celta Vigo,Malaga,1-1
+2026-09-13,Levante,Barcelona,2-4
+2026-09-13,Getafe,Deportivo La Coruna,1-1
+2026-09-13,Real Sociedad,Atletico Madrid,0-3
+2026-09-14,Villarreal,Real Betis,1-2
+2026-09-15,Rayo Vallecano,Espanyol,2-1
+2026-09-15,Alaves,Valencia,0-1
+2026-09-15,Elche,Real Madrid,2-3
+2026-09-16,Atletico Madrid,Osasuna,4-0
+2026-09-16,Deportivo La Coruna,Sevilla,0-1
+2026-09-16,Barcelona,Racing Santander,7-2
+2026-09-17,Real Betis,Getafe,1-0
+2026-09-17,Malaga,Villarreal,1-3
+2026-09-18,Espanyol,Elche,1-3
+2026-09-19,Osasuna,Rayo Vallecano,1-1
+2026-09-19,Athletic Club,Alaves,0-0
+2026-09-19,Celta Vigo,Racing Santander,5-0
+2026-09-19,Sevilla,Barcelona,1-3
+2026-09-20,Getafe,Malaga,1-0
+2026-09-20,Atletico Madrid,Real Madrid,2-1
+2026-09-20,Villarreal,Levante,3-1
+2026-09-20,Deportivo La Coruna,Real Betis,1-1
+2026-09-20,Valencia,Real Sociedad,2-3
+2026-10-09,Malaga,Espanyol,1-1
+2026-10-10,Rayo Vallecano,Athletic Club,0-0 (pens 0-0)
+2026-10-10,Alaves,Atletico Madrid,1-2
+2026-10-10,Barcelona,Getafe,3-0
+2026-10-10,Real Madrid,Villarreal,1-0
+2026-10-11,Elche,Celta Vigo,0-0
+2026-10-11,Real Sociedad,Deportivo La Coruna,3-2
+2026-10-11,Real Betis,Osasuna,5-2
+2026-10-11,Racing Santander,Valencia,2-2
+2026-10-12,Levante,Sevilla,3-3
+2026-10-16,Deportivo La Coruna,Levante,1-1
+2026-10-17,Espanyol,Atletico Madrid,0-1
+2026-10-17,Villarreal,Elche,0-0
+2026-10-17,Real Betis,Barcelona,2-5
+2026-10-17,Valencia,Athletic Club,0-0
+2026-10-18,Osasuna,Racing Santander,2-0
+2026-10-18,Celta Vigo,Alaves,2-1
+2026-10-18,Malaga,Real Sociedad,2-5
+2026-10-18,Real Madrid,Sevilla,4-1
+2026-10-19,Getafe,Rayo Vallecano,1-1
+2026-10-21,Levante,Athletic Club,3-1
+2026-10-23,Alaves,Malaga,1-1
+2026-10-24,Rayo Vallecano,Elche,0-3
+2026-10-24,Racing Santander,Espanyol,2-1
+2026-10-24,Valencia,Villarreal,1-2
+2026-10-24,Atletico Madrid,Deportivo La Coruna,1-0
+2026-10-25,Athletic Club,Getafe,
+2026-10-25,Celta Vigo,Real Betis,
+2026-10-25,Real Sociedad,Levante,
+2026-10-25,Barcelona,Real Madrid,
+2026-10-26,Sevilla,Osasuna,
+2026-10-30,Villarreal,Espanyol,
+2026-10-31,Levante,Atletico Madrid,
+2026-10-31,Rayo Vallecano,Celta Vigo,
+2026-10-31,Real Betis,Malaga,
+2026-10-31,Barcelona,Alaves,
+2026-11-01,Getafe,Sevilla,
+2026-11-01,Racing Santander,Real Madrid,
+2026-11-01,Elche,Valencia,
+2026-11-01,Athletic Club,Real Sociedad,
+2026-11-02,Deportivo La Coruna,Osasuna,
+2026-11-06,Sevilla,Alaves,
+2026-11-07,Malaga,Racing Santander,
+2026-11-07,Espanyol,Deportivo La Coruna,
+2026-11-07,Osasuna,Athletic Club,
+2026-11-07,Valencia,Real Madrid,
+2026-11-08,Elche,Real Betis,
+2026-11-08,Real Sociedad,Rayo Vallecano,
+2026-11-08,Villarreal,Getafe,
+2026-11-08,Celta Vigo,Levante,
+2026-11-08,Atletico Madrid,Barcelona,
+2026-11-22,Barcelona,Villarreal,
+2026-11-22,Athletic Club,Espanyol,
+2026-11-22,Sevilla,Real Betis,
+2026-11-22,Levante,Elche,
+2026-11-22,Real Madrid,Celta Vigo,
+2026-11-22,Alaves,Deportivo La Coruna,
+2026-11-22,Getafe,Atletico Madrid,
+2026-11-22,Osasuna,Malaga,
+2026-11-22,Rayo Vallecano,Valencia,
+2026-11-22,Racing Santander,Real Sociedad,
+2026-11-29,Valencia,Osasuna,
+2026-11-29,Malaga,Athletic Club,
+2026-11-29,Celta Vigo,Villarreal,
+2026-11-29,Levante,Racing Santander,
+2026-11-29,Espanyol,Getafe,
+2026-11-29,Real Madrid,Alaves,
+2026-11-29,Real Betis,Rayo Vallecano,
+2026-11-29,Deportivo La Coruna,Barcelona,
+2026-11-29,Real Sociedad,Sevilla,
+2026-11-29,Elche,Atletico Madrid,
+2026-12-06,Barcelona,Celta Vigo,
+2026-12-06,Atletico Madrid,Real Betis,
+2026-12-06,Athletic Club,Real Madrid,
+2026-12-06,Villarreal,Real Sociedad,
+2026-12-06,Sevilla,Malaga,
+2026-12-06,Alaves,Espanyol,
+2026-12-06,Getafe,Valencia,
+2026-12-06,Osasuna,Elche,
+2026-12-06,Rayo Vallecano,Levante,
+2026-12-06,Racing Santander,Deportivo La Coruna,
+2026-12-13,Atletico Madrid,Valencia,
+2026-12-13,Villarreal,Rayo Vallecano,
+2026-12-13,Malaga,Barcelona,
+2026-12-13,Levante,Alaves,
+2026-12-13,Espanyol,Celta Vigo,
+2026-12-13,Real Madrid,Osasuna,
+2026-12-13,Real Betis,Racing Santander,
+2026-12-13,Deportivo La Coruna,Athletic Club,
+2026-12-13,Real Sociedad,Getafe,
+2026-12-13,Elche,Sevilla,
+2026-12-20,Barcelona,Real Sociedad,
+2026-12-20,Athletic Club,Real Betis,
+2026-12-20,Valencia,Espanyol,
+2026-12-20,Sevilla,Racing Santander,
+2026-12-20,Celta Vigo,Atletico Madrid,
+2026-12-20,Alaves,Elche,
+2026-12-20,Deportivo La Coruna,Real Madrid,
+2026-12-20,Getafe,Levante,
+2026-12-20,Osasuna,Villarreal,
+2026-12-20,Rayo Vallecano,Malaga,
+2027-01-03,Villarreal,Sevilla,
+2027-01-03,Malaga,Elche,
+2027-01-03,Celta Vigo,Deportivo La Coruna,
+2027-01-03,Levante,Valencia,
+2027-01-03,Espanyol,Barcelona,
+2027-01-03,Real Madrid,Getafe,
+2027-01-03,Real Betis,Alaves,
+2027-01-03,Real Sociedad,Osasuna,
+2027-01-03,Rayo Vallecano,Atletico Madrid,
+2027-01-03,Racing Santander,Athletic Club,
+2027-01-10,Atletico Madrid,Racing Santander,
+2027-01-10,Athletic Club,Villarreal,
+2027-01-10,Valencia,Malaga,
+2027-01-10,Sevilla,Celta Vigo,
+2027-01-10,Espanyol,Real Betis,
+2027-01-10,Real Madrid,Levante,
+2027-01-10,Alaves,Real Sociedad,
+2027-01-10,Deportivo La Coruna,Rayo Vallecano,
+2027-01-10,Osasuna,Barcelona,
+2027-01-10,Elche,Getafe,
+2027-01-17,Barcelona,Elche,
+2027-01-17,Atletico Madrid,Real Sociedad,
+2027-01-17,Villarreal,Alaves,
+2027-01-17,Malaga,Real Madrid,
+2027-01-17,Celta Vigo,Valencia,
+2027-01-17,Levante,Espanyol,
+2027-01-17,Real Betis,Deportivo La Coruna,
+2027-01-17,Getafe,Athletic Club,
+2027-01-17,Rayo Vallecano,Sevilla,
+2027-01-17,Racing Santander,Osasuna,
+2027-01-24,Athletic Club,Levante,
+2027-01-24,Valencia,Sevilla,
+2027-01-24,Espanyol,Villarreal,
+2027-01-24,Real Madrid,Real Betis,
+2027-01-24,Alaves,Barcelona,
+2027-01-24,Deportivo La Coruna,Atletico Madrid,
+2027-01-24,Getafe,Osasuna,
+2027-01-24,Real Sociedad,Malaga,
+2027-01-24,Elche,Rayo Vallecano,
+2027-01-24,Racing Santander,Celta Vigo,
+2027-01-31,Barcelona,Valencia,
+2027-01-31,Atletico Madrid,Espanyol,
+2027-01-31,Villarreal,Racing Santander,
+2027-01-31,Malaga,Alaves,
+2027-01-31,Sevilla,Athletic Club,
+2027-01-31,Celta Vigo,Getafe,
+2027-01-31,Levante,Real Sociedad,
+2027-01-31,Real Betis,Elche,
+2027-01-31,Osasuna,Deportivo La Coruna,
+2027-01-31,Rayo Vallecano,Real Madrid,
+2027-02-07,Barcelona,Atletico Madrid,
+2027-02-07,Athletic Club,Osasuna,
+2027-02-07,Valencia,Racing Santander,
+2027-02-07,Espanyol,Rayo Vallecano,
+2027-02-07,Alaves,Celta Vigo,
+2027-02-07,Real Betis,Sevilla,
+2027-02-07,Deportivo La Coruna,Malaga,
+2027-02-07,Getafe,Villarreal,
+2027-02-07,Real Sociedad,Real Madrid,
+2027-02-07,Elche,Levante,
+2027-02-14,Valencia,Alaves,
+2027-02-14,Villarreal,Barcelona,
+2027-02-14,Sevilla,Espanyol,
+2027-02-14,Celta Vigo,Rayo Vallecano,
+2027-02-14,Levante,Malaga,
+2027-02-14,Real Madrid,Athletic Club,
+2027-02-14,Real Sociedad,Real Betis,
+2027-02-14,Osasuna,Atletico Madrid,
+2027-02-14,Elche,Deportivo La Coruna,
+2027-02-14,Racing Santander,Getafe,
+2027-02-21,Barcelona,Levante,
+2027-02-21,Atletico Madrid,Elche,
+2027-02-21,Athletic Club,Celta Vigo,
+2027-02-21,Villarreal,Valencia,
+2027-02-21,Malaga,Real Betis,
+2027-02-21,Sevilla,Real Madrid,
+2027-02-21,Espanyol,Osasuna,
+2027-02-21,Alaves,Racing Santander,
+2027-02-21,Deportivo La Coruna,Real Sociedad,
+2027-02-21,Rayo Vallecano,Getafe,
+2027-02-28,Athletic Club,Barcelona,
+2027-02-28,Malaga,Atletico Madrid,
+2027-02-28,Celta Vigo,Espanyol,
+2027-02-28,Levante,Deportivo La Coruna,
+2027-02-28,Real Madrid,Valencia,
+2027-02-28,Real Betis,Villarreal,
+2027-02-28,Getafe,Alaves,
+2027-02-28,Real Sociedad,Elche,
+2027-02-28,Osasuna,Sevilla,
+2027-02-28,Racing Santander,Rayo Vallecano,
+2027-03-07,Barcelona,Real Betis,
+2027-03-07,Atletico Madrid,Celta Vigo,
+2027-03-07,Valencia,Levante,
+2027-03-07,Villarreal,Real Madrid,
+2027-03-07,Sevilla,Real Sociedad,
+2027-03-07,Espanyol,Racing Santander,
+2027-03-07,Alaves,Athletic Club,
+2027-03-07,Deportivo La Coruna,Getafe,
+2027-03-07,Rayo Vallecano,Osasuna,
+2027-03-07,Elche,Malaga,
+2027-03-14,Barcelona,Deportivo La Coruna,
+2027-03-14,Athletic Club,Valencia,
+2027-03-14,Malaga,Rayo Vallecano,
+2027-03-14,Real Madrid,Espanyol,
+2027-03-14,Alaves,Sevilla,
+2027-03-14,Real Betis,Levante,
+2027-03-14,Getafe,Real Sociedad,
+2027-03-14,Osasuna,Celta Vigo,
+2027-03-14,Elche,Villarreal,
+2027-03-14,Racing Santander,Atletico Madrid,
+2027-03-21,Atletico Madrid,Getafe,
+2027-03-21,Valencia,Deportivo La Coruna,
+2027-03-21,Villarreal,Malaga,
+2027-03-21,Sevilla,Elche,
+2027-03-21,Celta Vigo,Real Madrid,
+2027-03-21,Levante,Osasuna,
+2027-03-21,Espanyol,Athletic Club,
+2027-03-21,Real Sociedad,Alaves,
+2027-03-21,Rayo Vallecano,Barcelona,
+2027-03-21,Racing Santander,Real Betis,
+2027-04-04,Barcelona,Sevilla,
+2027-04-04,Athletic Club,Racing Santander,
+2027-04-04,Malaga,Osasuna,
+2027-04-04,Levante,Rayo Vallecano,
+2027-04-04,Real Madrid,Atletico Madrid,
+2027-04-04,Real Betis,Celta Vigo,
+2027-04-04,Deportivo La Coruna,Villarreal,
+2027-04-04,Getafe,Espanyol,
+2027-04-04,Real Sociedad,Valencia,
+2027-04-04,Elche,Alaves,
+2027-04-11,Atletico Madrid,Levante,
+2027-04-11,Valencia,Getafe,
+2027-04-11,Villarreal,Athletic Club,
+2027-04-11,Sevilla,Deportivo La Coruna,
+2027-04-11,Celta Vigo,Elche,
+2027-04-11,Espanyol,Malaga,
+2027-04-11,Alaves,Real Betis,
+2027-04-11,Osasuna,Real Madrid,
+2027-04-11,Rayo Vallecano,Real Sociedad,
+2027-04-11,Racing Santander,Barcelona,
+2027-04-18,Barcelona,Espanyol,
+2027-04-18,Atletico Madrid,Sevilla,
+2027-04-18,Malaga,Valencia,
+2027-04-18,Levante,Villarreal,
+2027-04-18,Alaves,Rayo Vallecano,
+2027-04-18,Real Betis,Athletic Club,
+2027-04-18,Deportivo La Coruna,Celta Vigo,
+2027-04-18,Getafe,Real Madrid,
+2027-04-18,Real Sociedad,Racing Santander,
+2027-04-18,Elche,Osasuna,
+2027-04-21,Athletic Club,Deportivo La Coruna,
+2027-04-21,Valencia,Rayo Vallecano,
+2027-04-21,Villarreal,Atletico Madrid,
+2027-04-21,Sevilla,Levante,
+2027-04-21,Celta Vigo,Barcelona,
+2027-04-21,Espanyol,Real Sociedad,
+2027-04-21,Real Madrid,Elche,
+2027-04-21,Getafe,Real Betis,
+2027-04-21,Osasuna,Alaves,
+2027-04-21,Racing Santander,Malaga,
+2027-05-02,Barcelona,Osasuna,
+2027-05-02,Atletico Madrid,Alaves,
+2027-05-02,Malaga,Getafe,
+2027-05-02,Celta Vigo,Sevilla,
+2027-05-02,Levante,Real Madrid,
+2027-05-02,Real Betis,Valencia,
+2027-05-02,Deportivo La Coruna,Racing Santander,
+2027-05-02,Real Sociedad,Athletic Club,
+2027-05-02,Rayo Vallecano,Villarreal,
+2027-05-02,Elche,Espanyol,
+2027-05-09,Athletic Club,Malaga,
+2027-05-09,Valencia,Atletico Madrid,
+2027-05-09,Villarreal,Celta Vigo,
+2027-05-09,Real Madrid,Barcelona,
+2027-05-09,Alaves,Levante,
+2027-05-09,Real Betis,Espanyol,
+2027-05-09,Getafe,Elche,
+2027-05-09,Osasuna,Real Sociedad,
+2027-05-09,Rayo Vallecano,Deportivo La Coruna,
+2027-05-09,Racing Santander,Sevilla,
+2027-05-16,Atletico Madrid,Rayo Vallecano,
+2027-05-16,Malaga,Celta Vigo,
+2027-05-16,Sevilla,Villarreal,
+2027-05-16,Levante,Getafe,
+2027-05-16,Espanyol,Valencia,
+2027-05-16,Real Madrid,Racing Santander,
+2027-05-16,Deportivo La Coruna,Alaves,
+2027-05-16,Real Sociedad,Barcelona,
+2027-05-16,Osasuna,Real Betis,
+2027-05-16,Elche,Athletic Club,
+2027-05-23,Barcelona,Malaga,
+2027-05-23,Atletico Madrid,Athletic Club,
+2027-05-23,Valencia,Elche,
+2027-05-23,Villarreal,Osasuna,
+2027-05-23,Sevilla,Getafe,
+2027-05-23,Celta Vigo,Real Sociedad,
+2027-05-23,Alaves,Real Madrid,
+2027-05-23,Deportivo La Coruna,Espanyol,
+2027-05-23,Rayo Vallecano,Real Betis,
+2027-05-23,Racing Santander,Levante,
+2027-05-30,Athletic Club,Rayo Vallecano,
+2027-05-30,Malaga,Sevilla,
+2027-05-30,Levante,Celta Vigo,
+2027-05-30,Espanyol,Alaves,
+2027-05-30,Real Madrid,Deportivo La Coruna,
+2027-05-30,Real Betis,Atletico Madrid,
+2027-05-30,Getafe,Barcelona,
+2027-05-30,Real Sociedad,Villarreal,
+2027-05-30,Osasuna,Valencia,
+2027-05-30,Elche,Racing Santander,
